@@ -1,0 +1,163 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, chipcloudtech
+# This file is distributed under the same license as the Biological Imaging
+# Viewer package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Biological Imaging Viewer \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-07-17 14:30+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../source/user_guide/setup.md:1 680c4706ac714e7ca8b4a06bec95788a
+msgid "Installation & Activation"
+msgstr "安装与激活"
+
+#: ../../source/user_guide/setup.md:3 a544df2afc78499f8e974dc359f314f0
+msgid "Download"
+msgstr "下载"
+
+#: ../../source/user_guide/setup.md:5 11e4e6885fa8447784462a15ee8a0e4e
+msgid ""
+"Download the latest exe installation package from the official "
+"website([www.chipcloudtech.com](http://www.chipcloudtech.com))."
+msgstr "在官网（[www.chipcloudtech.com](http://www.chipcloudtech.com)）下载最新的exe安装包。"
+
+#: ../../source/user_guide/setup.md:6 0de78999d8954dcfa847e7f290239708
+msgid "Install"
+msgstr "安装"
+
+#: ../../source/user_guide/setup.md:8 47cafacb65b841158e45ff043a28edb4
+msgid ""
+"Click the exe installation package and select the language of the "
+"installation package."
+msgstr "点击exe安装包，选择安装包语言。"
+
+#: ../../source/user_guide/setup.md:10 bb2984fe735643c2b20e04c677021004
+msgid "![](../_static/images/setup_language.png)"
+msgstr "![](../_static/images/zh_CN/setup_language.png)"
+
+#: ../../source/user_guide/setup.md:12 4888ea4bdeba411691467790ae22d1e2
+msgid "Click to agree to the license agreement statement."
+msgstr "点击同意许可协议声明。"
+
+#: ../../source/user_guide/setup.md:14 e1f3cdcadcf149dc93ee5e1b8b2a6b07
+msgid "![](../_static/images/setup_protrol.png)"
+msgstr "![](../_static/images/zh_CN/setup_protrol.png)"
+
+#: ../../source/user_guide/setup.md:16 8eb751078aff4972baa37a3fe18d76bb
+msgid "Choose the installation path."
+msgstr "选择安装路径。"
+
+#: ../../source/user_guide/setup.md:18 92e9c24a0ec64573a463bda8e76364f0
+msgid "![](../_static/images/setup_path.png)"
+msgstr "![](../_static/images/zh_CN/setup_path.png)"
+
+#: ../../source/user_guide/setup.md:20 b93755affe3e46b4a7a8c518db6e79f8
+msgid ""
+"Component selection, optional installation of Python modules, if no "
+"Python module is selected, the functions of Python-related modules will "
+"not be available, and the normal operation of the system will not be "
+"affected. It is recommended not to install it, it will take up much less "
+"space and the installation speed will be faster."
+msgstr "组件选择，可选择性安装Python模块，如果未选择Python模块则不具备Python相关模块的功能，不影响系统正常运行。推荐不安装，占用空间会小许多，安装速度快。"
+
+#: ../../source/user_guide/setup.md:22 39fa74e837084ae8b2992078935fd580
+msgid "![](../_static/images/setup_component.png)"
+msgstr "![](../_static/images/zh_CN/setup_component.png)"
+
+#: ../../source/user_guide/setup.md:24 16dd02983f4c4fbab2c86e6a3a7bcdfb
+msgid "Shortcut selection."
+msgstr "快捷方式选择。"
+
+#: ../../source/user_guide/setup.md:26 b98b6e89cea94f958a7b8ad2211e946a
+msgid "![](../_static/images/setup_link.png)"
+msgstr "![](../_static/images/zh_CN/setup_link.png)"
+
+#: ../../source/user_guide/setup.md:28 98cc427eb2ef4615bf9ca6d65ef1110d
+msgid "Click Install and wait for the installation to complete."
+msgstr "点击安装，开始进行安装。"
+
+#: ../../source/user_guide/setup.md:30 f0a7cee6870943e383392aab7ffe072d
+msgid "![](../_static/images/setup_step.png)"
+msgstr "![](../_static/images/zh_CN/setup_step.png)"
+
+#: ../../source/user_guide/setup.md:32 0a7ca2bfd4e94a898ec862c1a393adab
+msgid "License activation steps"
+msgstr "许可证激活步骤"
+
+#: ../../source/user_guide/setup.md:34 ae8f5ced74eb4e42a4223da0c02064f0
+msgid "There are two ways to activate a license:"
+msgstr "有两种激活许可证方式："
+
+#: ../../source/user_guide/setup.md:35 f1f6c4d34014418ea0d7a3d220dba6a2
+msgid "Online activation needs to be performed in an environment with a network."
+msgstr "在线激活，需要在有网络的环境下进行。"
+
+#: ../../source/user_guide/setup.md:36 11436e729fb346dd9661bf5ac7f47076
+msgid "Offline activation can be performed in a non-network environment."
+msgstr "离线激活，可以在无网络的环境下进行。"
+
+#: ../../source/user_guide/setup.md:37 3ff8f40838414ce9a90b693a6fe51941
+msgid "Online activation"
+msgstr "在线激活"
+
+#: ../../source/user_guide/setup.md:38 ../../source/user_guide/setup.md:45
+#: 2bc3517a5a1b4f55bd7d14649dd5c0fb 39284bbe185648229b0c2f2501611192
+msgid "Fill in the email address to receive the activation code later."
+msgstr "填写邮件地址（用于后面接收激活码）。"
+
+#: ../../source/user_guide/setup.md:39 ../../source/user_guide/setup.md:46
+#: 53de0dcbec8d43a18f3457c15b397c4b c452bd3bbec244bb8bd3cea1fb174820
+msgid "Click the **Generate** button to generate registration information."
+msgstr "点击生成按钮，生成注册信息。"
+
+#: ../../source/user_guide/setup.md:40 9f1eac162dea420b8a8f3924f6e6a4b4
+msgid ""
+"Click the **Request** button, contact the customer service manager, and "
+"issue the activation code."
+msgstr "点击请求按钮，联系客服经理，发放激活码。"
+
+#: ../../source/user_guide/setup.md:41 b87fd239b86e4c19aaf031e0baa8a9eb
+msgid ""
+"After receiving the email, click the **Request** button again to complete"
+" the activation."
+msgstr "收到邮件后，再次点击请求按钮，完成激活。"
+
+#: ../../source/user_guide/setup.md:43 9d5b3c03f2b644f39589c8a361df699d
+msgid "![](../_static/images/license_online.png)"
+msgstr "![](../_static/images/zh_CN/license_online.png)"
+
+#: ../../source/user_guide/setup.md:44 c7d540e1a85d40cb96176f328951cf51
+msgid "Offline activation"
+msgstr "离线激活"
+
+#: ../../source/user_guide/setup.md:47 7408698f6e634d358cd46659e640bbcf
+msgid ""
+"Click the **Export** button to export the registration information to a "
+"file."
+msgstr "点击**生成**按钮，生成注册信息。点击**导出**按钮，将注册信息导出成文件。"
+
+#: ../../source/user_guide/setup.md:48 35ba25e65faf488e996e56a9b3c1bdd3
+msgid "Send the file to the customer service manager."
+msgstr "发送文件给客户经理。"
+
+#: ../../source/user_guide/setup.md:49 7c1b6bdb021640d9a972672a9a7294d1
+msgid ""
+"After receiving the email, **Import** the activation code information "
+"into the activation code to complete the activation."
+msgstr "收到邮件后，将激活码信息**导入**到激活码中，完成激活。"
+
+#: ../../source/user_guide/setup.md:51 c0e84bd2944c45429b9224259f3a2ddc
+msgid "![](../_static/images/license_offline.png)"
+msgstr "![](../_static/images/zh_CN/license_offline.png)"
+

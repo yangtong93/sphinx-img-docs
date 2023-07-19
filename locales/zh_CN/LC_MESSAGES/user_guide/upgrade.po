@@ -1,0 +1,121 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, chipcloudtech
+# This file is distributed under the same license as the Biological Imaging
+# Viewer package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Biological Imaging Viewer \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-07-19 09:47+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../source/user_guide/upgrade.md:1 7dc16106585f4fecbdb91ac38dfcca55
+msgid "Version Update Notes"
+msgstr "版本更新说明"
+
+#: ../../source/user_guide/upgrade.md:3 cce319df2042450fa02451934daed0d4
+msgid "Version 1.0.2-beta"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:5 8cb9bb96976646f6bd55e8205c3b48e8
+msgid "Release Date : 2023/7/19"
+msgstr "发布日期 : 2023/7/19"
+
+#: ../../source/user_guide/upgrade.md:7 ../../source/user_guide/upgrade.md:29
+#: acc8284cdade4255b09a916c884bf21c b987d7c6e4b248caa8bb32a868e88ed9
+msgid "New"
+msgstr "新增"
+
+#: ../../source/user_guide/upgrade.md:8 e317ba0afd3e410c8e4bae4461b95207
+msgid "The user manual supports Chinese and English"
+msgstr "用户手册支持中英文"
+
+#: ../../source/user_guide/upgrade.md:9 5adecc8f70aa4d32b536b070572c1035
+msgid "Added system configuration window"
+msgstr "新增系统配置窗口"
+
+#: ../../source/user_guide/upgrade.md:10 5adecc8f70aa4d32b536b070572c1035
+msgid "Added project save and restore function"
+msgstr "新增工程保存与恢复功能"
+
+#: ../../source/user_guide/upgrade.md:12 51aec1d1351c441ca3c678a3d7368d71
+msgid "Fix"
+msgstr "修复"
+
+#: ../../source/user_guide/upgrade.md:13 95843e4b544a425ea33078a4db0374b6
+msgid "Fix the problem that switching Chinese does not take effect"
+msgstr "修复切换中文无效问题"
+
+#: ../../source/user_guide/upgrade.md:14 976848a9644746519a07efd84fa268b1
+msgid "Fix thumbnail function is invalid in Volume"
+msgstr "修复三维体绘制中缩略图功能无效问题"
+
+#: ../../source/user_guide/upgrade.md:16 ../../source/user_guide/upgrade.md:33
+#: b987d7c6e4b248caa8bb32a868e88ed9
+msgid "Notes"
+msgstr "注意事项"
+
+#: ../../source/user_guide/upgrade.md:17 ../../source/user_guide/upgrade.md:34
+#: 8888f87fa0614e8cbb672a897ad5f19b
+msgid "This version is a test version, there may be more bugs"
+msgstr "此版本为测试版本，可能存在较多bug"
+
+#: ../../source/user_guide/upgrade.md:18 ../../source/user_guide/upgrade.md:35
+#: de94cf8c272d4f0da1c55e382f5fae5c
+msgid "License needs to be re-applied and activated"
+msgstr "许可证需要重新申请和激活"
+
+#: ../../source/user_guide/upgrade.md:19 ../../source/user_guide/upgrade.md:36
+#: f5d3933053964d7992e518d2b15b72b1
+msgid "Windows 7/10 (x64) or above"
+msgstr "Windows 7/10 (x64) 以上操作系统"
+
+#: ../../source/user_guide/upgrade.md:20 ../../source/user_guide/upgrade.md:37
+#: ffcaadce9f914faba675890c9541997e
+msgid "OpenGL 2.1 or above"
+msgstr "OpenGL 2.1 以上"
+
+#: ../../source/user_guide/upgrade.md:22 ../../source/user_guide/upgrade.md:39
+#: eab65b0ebf2b4cbf828f5b0d3032c931
+msgid "Download link"
+msgstr "下载链接"
+
+#: ../../source/user_guide/upgrade.md:23 ccff1fb8cddb49f58bd9f7d10d34179f
+msgid ""
+"[BiologicalImagingViewer-v1.0.2-beta-"
+"windows-x86_64.exe](http://71.131.244.138:22224/Image-1.0.2-beta/BiologicalImagingViewer-v1.0.2"
+"-beta-windows-x86_64.exe)"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:25 cce319df2042450fa02451934daed0d4
+msgid "Version 1.0.1-beta"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:27 8cb9bb96976646f6bd55e8205c3b48e8
+msgid "Release Date : 2023/6/28"
+msgstr "发布日期 : 2023/6/28"
+
+#: ../../source/user_guide/upgrade.md:30 59e96cbcf8ae4178a857957b2c0422ce
+msgid "New plugin system"
+msgstr "新增插件系统"
+
+#: ../../source/user_guide/upgrade.md:31 5adecc8f70aa4d32b536b070572c1035
+msgid "Added viewing angle connection function"
+msgstr "新增视角连接功能"
+
+#: ../../source/user_guide/upgrade.md:40 ccff1fb8cddb49f58bd9f7d10d34179f
+msgid ""
+"[BiologicalImagingViewer-v1.0.1-beta-"
+"windows-x86_64.exe](http://71.131.244.138:22224/Image-1.0.1-beta/BiologicalImagingViewer-v1.0.1"
+"-beta-windows-x86_64.exe)"
+msgstr ""
+

@@ -1,0 +1,40 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, chipcloudtech
+# This file is distributed under the same license as the Biological Imaging
+# Viewer package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Biological Imaging Viewer \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-07-17 14:30+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../source/user_guide/setting.md:1 95c082d4d8a7432faf169f63e8eafc7b
+msgid "Application settings"
+msgstr "系统设置"
+
+#: ../../source/user_guide/setting.md:3 85483bf0063e42229de5a67318f5aa99
+msgid "Editing application settings"
+msgstr "编辑系统设置"
+
+#: ../../source/user_guide/setting.md:5 e4d8ad45e04840f796227851f61a68fa
+msgid ""
+"The application settings dialog allows users to customize application "
+"behavior."
+msgstr "系统设置窗口允许用户自定义程序行为"
+
+#: ../../source/user_guide/setting.md:7 4a4bd9e6f8f14c0fac4e54c08bf91809
+msgid ""
+"After starting BI-Viewer, it can be accessed clicking in menu: **Edit** -> "
+"**Preferences**."
+msgstr "打开BI-Viewer后，点击**编辑**菜单下的**配置**"
+

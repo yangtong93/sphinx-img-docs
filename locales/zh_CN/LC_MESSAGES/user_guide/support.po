@@ -1,0 +1,129 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, chipcloudtech
+# This file is distributed under the same license as the Biological Imaging
+# Viewer package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Biological Imaging Viewer \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-07-17 14:30+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../source/user_guide/support.md:1 cd8d4b64a0e14abf8547d66ae9c1dbc0
+msgid "Technical Support"
+msgstr "技术支持"
+
+#: ../../source/user_guide/support.md:3 ca715f066ed04d0188272d70b8d2da59
+msgid "Efficient service"
+msgstr "高效服务"
+
+#: ../../source/user_guide/support.md:4 0b79c64e99994201857938c806a703d2
+msgid "Efficient response"
+msgstr "高效响应"
+
+#: ../../source/user_guide/support.md:6 6ea16b33b875435d8126ab3bc0896fa2
+msgid "![](../_static/images/service.jpeg)"
+msgstr ""
+
+#: ../../source/user_guide/support.md:8 0b5b51bea2a64d8b9ff12885839e963e
+msgid ""
+"7*24 hours standby, domestic response within 10 minutes, and solutions "
+"within 1 hour"
+msgstr "7*24 小时待命，国内10分钟内及时响应，1小时内给出解决方案。"
+
+#: ../../source/user_guide/support.md:9 f77297bc32cb4e0b92aef9ae21216955
+msgid "Tailored"
+msgstr "量身定制"
+
+#: ../../source/user_guide/support.md:11 a47f8b1514044b4d97bee39474750f75
+msgid "![](../_static/images/service_custom.jpeg)"
+msgstr ""
+
+#: ../../source/user_guide/support.md:13 627db7004b3246b6b27a8527554995ed
+msgid ""
+"From pre-sales support to site acceptance, the whole process is strictly "
+"and standardizedly controlled by the professional project management team"
+" of the original factory."
+msgstr "从售前支持到场地验收，全流程由原厂专业项目管理团队严格、规范把控。"
+
+#: ../../source/user_guide/support.md:15 622df9b9593c4c21ba1462bf9d9e8d9b
+msgid ""
+"Provide customized solutions to overcome site limitations and maximize "
+"customer needs."
+msgstr "提供定制化解决方案，克服场地局限最大化满足客户需求。"
+
+#: ../../source/user_guide/support.md:17 e8be5cfe1c9e4aa3bb372a7f503531a7
+msgid "One-on-one application training service by exclusive training experts."
+msgstr "专属培训专家一对一应用培训服务。"
+
+#: ../../source/user_guide/support.md:18 b6f9c2645f014146a2ad80c0bd222075
+msgid "Panoramic training"
+msgstr "全景培训"
+
+#: ../../source/user_guide/support.md:19 c675383463c84d7a811631d2585129e9
+msgid "Meet diverse training needs in an all-round way"
+msgstr "全方位满足多样化培训需求。"
+
+#: ../../source/user_guide/support.md:20 6226d7be6baa4f64bf3dff7845ea9561
+msgid "Field application training"
+msgstr "现场应用培训"
+
+#: ../../source/user_guide/support.md:21 a15086fdf697429397c1a338a34832c4
+msgid ""
+"Implement standardized, standardized, and personalized training services "
+"for operators, fully develop equipment performance, and enable operators "
+"to complete clinical examinations quickly and independently to meet "
+"clinical needs."
+msgstr "对操作人员实施标准化，规范化，个性化的培训服务，充分发展设备性能，使操作人员能快速独立完成临床检查，满足临床需求。"
+
+#: ../../source/user_guide/support.md:22 7083f294fc404cbdba75b471bf6d2fc8
+msgid "Online Training"
+msgstr "线上培训"
+
+#: ../../source/user_guide/support.md:23 29f89a7ccb0b4e6fb28b6482148600b7
+msgid ""
+"The lecturer team is composed of senior training experts and core R&D "
+"personnel, and regular training courses are held to explain the technical"
+" principles, sequence foundation, clinical application and latest "
+"technological progress for clinicians and technicians, and systematically"
+" improve the professional technical level of clinicians and technicians."
+msgstr "由资深培训专家、核心研发人员组成讲师团队，定期举办培训班，为临床医师、技师讲解技术原理，序列基础、临床应用及最新技术进展，系统化提高临床医师、技师专业技术水平。"
+
+#: ../../source/user_guide/support.md:24 25a9733ee28b4469bd667cf032c8fc0e
+msgid "Contact us"
+msgstr "联系我们"
+
+#: ../../source/user_guide/support.md:26 6fb9d7930f04421faddac5d9a07835e7
+msgid "**Wuhan Chipcloud Data Technology Co.,Ltd**"
+msgstr "**武汉芯云道数据科技有限公司**"
+
+#: ../../source/user_guide/support.md:28 1c57eecd8cc345bcaa7916924d0d8195
+msgid ""
+"Address : 7th Floor, Building B4, Wuhan Future Science and Technology "
+"City, No. 999 Gaoxin Avenue, East Lake New Technology Development Zone, "
+"Wuhan City"
+msgstr "地址：武汉市东湖新技术开发区高新大道999号武汉未来科技城B4栋7楼"
+
+#: ../../source/user_guide/support.md:30 678aa6c4f80b42e2b09c6b8a5fe610ed
+msgid "E-mail : service@chipcloudtech.com"
+msgstr "邮箱：service@chipcloudtech.com"
+
+#: ../../source/user_guide/support.md:32 33e37be2f85b496d83ba9766fb15d10f
+msgid "Tel : 027-86635918"
+msgstr "电话：027-86635918"
+
+#: ../../source/user_guide/support.md:34 3ce02be902454598bf062fe99480db81
+msgid ""
+"Official website address : "
+"[www.chipcloudtech.com](http://www.chipcloudtech.com)"
+msgstr "官网地址：[www.chipcloudtech.com](http://www.chipcloudtech.com)"
+

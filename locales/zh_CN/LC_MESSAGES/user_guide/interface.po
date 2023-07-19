@@ -1,0 +1,220 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, chipcloudtech
+# This file is distributed under the same license as the Biological Imaging
+# Viewer package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Biological Imaging Viewer \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-07-17 14:30+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../source/user_guide/interface.md:1 96e7f8c74e8245829949b385e6e1d596
+msgid "User Interface"
+msgstr "用户界面"
+
+#: ../../source/user_guide/interface.md:3 44cf8472f0394b31adb80d1d3f7c0105
+msgid "Start interface"
+msgstr "启动界面"
+
+#: ../../source/user_guide/interface.md:5 cfd2faca6c4347f491fb3de5a55a0816
+msgid "Loading modules/plugins during startup"
+msgstr "启动阶段加载模块/插件"
+
+#: ../../source/user_guide/interface.md:7 a784af9d23cf4169bdfa49549730f482
+msgid "![](../_static/images/start.png)"
+msgstr ""
+
+#: ../../source/user_guide/interface.md:9 d15d4f536644448bb9ab51093dd9036e
+msgid "Application overview"
+msgstr "主界面"
+
+#: ../../source/user_guide/interface.md:11 9b699c48db2345038f01fc95fb06a297
+msgid ""
+"BI-Viewer represents all data sets, algorithms (including visualization "
+"algorithms, processing algorithms and analysis algorithms) as \"nodes\"."
+msgstr "BI-Viewer 将所有的数据集，算法（包括可视化算法，处理算法和分析算法）表示为"节点"。"
+
+#: ../../source/user_guide/interface.md:13 b23db5b8d61045e99620affdce1ed2a4
+msgid ""
+"BI-Viewer provides a large number of modules/plugins, and each "
+"module/plugin provides a specific set of functions for creation and "
+"operation in the interface."
+msgstr "BI-Viewer提供了大量的模块/插件，每个模块/插件提供一组特定的功能，用于界面中创建和进行操作。"
+
+#: ../../source/user_guide/interface.md:15 7da19aac9a5241f8b0917ed18c17c5c8
+msgid ""
+"Unlike modules/plugins that directly interact with each other, BI-Viewer "
+"contains more than 40 built-in modules/plugins, and other modules/plugins"
+" can be installed using plugin management."
+msgstr "模块/插件之间不同直接相互交互，BI-Viewer包含40个多内置模块/插件，并且可以使用插件管理安装其他模块/插件。"
+
+#: ../../source/user_guide/interface.md:17 f6a4d31ea4a646d8902758072a9c931f
+msgid "![](../_static/images/ui_main.png)"
+msgstr "![](../_static/images/zh_CN/ui_main.png)"
+
+#: ../../source/user_guide/interface.md:19 2b5617f20e5c4ef4a2c96cc3e26dd62d
+msgid "Module Panel"
+msgstr "模块界面"
+
+#: ../../source/user_guide/interface.md:21 913255d740204be18f6a0ca88c8342b4
+msgid "![](../_static/images/ui_property.png)"
+msgstr "![](../_static/images/zh_CN/ui_property.png)"
+
+#: ../../source/user_guide/interface.md:23 6fdb4a32c1cf49f381207f5c449e8243
+msgid "![](../_static/images/ui_volume.png)"
+msgstr "![](../_static/images/zh_CN/ui_volume.png)"
+
+#: ../../source/user_guide/interface.md:26 6cdf9bf50a0544e39cc691fe6ec4e3c3
+msgid ""
+"The **Properties** window (located by default on the right side of the "
+"application's main window) displays all the options and functions "
+"available to the user for the current module. The current module/node can"
+" be selected in the **Project View**."
+msgstr "**属性**窗口（默认位于应用程序主窗口的右侧）显示当前模块向用户提供的所有选项和功能。可以在**工程视图**中选择当前模块/节点。"
+
+#: ../../source/user_guide/interface.md:28 c0024f32ed7a4f35825727f4879026d1
+msgid "Load data"
+msgstr "加载数据"
+
+#: ../../source/user_guide/interface.md:30 5a39a1a5161941d2a5642484c1641832
+msgid "Under the **File** menu in the menu bar, select **Open Data**."
+msgstr "在菜单栏中文件菜单下，选择打开数据。"
+
+#: ../../source/user_guide/interface.md:32 372dafbb5c9448a3a8cac5db72e2a896
+msgid "![](../_static/images/ui_open.png)"
+msgstr "![](../_static/images/zh_CN/ui_open.png)"
+
+#: ../../source/user_guide/interface.md:34 89b4050ac20949b1aaa65ecd960f0404
+msgid "Select the image file to open."
+msgstr "选择需要打开的图像文件。"
+
+#: ../../source/user_guide/interface.md:36 4fde521c8c62483798dcccda1cea5177
+msgid "![](../_static/images/ui_choose.png)"
+msgstr ""
+
+#: ../../source/user_guide/interface.md:38 265b93c30578433ca3c0222cde243578
+msgid "After loading successfully, the file properties window will pop up."
+msgstr "加载成功后，会弹出文件属性窗口。"
+
+#: ../../source/user_guide/interface.md:40 597480684fd546698b5ed2e5f3bdd03d
+msgid "![](../_static/images/ui_property_pop.png)"
+msgstr "![](../_static/images/zh_CN/ui_property_pop.png)"
+
+#: ../../source/user_guide/interface.md:43 4df34906b52e4f499adc433a04bf7c1d
+msgid "Interacting with views"
+msgstr "与视图交互"
+
+#: ../../source/user_guide/interface.md:45 abe0b080406047f89fd86baab1a703c6
+msgid ""
+"BI-Viewer provides a variety of display modules, attribute adjustment "
+"functions, mouse, shortcut keys and other interactive methods."
+msgstr "BI-Viewer提供了多种显示模块，属性调节功能，鼠标，快捷键等交互方式。"
+
+#: ../../source/user_guide/interface.md:47 0bdebc1096b743ae941fe480dae4a3b0
+msgid "Selecting displayed data"
+msgstr "选择数据显示"
+
+#: ../../source/user_guide/interface.md:48 22773e8d65994ceeb249db0c24a8f019
+msgid ""
+"Select the data node, right-click to pop up the menu, select a "
+"**Display** module in the **Display** category, wait for the rendering to"
+" complete, and you can see the display result in the view window."
+msgstr "选中数据节点，右键弹出菜单，在显示分类中，选某一个显示模块，等待渲染完成，即可在视图窗口中看到显示结果。"
+
+#: ../../source/user_guide/interface.md:50 39f0f481f89e45df8b80255e0e0de114
+msgid "![](../_static/images/ui_menu_display.png)"
+msgstr "![](../_static/images/zh_CN/ui_menu_display.png)"
+
+#: ../../source/user_guide/interface.md:52 c36dcde94cfa4d7a843bc49dc21561c2
+msgid "Adjusting image properties"
+msgstr "属性调节"
+
+#: ../../source/user_guide/interface.md:54 b6d3899f64ee4b4dbb5c946f62a56837
+msgid ""
+"By selecting the display module, you can see the property window on the "
+"right. Through the adjustment of the property window, you can complete "
+"the presentation of different display effects."
+msgstr "通过选中显示模块，即可看到右侧属性窗口，通过属性窗口的调节，可完成不同显示效果的呈现。"
+
+#: ../../source/user_guide/interface.md:56 29d590f1b30f449a883c7587cce607a9
+msgid "![](../_static/images/ui_property_change.png)"
+msgstr "![](../_static/images/zh_CN/ui_property_change.png)"
+
+#: ../../source/user_guide/interface.md:59 730f4ec907d44fa5bc868e0971584e10
+msgid "Mouse & Keyboard Shortcuts"
+msgstr "鼠标与快捷键"
+
+#: ../../source/user_guide/interface.md:60 b01d9769546e43ef85904335b1850d8c
+msgid "Mouse"
+msgstr 鼠标"
+
+#: ../../source/user_guide/interface.md:62 eaef112c920246f8933d7d0ac09af02a
+msgid ""
+"Provides the choice of 4 mouse interaction modes, which are selection "
+"mode, gesture mode, move mode, and zoom mode."
+msgstr "提供了4种鼠标交互模式的选择，依次为选择模式，手势模式，平移模式，缩放模式。"
+
+#: ../../source/user_guide/interface.md:64 59b5ee7544fd4beda39f77d399ac9586
+msgid ""
+"Selection mode: fixed viewing angle, mouse operation will not change the "
+"viewing angle."
+msgstr "选择模式：固定视角，鼠标操作不会改变观察视角。"
+
+#: ../../source/user_guide/interface.md:65 9b433f34415144db81f05abb651cd88f
+msgid ""
+"Gesture mode: the left mouse button controls the viewing angle to move "
+"according to the mouse track, and adjusts the viewing angle."
+msgstr "手势模式：鼠标左键控制视角按照鼠标轨迹进行移动，调整观察视角。"
+
+#: ../../source/user_guide/interface.md:66 65e87d3d87b44aac95982041bdef51bb
+msgid "Move mode, the left mouse button controls the viewing angle to pan."
+msgstr "平移模式，鼠标左键控制视角的进行平移。"
+
+#: ../../source/user_guide/interface.md:67 186717801c6445098e366bec9c960996
+msgid ""
+"Zoom mode: the left mouse button controls the viewing angle to zoom in, "
+"zoom in up and zoom out down."
+msgstr "缩放模式：鼠标左键控制视角的进行缩放，向上放大，向下缩小。"
+
+#: ../../source/user_guide/interface.md:69 61393e5482a94debbabb89f4ec252887
+msgid "![](../_static/images/ui_mouse_mode.png)"
+msgstr "![](../_static/images/zh_CN/ui_mouse_mode.png)"
+
+#: ../../source/user_guide/interface.md:72 d25324b957084fecb6f34a5d20e9624e
+msgid "Generic shortcuts"
+msgstr "快捷键"
+
+#: ../../source/user_guide/interface.md 5fc8f71683dc47b5afdf9aa0709edd8b
+msgid "Shortcut"
+msgstr "快捷键"
+
+#: ../../source/user_guide/interface.md 8871c11d583f4de29af834ffa8b5784e
+msgid "Operation"
+msgstr "操作"
+
+#: ../../source/user_guide/interface.md ba2826ca6d1149b4b3aff53611758c15
+msgid "r"
+msgstr ""
+
+#: ../../source/user_guide/interface.md 82104bff37814afe8f05a3b75949cb5b
+msgid "reset zoom and pan to default"
+msgstr "将缩放和平移重置为默认值。"
+
+#: ../../source/user_guide/interface.md 04e06f347b174bdeaabe4b832a29a5ad
+msgid "i"
+msgstr ""
+
+#: ../../source/user_guide/interface.md bf8460182085445099e933e1dcd7f468
+msgid "space transformation box"
+msgstr "空间变换辅助框。"
+

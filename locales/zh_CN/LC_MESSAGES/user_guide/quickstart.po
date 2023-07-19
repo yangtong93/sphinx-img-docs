@@ -1,0 +1,209 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, chipcloudtech
+# This file is distributed under the same license as the Biological Imaging
+# Viewer package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Biological Imaging Viewer \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-07-17 14:30+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../source/user_guide/quickstart.md:1 5d74f7674d584b70bc118111f39ecdf1
+msgid "Getting Started"
+msgstr "开始使用"
+
+#: ../../source/user_guide/quickstart.md:3 7d12592cba6e41939ecdf1be8b344d5a
+msgid ""
+"This page contains information that you need to get started with BI-"
+"Viewer, including how to install and use basic features."
+msgstr "此页面包含开始使用BI-Viewer所需的信息，包括如何安装和使用基本功能。"
+
+#: ../../source/user_guide/quickstart.md:5 d6f999fef7bc4560a7521c4459334cab
+msgid "System requirements"
+msgstr "系统要求"
+
+#: ../../source/user_guide/quickstart.md:7 9146cf529e644017972d1de821f26c6f
+msgid ""
+"BI-Viewer runs on any Windows computer and will run on linux computer in "
+"the future. Older computers may work (depending mainly on graphics "
+"capabilities)."
+msgstr "BI-Viewer可以运行在任何Windows机器上，将来会支持运行在Linux机器上，较旧的计算机可能可以工作（主要取决于图形功能）。"
+
+#: ../../source/user_guide/quickstart.md:9 79e46c59724c4a94ba8bde4816f81d67
+msgid "Operating system versions"
+msgstr "操作系统版本"
+
+#: ../../source/user_guide/quickstart.md:11 442492abe3974007bf96513ef86f5ceb
+msgid ""
+"Windows: Windows 7 or 10, with all recommended updates installed.  "
+"Microsoft does not support Windows 8.1 and Windows 7 anymore and BI-"
+"Viewer is not tested on these legacy operating system versions, but may "
+"still work."
+msgstr "Windows: Windows 7 或 10以上，并且安装所有推荐的更新，Microsoft 不再支持 Windows 8.1 和 Windows 7，并且 Slicer 未在这些旧操作系统版本上进行测试，但可能仍然可以工作。"
+
+#: ../../source/user_guide/quickstart.md:13 4a257459551449d1bfc29412295433ec
+msgid "Recommended hardware configuration"
+msgstr "推荐硬件配置"
+
+#: ../../source/user_guide/quickstart.md:15 aab9a1615df04c22a03d08b5e4d61bd5
+msgid ""
+"Memory: more than 4GB (8 or more is recommended). As a general rule, have"
+" 10x more memory than the amount of data that you load."
+msgstr "内存：4GB以上（建议8GB以上）。作为一般规则，内存应比加载的数据量多 10 倍。"
+
+#: ../../source/user_guide/quickstart.md:17 e68c0d35e8cb4743aad3cba7cf97b6d4
+msgid ""
+"Display: a minimum resolution of 1024 by 768 (1280 by 1024 or better is "
+"recommended)."
+msgstr "显示器：最小分辨率为 1024 x 768（建议使用 1280 x 1024 或更高）。"
+
+#: ../../source/user_guide/quickstart.md:19 dcfa451861ea4f71a4d07a6e50dd200e
+msgid ""
+"Graphics: Dedicated graphics hardware (discrete GPU) memory is "
+"recommended for fast volume rendering. GPU: Graphics must support minimum"
+" OpenGL 3.2. Integrated graphics card is sufficient for basic "
+"visualization. Discrete graphics card (such as NVidia GPU) is recommended"
+" for interactive 3D volume rendering and fast rendering of complex "
+"scenes. GPU texture memory (VRAM) should be larger than your largest "
+"dataset (e.g., working with 2GB data, get VRAM > 4GB) and check that your"
+" images fit in maximum texture dimensions of your GPU hardware. Except "
+"rendering, most calculations are performed on CPU, therefore having a "
+"faster GPU will generally not impact the overall speed of the "
+"application."
+msgstr "图形卡：建议使用专用图形硬件（独立 GPU）内存以实现快速体积渲染。GPU：图形必须至少支持 OpenGL 3.2。集成显卡足以实现基本的可视化。建议使用独立显卡（例如 NVidia GPU）进行交互式 3D 体渲染和复杂场景的快速渲染。GPU 纹理内存 (VRAM) 应大于最大数据集（例如，使用 2GB 数据，使 VRAM > 4GB），并检查图像是否适合 GPU 硬件的最大纹理尺寸。除了渲染之外，大多数计算都是在 CPU 上执行的，因此拥有更快的 GPU 通常不会影响应用程序的整体速度。"
+
+#: ../../source/user_guide/quickstart.md:21 1df6056f45a7461ba5dc73eb16f79003
+msgid ""
+"Some computations in BI-Viewer are multi-threaded and will benefit from "
+"multi core, multi CPU configurations."
+msgstr "BI-Viewer 中的一些计算是多线程的，将受益于多核、多 CPU 配置。"
+
+#: ../../source/user_guide/quickstart.md:23 d74c9ac39c1a4c9fa0a4f55357d315fa
+msgid ""
+"Interface device: a three button mouse with scroll wheel is recommended. "
+"Pen, multi-touchscreen, touchpad, and graphic tablet are supported. All "
+"OpenVR-compatible virtual reality headsets are supported for virtual "
+"reality display."
+msgstr "接口设备：推荐使用带滚轮的三键鼠标。支持笔、多点触摸屏、触摸板和图形输入板。所有兼容 OpenVR 的虚拟现实耳机均支持虚拟现实显示。"
+
+#: ../../source/user_guide/quickstart.md:25 77e94f23fbe745fbad9d7d740a84bfd3
+msgid ""
+"Internet connection to access extensions, Python packages, online "
+"documentation, sample data sets, and tutorials."
+msgstr "用于访问扩展、Python 包、在线文档、示例数据集和教程的 Internet 连接。"
+
+#: ../../source/user_guide/quickstart.md:27 2f506f96136449fc9566e49fc4cb11e7
+msgid "Installing BI-Viewer"
+msgstr "安装 BI-Viewer"
+
+#: ../../source/user_guide/quickstart.md:29 fdfece8961b24b7fb0c04b82c6ed84e7
+msgid "To download BI-Viewer, click [here](http://www.chipcloudtech.com)."
+msgstr "要下载BI-Viewer，请单击[此处](http://www.chipcloudtech.com)。"
+
+#: ../../source/user_guide/quickstart.md:31 3bec7559587c4942a32e3ad3f25a379b
+msgid "Click on the exe installation package to install"
+msgstr "点击exe安装包进行安装"
+
+#: ../../source/user_guide/quickstart.md:33 2d8d61cc59b646b5aa708d57ee2fc20f
+msgid ""
+"Optionally install the Python module. If no Python module is selected, "
+"the functions of the Python-related modules will not be available, and "
+"the normal operation of the system will not be affected."
+msgstr "可选择性安装Python模块，如果未选择Python模块则不具备Python相关模块的功能，不影响系统正常运行。"
+
+#: ../../source/user_guide/quickstart.md:35 b0dc1da5e78e4817a41be7f034e8d064
+msgid ""
+"It is recommended not to install it, it will take up much less space and "
+"the installation speed will be faster."
+msgstr "推荐不安装，占用空间会小许多，安装速度快。"
+
+#: ../../source/user_guide/quickstart.md:36 a017027197884fb09a0b13290cce835d
+msgid "Apply for a license"
+msgstr "申请许可证"
+
+#: ../../source/user_guide/quickstart.md:38 5b962f1851f145aeab4c4fa56008d4b5
+msgid "Fill in the **Email** information"
+msgstr "填写邮箱信息"
+
+#: ../../source/user_guide/quickstart.md:39 0153e0bb6fff42418627682945548736
+msgid "Click **Generate** Registration Information"
+msgstr "点击生成注册信息"
+
+#: ../../source/user_guide/quickstart.md:40 c9819a79fa2a4f029af10fb99d4f8683
+msgid ""
+"Click **Request** and contact the account manager to issue license "
+"information"
+msgstr "点击请求，并联系客户经理发放许可信息"
+
+#: ../../source/user_guide/quickstart.md:41 a220cefd5c054701891910d7635df602
+msgid ""
+"After receiving the email, click **Request** again to complete license "
+"activation"
+msgstr "收到邮件后，再次点击请求，完成许可证激活"
+
+#: ../../source/user_guide/quickstart.md:43 c660a71884694d258a81ea26a7e18159
+msgid "Using BI-Viewer"
+msgstr "使用 BI-Viewer"
+
+#: ../../source/user_guide/quickstart.md:45 82804d5ba694455fb5237916856bbc69
+msgid ""
+"BI-Viewer offers lots of features and gives users great flexibility in "
+"how to use them. As a result, new users may be overwhelmed with the "
+"number of options and have difficulty figuring out how to perform even "
+"simple operations. This is normal and many users successfully crossed "
+"this difficult stage by investing some time into learning how to use this"
+" software."
+msgstr "BI-Viewer 提供了许多功能，并为用户提供了极大的使用灵活性。因此，新用户可能会因选项的数量而不知所措，甚至很难弄清楚如何执行简单的操作。这是正常的，许多用户通过投入一些时间学习如何使用该软件成功地度过了这个困难的阶段。"
+
+#: ../../source/user_guide/quickstart.md:47 9e723a0efd304175b8236ec0ac99851f
+msgid "Load data"
+msgstr "加载数据"
+
+#: ../../source/user_guide/quickstart.md:49 9fc89cae7a1648ca81c6a37e6e2a2e74
+msgid "Click on **File** -> **Open Data** in the menu bar"
+msgstr "点击菜单栏中的**文件** -> **打开数据**"
+
+#: ../../source/user_guide/quickstart.md:50 c4510a516799457caa225d45019f16c4
+msgid "Select the specified image file, and click OK"
+msgstr "选择指定图像文件，点击确定"
+
+#: ../../source/user_guide/quickstart.md:52 882cc2e555494b10adf98ff6542ce3f0
+msgid "View data"
+msgstr "数据可视化"
+
+#: ../../source/user_guide/quickstart.md:54 59122a2578264eacb52b1de505d11b33
+msgid ""
+"Right click on the data node in the **Project View** and select a "
+"**Display** module, such as **Volume**."
+msgstr "在**工程视图**中右键数据节点，选择某一个**Display**模块，比如**Volume**。"
+
+#: ../../source/user_guide/quickstart.md:55 fdf93916b1b246f492f1bf96cf402887
+msgid "Click **Reset** in the toolbar to center the perspective on the data"
+msgstr "点击工具栏中的视角还原居中。"
+
+#: ../../source/user_guide/quickstart.md:56 d4e034b538d44c74bd82e841e549588e
+msgid "Adjust the appropriate range of **Colormap**"
+msgstr "调节适当的颜色映射的范围。"
+
+#: ../../source/user_guide/quickstart.md:57 f4b7781b07754c7681861acc0d68d72f
+msgid "Save data"
+msgstr "保存数据"
+
+#: ../../source/user_guide/quickstart.md:59 feb293ce38594b11b4c54790e19d128a
+msgid "Click on **File** -> **Save Data** in the menu bar"
+msgstr "点击菜单栏中的**文件** -> **保存数据**。"
+
+#: ../../source/user_guide/quickstart.md:60 efe594e25d054460bc1179106a3e35c4
+msgid "Enter the name of the file to be saved, and the file saving format"
+msgstr "输入要保存的文件的名称和文件保存格式。"
+

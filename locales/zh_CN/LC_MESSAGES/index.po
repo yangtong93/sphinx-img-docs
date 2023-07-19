@@ -1,0 +1,40 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, chipcloudtech
+# This file is distributed under the same license as the Biological Imaging
+# Viewer package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Biological Imaging Viewer \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-07-17 14:30+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../source/index.rst:7 15641277239e4b5d80a02532c98ec264
+msgid "Welcome to Biological Imaging Viewer's documentation!"
+msgstr "欢迎使用生物图像处理软件的用户手册"
+
+#: ../../source/index.rst:26 bbd308d7b35a4532bd43455964022f2c
+msgid "Indices and tables"
+msgstr ""
+
+#: ../../source/index.rst:28 27413d37b79244a2910584372f438e2b
+msgid ":ref:`genindex`"
+msgstr ""
+
+#: ../../source/index.rst:29 6ff7d3cac23e4ef2aec02d26a778d016
+msgid ":ref:`modindex`"
+msgstr ""
+
+#: ../../source/index.rst:30 17d876eed04b4b92b663afd80e019637
+msgid ":ref:`search`"
+msgstr ""
+
