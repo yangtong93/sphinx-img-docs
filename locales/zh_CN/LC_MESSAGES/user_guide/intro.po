@@ -48,7 +48,7 @@ msgid ""
 "they need. All features are available and extensible in Python and C++. A"
 " full Python environment is provided where any Python packages can be "
 "installed and combined with built-in features. <br> <br>"
-msgstr "高度**模块化**的软件平台，所有功能和界面通过模块化形成不同的**插件**，用户可以选择插件他们需要。所有功能都可以在Python和C++中使用和扩展。提供了完整的Python环境，任何Python包都可以安装并与内置功能相结合。<br> <br>"
+msgstr "高度**模块化**的软件平台，所有功能和界面通过模块化形成不同的**插件**，用户可以选择他们需要的插件进行使用。所有功能都可以在Python和C++中使用和扩展。提供了完整的Python环境，任何Python包都可以安装并与内置功能相结合。<br> <br>"
 
 #: ../../source/user_guide/intro.md:13 b657973167cd4d4884fe0039f42fec2d
 msgid ""

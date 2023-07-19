@@ -49,7 +49,7 @@ msgid ""
 "Microsoft does not support Windows 8.1 and Windows 7 anymore and BI-"
 "Viewer is not tested on these legacy operating system versions, but may "
 "still work."
-msgstr "Windows: Windows 7 或 10以上，并且安装所有推荐的更新，Microsoft 不再支持 Windows 8.1 和 Windows 7，并且 Slicer 未在这些旧操作系统版本上进行测试，但可能仍然可以工作。"
+msgstr "Windows: Windows 7 或 10以上，并且安装Windows推荐的更新内容，Microsoft 不再支持 Windows 8.1 和 Windows 7，并且 BI-Viewer 未在这些旧操作系统版本上进行测试，可能可以正常运行。"
 
 #: ../../source/user_guide/quickstart.md:13 4a257459551449d1bfc29412295433ec
 msgid "Recommended hardware configuration"
@@ -80,7 +80,7 @@ msgid ""
 "rendering, most calculations are performed on CPU, therefore having a "
 "faster GPU will generally not impact the overall speed of the "
 "application."
-msgstr "图形卡：建议使用专用图形硬件（独立 GPU）内存以实现快速体积渲染。GPU：图形必须至少支持 OpenGL 3.2。集成显卡足以实现基本的可视化。建议使用独立显卡（例如 NVidia GPU）进行交互式 3D 体渲染和复杂场景的快速渲染。GPU 纹理内存 (VRAM) 应大于最大数据集（例如，使用 2GB 数据，使 VRAM > 4GB），并检查图像是否适合 GPU 硬件的最大纹理尺寸。除了渲染之外，大多数计算都是在 CPU 上执行的，因此拥有更快的 GPU 通常不会影响应用程序的整体速度。"
+msgstr "图形卡：建议使用专用图形硬件（独立 GPU）内存以实现快速体积渲染。GPU：图形必须至少支持 OpenGL 3.2。集成显卡足以实现基本的可视化。建议使用独立显卡（例如 NVidia GPU）进行交互式 3D 体渲染和复杂场景的快速渲染。GPU 纹理内存 (VRAM) 应大于最大数据集（例如，使用 2GB 数据，使 VRAM > 4GB），并检查图像是否适合 GPU 硬件的最大纹理尺寸。除了渲染之外，大多数计算都是在 CPU 上执行的，因此拥有更快的 GPU 通常不会对应用程序的整体速度产生影响。"
 
 #: ../../source/user_guide/quickstart.md:21 1df6056f45a7461ba5dc73eb16f79003
 msgid ""

@@ -499,7 +499,7 @@ msgid ""
 "user to mark and annotate relevant information on the scale bar. This "
 "way, users can add text, arrows, or other symbols to explain the meaning "
 "of the scale and provide a richer description."
-msgstr "标记和注释：功能通常还允许用户在比例尺上标记和注释相关信息。这样，用户可以添加文本、箭头或其他符号来解释比例尺的含义，并提供更丰富的说明。"
+msgstr "标记和注释：在比例尺上标记和注释相关信息。添加文本、箭头或其他符号来解释比例尺的含义，并提供更丰富的说明。"
 
 #: ../../source/user_guide/function.md:142 935f4537f048405f800c907e1920f862
 msgid "![](../_static/images/function_scalebars.png)"
@@ -582,7 +582,7 @@ msgstr "用于将多幅图像或数据进行对齐，使它们在空间或特征
 
 #: ../../source/user_guide/function.md:174 8e3d793da10d45619938ae07eb57dbec
 msgid "![图片](../_static/images/stitch.jpg)"
-msgstr ""
+msgstr "![图片](../_static/images/stitch.jpg)"
 
 #: ../../source/user_guide/function.md:174
 #: ../../source/user_guide/function.md:181
@@ -621,7 +621,7 @@ msgstr "通过对图像中重要的血管进行分割，拉直，分析计算出
 
 #: ../../source/user_guide/function.md:181 e5baabe238444bb398caaf51d5b8c9d2
 msgid "![图片](../_static/images/vessel.jpg)"
-msgstr ""
+msgstr "![图片](../_static/images/vessel.jpg)"
 
 #: ../../source/user_guide/function.md:182 57b1ebc2493a4131a093380d63ba6d13
 msgid "Platform Function"
@@ -796,7 +796,7 @@ msgstr "按键Esc进行退出。"
 
 #: ../../source/user_guide/function.md:244 46fd7172e1334d35816e662d44676498
 msgid "![图片](../_static/images/function_full.png)"
-msgstr ""
+msgstr "![图片](../_static/images/function_full.png)"
 
 #: ../../source/user_guide/function.md:247 983230894337453788a555cd445c7a39
 msgid "CameraLink"
@@ -811,7 +811,7 @@ msgstr "将一个或多个视图窗口的视角控制进行同步控制的一种
 
 #: ../../source/user_guide/function.md:251 a853be4941684cf69f01f217a4593f10
 msgid "![图片](../_static/images/function_link.png)"
-msgstr ""
+msgstr "![图片](../_static/images/function_link.png)"
 
 #: ../../source/user_guide/function.md:255 4a87eebfb262464fb1ce96db09ab505d
 msgid "View Control"
@@ -832,7 +832,7 @@ msgstr "在工具栏中，提供一种显示XYZ方向的导航小控件。"
 
 #: ../../source/user_guide/function.md:263 f49092a3ec1c4d648f34219aa50bfd5d
 msgid "![图片](../_static/images/function_axes.png)"
-msgstr ""
+msgstr "![图片](../_static/images/function_axes.png)"
 
 #: ../../source/user_guide/function.md:266 34aab19df37b4903a19880af574a4ea0
 msgid "View Layout"

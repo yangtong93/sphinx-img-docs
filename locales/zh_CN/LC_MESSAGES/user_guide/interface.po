@@ -32,7 +32,7 @@ msgstr "启动阶段加载模块/插件"
 
 #: ../../source/user_guide/interface.md:7 a784af9d23cf4169bdfa49549730f482
 msgid "![](../_static/images/start.png)"
-msgstr ""
+msgstr "![](../_static/images/start.png)"
 
 #: ../../source/user_guide/interface.md:9 d15d4f536644448bb9ab51093dd9036e
 msgid "Application overview"
@@ -100,7 +100,7 @@ msgstr "选择需要打开的图像文件。"
 
 #: ../../source/user_guide/interface.md:36 4fde521c8c62483798dcccda1cea5177
 msgid "![](../_static/images/ui_choose.png)"
-msgstr ""
+msgstr "![](../_static/images/ui_choose.png)"
 
 #: ../../source/user_guide/interface.md:38 265b93c30578433ca3c0222cde243578
 msgid "After loading successfully, the file properties window will pop up."
@@ -156,7 +156,7 @@ msgstr "鼠标与快捷键"
 
 #: ../../source/user_guide/interface.md:60 b01d9769546e43ef85904335b1850d8c
 msgid "Mouse"
-msgstr 鼠标"
+msgstr "鼠标"
 
 #: ../../source/user_guide/interface.md:62 eaef112c920246f8933d7d0ac09af02a
 msgid ""

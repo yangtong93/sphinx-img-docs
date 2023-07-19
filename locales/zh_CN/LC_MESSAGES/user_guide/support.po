@@ -32,7 +32,7 @@ msgstr "高效响应"
 
 #: ../../source/user_guide/support.md:6 6ea16b33b875435d8126ab3bc0896fa2
 msgid "![](../_static/images/service.jpeg)"
-msgstr ""
+msgstr "![](../_static/images/service.jpeg)"
 
 #: ../../source/user_guide/support.md:8 0b5b51bea2a64d8b9ff12885839e963e
 msgid ""
@@ -46,7 +46,7 @@ msgstr "量身定制"
 
 #: ../../source/user_guide/support.md:11 a47f8b1514044b4d97bee39474750f75
 msgid "![](../_static/images/service_custom.jpeg)"
-msgstr ""
+msgstr "![](../_static/images/service_custom.jpeg)"
 
 #: ../../source/user_guide/support.md:13 627db7004b3246b6b27a8527554995ed
 msgid ""
