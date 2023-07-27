@@ -21,6 +21,9 @@ The abbreviation of Biological Imaging Viewer is BI-Viewer.
 ## Main functions
 
 Provides simple to complex visualization, processing & analysis functions.
+
+![](../_static/images/all.png)
+
 ### Visualization
 
 * Orthogonal slice
