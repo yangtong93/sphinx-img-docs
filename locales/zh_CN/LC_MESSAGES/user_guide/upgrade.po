@@ -28,7 +28,7 @@ msgstr ""
 
 #: ../../source/user_guide/upgrade.md:5 22cd84de322a481393dfb941ecc08169
 msgid "Release Date : 2023/7/28"
-msgstr "发布日期 : 2023/6/28"
+msgstr "发布日期 : 2023/7/28"
 
 #: ../../source/user_guide/upgrade.md:7 ../../source/user_guide/upgrade.md:22
 #: ../../source/user_guide/upgrade.md:44 8083afcd86534649a4e67e87df03d537
