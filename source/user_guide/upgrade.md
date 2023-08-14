@@ -1,5 +1,20 @@
 # Version Update Notes
 
+## Version 1.0.5-beta
+
+Release Date : 2023/8/14
+
+### New
+* Update plugin Stitcher to version 1.0.2
+
+### Notes
+* This version is a test version, there may be more bugs
+* Windows 7/10 (x64) or above  
+* OpenGL 2.1 or above
+
+### Download link
+[BiologicalImagingViewer-v1.0.5-beta-windows-x86_64.exe](http://71.131.244.138:22224/Image-1.0.5-beta/BiologicalImagingViewer-v1.0.5-beta-windows-x86_64.exe)
+
 ## Version 1.0.4-beta
 
 Release Date : 2023/8/9
