@@ -1,0 +1,118 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, chipcloudtech
+# This file is distributed under the same license as the Biological Imaging
+# Viewer package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Biological Imaging Viewer \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-08-16 14:32+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../source/user_guide/program.md:1 b8756a449c984145bc70cfc2e327c1b1
+msgid "Python programming"
+msgstr "Python 编程"
+
+#: ../../source/user_guide/program.md:3 b8438f330f614ef19772c28408986e9f
+msgid "PyProgressBar Class"
+msgstr ""
+
+#: ../../source/user_guide/program.md:5 e867a0e0fa3c405e9a43ee2c595256da
+msgid "The PyProgressBar provides a progress bar."
+msgstr "提供控制进度条的功能"
+
+#: ../../source/user_guide/program.md:7 8a112b6f79074798989ddf7b51ef9026
+msgid "Public Functions"
+msgstr "公共函数"
+
+#: ../../source/user_guide/program.md f23a125a28b24663a51b22c8cf0525d4
+msgid "Returns"
+msgstr "返回值"
+
+#: ../../source/user_guide/program.md d7ca3b0b31174fb1adf0fac4688f4d11
+msgid "Function"
+msgstr "函数"
+
+#: ../../source/user_guide/program.md a7fa3dc978ab473a9a3af95aa2cbf3d6
+msgid "Note"
+msgstr "简介"
+
+#: ../../source/user_guide/program.md 4505d166f11144079c6e57704df5e948
+#: 4d905d8500c24c9d972eeb3fa95569cf
+msgid "None"
+msgstr ""
+
+#: ../../source/user_guide/program.md ff6eb43fe0134c2e934ff3649ba05dfd
+msgid "**reset**(self, maximum = 100)"
+msgstr ""
+
+#: ../../source/user_guide/program.md 70b13453a77f4509adc691155a33c9e3
+msgid "Reset progress."
+msgstr "重置进度"
+
+#: ../../source/user_guide/program.md 63f124d2f7d341d9b6450a526c7a6c42
+msgid "**setValue**(self, val, msg = None)"
+msgstr ""
+
+#: ../../source/user_guide/program.md 310751c297054d068217c8e66de74f2e
+msgid "Set current value"
+msgstr "设置当前值"
+
+#: ../../source/user_guide/program.md:14 71b2e2a974de41e4af0cafaf9f2848d7
+msgid "reset(self, maximum = 100)"
+msgstr ""
+
+#: ../../source/user_guide/program.md:15 1e21f8113a0c405bb3efab51ae62a9e1
+msgid ""
+"Reset the progress bar. The progress bar \"rewinds\" and shows no "
+"progress."
+msgstr "重置进度条，不显示任何进度。"
+
+#: ../../source/user_guide/program.md:17 ../../source/user_guide/program.md:35
+#: 46be1be66b2d4a7ca3496d92323fb7f2 97b86be841464eb7aedc4d51575ff84d
+msgid "Args"
+msgstr "参数"
+
+#: ../../source/user_guide/program.md:19 e3fd2921cad44f1aaf551d7602210eee
+msgid "`maximum` (int): This parameter holds the progress bar's maximum value."
+msgstr "`maximum` (int): 此参数设置进度条的最大值"
+
+#: ../../source/user_guide/program.md:21 ../../source/user_guide/program.md:40
+#: 0806ccbaee1d4e39b5f354174bca80bb f33a593d2c1746378ccbe4162df330eb
+msgid "Example"
+msgstr "示例"
+
+#: ../../source/user_guide/program.md:30 3bdbe01f950547ea945ec20f9bc5f7db
+msgid "setValue(self, val, msg = None)"
+msgstr ""
+
+#: ../../source/user_guide/program.md:31 b9481e5952b64e7d9e73de78e0e5bdb1
+msgid "This function holds the progress bar's current value"
+msgstr "此函数设置进度条的当前值"
+
+#: ../../source/user_guide/program.md:33 3a5d77afadc84fdc8bc24d976aeedd63
+msgid ""
+"Attempting to change the current value to one outside the minimum-maximum"
+" range has no effect on the current value."
+msgstr "尝试将当前值更改为最小-最大范围之外的值对当前值没有影响。"
+
+#: ../../source/user_guide/program.md:37 18361b648fa04fc4a5636d8d3b25b7fd
+msgid "`val` (int): This parameter holds the progress bar's current value."
+msgstr "`val` (int): 此参数设置进度条的当前值"
+
+#: ../../source/user_guide/program.md:38 cf7b3c49b4e446f196e5706fb1342609
+msgid ""
+"`msg` (str): This parameter holds the descriptive text shown with the "
+"progress bar."
+msgstr "`msg` (str): 此参数设置显示的文本"
+
+

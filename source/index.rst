@@ -15,10 +15,10 @@ Welcome to Biological Imaging Viewer's documentation!
    user_guide/function
    user_guide/setting
    user_guide/upgrade
+   user_guide/program
    user_guide/setup
    user_guide/support
    user_guide/about
-   
    
 
 
