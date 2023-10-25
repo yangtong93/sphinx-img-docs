@@ -1,5 +1,29 @@
 # Version Update Notes
 
+## Version 1.0.8-beta
+
+Release Date : 2023/10/25
+
+### New
+* New field of view selection function in Stitcher module
+* Add binding for colormap and channel in Stitcher module
+* Add automatic contrast adjustment function
+* Add automatic adjustment of node position after node creation
+* Add a default display style for 2D/3D images in the preference interface
+* Supports multiple outputs in Stitcher module
+
+### Fix
+* Fix memory leaks when nodes are deleted
+* Fix color and opacity error when colormap'scalar range changed
+
+### Notes
+* This version is a test version, there may be more bugs
+* Windows 7/10 (x64) or above  
+* OpenGL 2.1 or above
+
+### Download link
+[BiologicalImagingViewer-v1.0.8-beta-windows-x86_64.exe](http://71.131.244.138:22224/Image-1.0.8-beta/BiologicalImagingViewer-v1.0.8-beta-windows-x86_64.exe)
+
 ## Version 1.0.7-beta
 
 Release Date : 2023/9/21
