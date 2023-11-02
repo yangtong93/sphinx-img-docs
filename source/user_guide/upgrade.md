@@ -1,5 +1,28 @@
 # Version Update Notes
 
+## Version 1.0.9-beta
+
+Release Date : 2023/11/2
+
+### New
+* Focus on the position where the object is first displayed
+* New Z-axis range selection in Stitcher module
+* Increase ETA time on progress bar
+* Display expected memory usage and resolution information in Stitcher module
+
+### Fix
+* Fix incorrect calculation of camera clipping range
+* Fix the error in displaying the output image after multiple executions of the algorithm
+* Fix the image direction error in Stitcher module
+
+### Notes
+* This version is a test version, there may be more bugs
+* Windows 7/10 (x64) or above  
+* OpenGL 2.1 or above
+
+### Download link
+[BiologicalImagingViewer-v1.0.9-beta-windows-x86_64.exe](http://71.131.244.138:22224/Image-1.0.9-beta/BiologicalImagingViewer-v1.0.9-beta-windows-x86_64.exe)
+
 ## Version 1.0.8-beta
 
 Release Date : 2023/10/25
