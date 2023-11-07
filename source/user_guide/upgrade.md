@@ -16,7 +16,7 @@ Release Date : 2023/11/2
 * Fix the image direction error in Stitcher module
 
 ### Notes
-* This version is a test version, there may be more bugs
+* This is still a beta version and may contain many bugs.
 * Windows 7/10 (x64) or above  
 * OpenGL 2.1 or above
 
@@ -40,7 +40,7 @@ Release Date : 2023/10/25
 * Fix color and opacity error when colormap'scalar range changed
 
 ### Notes
-* This version is a test version, there may be more bugs
+* This is still a beta version and may contain many bugs.
 * Windows 7/10 (x64) or above  
 * OpenGL 2.1 or above
 
@@ -58,7 +58,7 @@ Release Date : 2023/9/21
 * Fix output result errors in Stitcher Module/Plugin
 
 ### Notes
-* This version is a test version, there may be more bugs
+* This is still a beta version and may contain many bugs.
 * Windows 7/10 (x64) or above  
 * OpenGL 2.1 or above
 
@@ -75,7 +75,7 @@ Release Date : 2023/8/29
 
 
 ### Notes
-* This version is a test version, there may be more bugs
+* This is still a beta version and may contain many bugs.
 * Windows 7/10 (x64) or above  
 * OpenGL 2.1 or above
 
@@ -90,7 +90,7 @@ Release Date : 2023/8/14
 * Update plugin Stitcher to version 1.0.2
 
 ### Notes
-* This version is a test version, there may be more bugs
+* This is still a beta version and may contain many bugs.
 * Windows 7/10 (x64) or above  
 * OpenGL 2.1 or above
 
@@ -109,7 +109,7 @@ Release Date : 2023/8/9
 * Fix file read error
 
 ### Notes
-* This version is a test version, there may be more bugs
+* This is still a beta version and may contain many bugs.
 * Windows 7/10 (x64) or above  
 * OpenGL 2.1 or above
 
@@ -124,7 +124,7 @@ Release Date : 2023/7/28
 * Default language follows operating system settings
 
 ### Notes
-* This version is a test version, there may be more bugs
+* This is still a beta version and may contain many bugs.
 * Windows 7/10 (x64) or above  
 * OpenGL 2.1 or above
 
@@ -145,7 +145,7 @@ Release Date : 2023/7/19
 * Fix thumbnail function is invalid in Volume
 
 ### Notes
-* This version is a test version, there may be more bugs
+* This is still a beta version and may contain many bugs.
 * License needs to be re-applied and activated
 * Windows 7/10 (x64) or above  
 * OpenGL 2.1 or above
@@ -162,7 +162,7 @@ Release Date : 2023/6/28
 * Added viewing angle connection function
 
 ### Notes
-* This version is a test version, there may be more bugs
+* This is still a beta version and may contain many bugs.
 * License needs to be re-applied and activated
 * Windows 7/10 (x64) or above  
 * OpenGL 2.1 or above

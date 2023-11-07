@@ -93,7 +93,7 @@ msgstr "注意事项"
 #: ../../source/user_guide/upgrade.md:127
 #: ../../source/user_guide/upgrade.md:148
 #: ../../source/user_guide/upgrade.md:165 05076cee53e14e2ebc5b37768fc16d71
-msgid "This version is a test version, there may be more bugs"
+msgid "This is still a beta version and may contain many bugs."
 msgstr "此版本为测试版本，可能存在较多bug"
 
 #: ../../source/user_guide/upgrade.md:20 ../../source/user_guide/upgrade.md:44

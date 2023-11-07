@@ -2,27 +2,40 @@
 
 This page contains information that you need to get started with BI-Viewer, including how to install and use basic features.
 
-## System requirements
+## Operating system requirements
 
-BI-Viewer runs on any Windows computer and will run on linux computer in the future. Older computers may work (depending mainly on graphics capabilities).
+* BI-Viewer mainly runs on the Windows computer and will run on linux computer in the future. Older computers may work.
+* Windows 7/10/11 (x64) or above, with all recommended updates installed.  Microsoft does not support Windows 8.1 and Windows 7 anymore and BI-Viewer is not tested on these legacy operating system versions, but may still work.
 
-### Operating system versions
+## Hardware requirements
 
-* Windows: Windows 7 or 10, with all recommended updates installed.  Microsoft does not support Windows 8.1 and Windows 7 anymore and BI-Viewer is not tested on these legacy operating system versions, but may still work.
+* Memory: As a general rule, have 2x-5x more memory than the amount of data that you load.
 
-### Recommended hardware configuration
-
-* Memory: more than 4GB (8 or more is recommended). As a general rule, have 10x more memory than the amount of data that you load.
-
-* Display: a minimum resolution of 1024 by 768 (1280 by 1024 or better is recommended).
+* Display: a minimum resolution of 1024 by 768 (1920 by 1080 or better is recommended). Using a 4K or larger monitor at full resolution will reduce live interaction FPS.
 
 * Graphics: Dedicated graphics hardware (discrete GPU) memory is recommended for fast volume rendering. GPU: Graphics must support minimum OpenGL 3.2. Integrated graphics card is sufficient for basic visualization. Discrete graphics card (such as NVidia GPU) is recommended for interactive 3D volume rendering and fast rendering of complex scenes. GPU texture memory (VRAM) should be larger than your largest dataset (e.g., working with 2GB data, get VRAM > 4GB) and check that your images fit in maximum texture dimensions of your GPU hardware. Except rendering, most calculations are performed on CPU, therefore having a faster GPU will generally not impact the overall speed of the application.
 
-* Some computations in BI-Viewer are multi-threaded and will benefit from multi core, multi CPU configurations.
+* Some computations are multi-threaded and will benefit from multi core, multi CPU configurations.
 
 * Interface device: a three button mouse with scroll wheel is recommended. Pen, multi-touchscreen, touchpad, and graphic tablet are supported. All OpenVR-compatible virtual reality headsets are supported for virtual reality display.
 
-* Internet connection to access extensions, Python packages, online documentation, sample data sets, and tutorials.
+### Minimum System Requirements (for evaluation with small datasets only)
+
+* CPU: 3 GHz CPU (Intel or AMD) 4 Core with 64 bit support
+* RAM: 8 GB
+* Graphics: NVIDA Quadro P400
+
+### Recommended System
+
+* CPU: 4 GHz CPU 8-16 Cores or 2GHz CPU 16-32 Cores
+* RAM: 32-64 GB
+* Graphics: NVIDA Quadro RTX 4000
+
+### High End System
+
+* CPU: 2.4GHz CPU 56 cores
+* RAM: 128-256GB
+* Graphics: NVIDIA RTX A4000
 
 ## Installing BI-Viewer
 
