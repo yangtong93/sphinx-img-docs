@@ -135,8 +135,8 @@ msgid "High End System"
 msgstr "高配置"
 
 #: ../../source/user_guide/quickstart.md:36 26aaa091559e4f09801b6e2818a282fb
-msgid "CPU: 2.4GHz CPU 56 cores"
-msgstr "处理器: 2.4GHz CPU 56 cores"
+msgid "CPU: 2.4GHz CPU 56 Cores"
+msgstr "处理器: 2.4GHz CPU 56 核心"
 
 #: ../../source/user_guide/quickstart.md:37 39439f0be72f4997b90f166948f8ade2
 msgid "RAM: 128-256GB"

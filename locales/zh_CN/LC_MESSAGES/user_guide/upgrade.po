@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Biological Imaging Viewer \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-02 14:38+0800\n"
+"POT-Creation-Date: 2023-11-10 14:43+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,333 +18,392 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.12.1\n"
 
-#: ../../source/user_guide/upgrade.md:1 358405bca2d24ad6b5e5473d274b878e
+#: ../../source/user_guide/upgrade.md:1 9a14fa3867a6479aa6bb3bfe930a2707
 msgid "Version Update Notes"
 msgstr "版本更新说明"
 
-#: ../../source/user_guide/upgrade.md:3 e706d79990e9408494f50601dd911676
-msgid "Version 1.0.9-beta"
+#: ../../source/user_guide/upgrade.md:3 3eff624cf1714a1c8ad17303eb572feb
+msgid "Version 1.1.0-beta"
 msgstr ""
 
-#: ../../source/user_guide/upgrade.md:5 429881a80ec1424eb3997b1919b16825
-msgid "Release Date : 2023/11/2"
-msgstr "发布日期 : 2023/11/2"
+#: ../../source/user_guide/upgrade.md:5 baf71fa921d344f5a7faa7008be239a7
+msgid "Release Date : 2023/11/10"
+msgstr "发布日期 : 2023/11/10"
 
-#: ../../source/user_guide/upgrade.md:7 ../../source/user_guide/upgrade.md:30
-#: ../../source/user_guide/upgrade.md:54 ../../source/user_guide/upgrade.md:72
-#: ../../source/user_guide/upgrade.md:89 ../../source/user_guide/upgrade.md:104
-#: ../../source/user_guide/upgrade.md:123
-#: ../../source/user_guide/upgrade.md:138
-#: ../../source/user_guide/upgrade.md:160 8083afcd86534649a4e67e87df03d537
-#: 85d32dfc450f447f8bd7e860b5204230
+#: ../../source/user_guide/upgrade.md:7 ../../source/user_guide/upgrade.md:29
+#: ../../source/user_guide/upgrade.md:52 ../../source/user_guide/upgrade.md:76
+#: ../../source/user_guide/upgrade.md:94 ../../source/user_guide/upgrade.md:111
+#: ../../source/user_guide/upgrade.md:126
+#: ../../source/user_guide/upgrade.md:145
+#: ../../source/user_guide/upgrade.md:160
+#: ../../source/user_guide/upgrade.md:182 4ac47b615d5048e88b73d4f7abc9f68a
+#: a678d1363d444c8e84eb1866eef9b8fc e7ba265a9b1f4472b228db0984850db0
 msgid "New"
 msgstr "新增"
 
-#: ../../source/user_guide/upgrade.md:8 8498d1f7471b45f58fb08e041f7a6bb1
+#: ../../source/user_guide/upgrade.md:8 8e0ce44b06364b6eac03dc34728f8de8
+msgid "New some warnings when memory is insufficient in Stitcher module"
+msgstr "新增内存不足的警告在Stitcher模块中"
+
+#: ../../source/user_guide/upgrade.md:9 c8e7a12a2f0c4e68be1df48090210504
+msgid ""
+"The region of selecting fields area from adaptive size to fixed size in "
+"Stitcher module"
+msgstr "选择视野的界面从自适应大小修改为固定比例在Stitcher模块中"
+
+#: ../../source/user_guide/upgrade.md:10 31ff4e3453ac4591be2563dd13e05420
+msgid "New a warning when texture size is insufficient in Volume module"
+msgstr "新增一个显卡纹理大小的警告在体绘制模块中"
+
+#: ../../source/user_guide/upgrade.md:12 ../../source/user_guide/upgrade.md:35
+#: ../../source/user_guide/upgrade.md:60 ../../source/user_guide/upgrade.md:79
+#: ../../source/user_guide/upgrade.md:129
+#: ../../source/user_guide/upgrade.md:165 40d409dc60f44586802a5372ca4e8fca
+msgid "Fix"
+msgstr "修复"
+
+#: ../../source/user_guide/upgrade.md:13 7117c7f11faf4e9f8ff1c7e681e829d8
+msgid "Fix Z-axis quantity statistics error in Stitcher module"
+msgstr "修复Z轴数量统计错误在Stitcher模块中"
+
+#: ../../source/user_guide/upgrade.md:14 7bc7b4ef6837461faef262967c1a30b3
+msgid ""
+"Fix memory size calculation errors when user select different down sample"
+" in Stitcher module"
+msgstr "修复输出图像内存大小计算错误，当用户选择不同下采样时，在Stitcher模块中"
+
+#: ../../source/user_guide/upgrade.md:15 2e934df85d3b4bc2aa2ac2d397a3c6bd
+msgid ""
+"Fix voxel size calculation error when user select different down sample "
+"in Stitcher module"
+msgstr "修复输出图像体素大小计算错误，当用户选择不同下采样时，在Stitcher模块中"
+
+#: ../../source/user_guide/upgrade.md:17 ../../source/user_guide/upgrade.md:40
+#: ../../source/user_guide/upgrade.md:64 ../../source/user_guide/upgrade.md:82
+#: ../../source/user_guide/upgrade.md:99 ../../source/user_guide/upgrade.md:114
+#: ../../source/user_guide/upgrade.md:133
+#: ../../source/user_guide/upgrade.md:148
+#: ../../source/user_guide/upgrade.md:169
+#: ../../source/user_guide/upgrade.md:186 818ac2806d74496398ff17d5f96ac1a9
+msgid "Notes"
+msgstr "注意事项"
+
+#: ../../source/user_guide/upgrade.md:18 ../../source/user_guide/upgrade.md:41
+#: ../../source/user_guide/upgrade.md:65 ../../source/user_guide/upgrade.md:83
+#: ../../source/user_guide/upgrade.md:100
+#: ../../source/user_guide/upgrade.md:115
+#: ../../source/user_guide/upgrade.md:134
+#: ../../source/user_guide/upgrade.md:149
+#: ../../source/user_guide/upgrade.md:170
+#: ../../source/user_guide/upgrade.md:187 fd0d8f7ede2145f485caf8ee2714fc2f
+msgid "This is still a beta version and may contain many bugs."
+msgstr "此版本为测试版本，可能存在较多bug"
+
+#: ../../source/user_guide/upgrade.md:19 ../../source/user_guide/upgrade.md:42
+#: ../../source/user_guide/upgrade.md:66 ../../source/user_guide/upgrade.md:84
+#: ../../source/user_guide/upgrade.md:101
+#: ../../source/user_guide/upgrade.md:116
+#: ../../source/user_guide/upgrade.md:135
+#: ../../source/user_guide/upgrade.md:150
+#: ../../source/user_guide/upgrade.md:172
+#: ../../source/user_guide/upgrade.md:189 47bb50ae925042b99f07ab7622216add
+#: 5275e07de4df4dd7a3bde46ae6b1da32
+msgid "Windows 7/10 (x64) or above"
+msgstr "Windows 7/10 (x64) 以上操作系统"
+
+#: ../../source/user_guide/upgrade.md:20 ../../source/user_guide/upgrade.md:43
+#: ../../source/user_guide/upgrade.md:67 ../../source/user_guide/upgrade.md:85
+#: ../../source/user_guide/upgrade.md:102
+#: ../../source/user_guide/upgrade.md:117
+#: ../../source/user_guide/upgrade.md:136
+#: ../../source/user_guide/upgrade.md:151
+#: ../../source/user_guide/upgrade.md:173
+#: ../../source/user_guide/upgrade.md:190 915fc1e992cb4df7a912558d4c551526
+#: f62b4b400fd9465290872ea9cc7ceb9c
+msgid "OpenGL 2.1 or above"
+msgstr "OpenGL 2.1 以上"
+
+#: ../../source/user_guide/upgrade.md:22 ../../source/user_guide/upgrade.md:45
+#: ../../source/user_guide/upgrade.md:69 ../../source/user_guide/upgrade.md:87
+#: ../../source/user_guide/upgrade.md:104
+#: ../../source/user_guide/upgrade.md:119
+#: ../../source/user_guide/upgrade.md:138
+#: ../../source/user_guide/upgrade.md:153
+#: ../../source/user_guide/upgrade.md:175
+#: ../../source/user_guide/upgrade.md:192 1c8eadd0e97a46929dfa181c6c7bab09
+#: dbfde8076c9c476d94d763f7b94ce30d
+msgid "Download link"
+msgstr "下载链接"
+
+#: ../../source/user_guide/upgrade.md:23 729bfb9a9cdd43fcbb1fc7bbddf29cf4
+msgid ""
+"[BiologicalImagingViewer-v1.1.0-beta-"
+"windows-x86_64.exe](http://71.131.244.138:22224/Image-1.1.0-beta/BiologicalImagingViewer-v1.1.0"
+"-beta-windows-x86_64.exe)"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:25 3eff624cf1714a1c8ad17303eb572feb
+msgid "Version 1.0.9-beta"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:27 baf71fa921d344f5a7faa7008be239a7
+msgid "Release Date : 2023/11/2"
+msgstr "发布日期 : 2023/11/2"
+
+#: ../../source/user_guide/upgrade.md:30 fc0f29c7b9a041a2ba7df39259633a90
 msgid "Focus on the position where the object is first displayed"
 msgstr "视角聚焦图像第一次显示的位置"
 
-#: ../../source/user_guide/upgrade.md:9 dfa40f21797545a082e5b5c771086558
+#: ../../source/user_guide/upgrade.md:31 7527c79559f6444c8232d750104577db
 msgid "New Z-axis range selection in Stitcher module"
 msgstr "Stitcher模块中的新增Z轴范围选择功能"
 
-#: ../../source/user_guide/upgrade.md:10 05d3d575121943ce9af660d665e5100e
+#: ../../source/user_guide/upgrade.md:32 32b1df0a6da94457aee461e353888bdd
 msgid "Increase ETA time on progress bar"
 msgstr "状态栏新增预计耗时显示"
 
-#: ../../source/user_guide/upgrade.md:11 3599fd0a048446eca3ac5b0704d5757d
+#: ../../source/user_guide/upgrade.md:33 a2fb5f2b16fb44d9afd2560864a57d0c
 msgid ""
 "Display expected memory usage and resolution information in Stitcher "
 "module"
 msgstr "Stitcher模块中的新增预计的分辨率和内存占用"
 
-#: ../../source/user_guide/upgrade.md:13 ../../source/user_guide/upgrade.md:38
-#: ../../source/user_guide/upgrade.md:57 ../../source/user_guide/upgrade.md:107
-#: ../../source/user_guide/upgrade.md:143 fecc53ee6e5942ee990086a76b8f0ac7
-msgid "Fix"
-msgstr "修复"
-
-#: ../../source/user_guide/upgrade.md:14 22bdd12245a041dd98bde1fe955dd6d8
+#: ../../source/user_guide/upgrade.md:36 f973415523954760b6635a53240fd6bd
 msgid "Fix incorrect calculation of camera clipping range"
 msgstr "修复计算不正确的相机裁剪区域"
 
-#: ../../source/user_guide/upgrade.md:15 5f2903d01d4542cba3f757908b0516ac
+#: ../../source/user_guide/upgrade.md:37 c7ffa94beab44e84936d00d251f8c10a
 msgid ""
 "Fix the error in displaying the output image after multiple executions of"
 " the algorithm"
 msgstr "修复多次执行算法后，输出图像的更新显示错误"
 
-#: ../../source/user_guide/upgrade.md:16 dfa40f21797545a082e5b5c771086558
+#: ../../source/user_guide/upgrade.md:38 7117c7f11faf4e9f8ff1c7e681e829d8
 msgid "Fix the image direction error in Stitcher module"
 msgstr "修复Stitcher模块输出图像的方向错误"
 
-#: ../../source/user_guide/upgrade.md:18 ../../source/user_guide/upgrade.md:42
-#: ../../source/user_guide/upgrade.md:60 ../../source/user_guide/upgrade.md:77
-#: ../../source/user_guide/upgrade.md:92 ../../source/user_guide/upgrade.md:111
-#: ../../source/user_guide/upgrade.md:126
-#: ../../source/user_guide/upgrade.md:147
-#: ../../source/user_guide/upgrade.md:164 6b647504387e4c6aa2c5a12f12e02412
-msgid "Notes"
-msgstr "注意事项"
-
-#: ../../source/user_guide/upgrade.md:19 ../../source/user_guide/upgrade.md:43
-#: ../../source/user_guide/upgrade.md:61 ../../source/user_guide/upgrade.md:78
-#: ../../source/user_guide/upgrade.md:93 ../../source/user_guide/upgrade.md:112
-#: ../../source/user_guide/upgrade.md:127
-#: ../../source/user_guide/upgrade.md:148
-#: ../../source/user_guide/upgrade.md:165 05076cee53e14e2ebc5b37768fc16d71
-msgid "This is still a beta version and may contain many bugs."
-msgstr "此版本为测试版本，可能存在较多bug"
-
-#: ../../source/user_guide/upgrade.md:20 ../../source/user_guide/upgrade.md:44
-#: ../../source/user_guide/upgrade.md:62 ../../source/user_guide/upgrade.md:79
-#: ../../source/user_guide/upgrade.md:94 ../../source/user_guide/upgrade.md:113
-#: ../../source/user_guide/upgrade.md:128
-#: ../../source/user_guide/upgrade.md:150
-#: ../../source/user_guide/upgrade.md:167 7277a3c1ca994549a47c4ac9e0c55adc
-msgid "Windows 7/10 (x64) or above"
-msgstr "Windows 7/10 (x64) 以上操作系统"
-
-#: ../../source/user_guide/upgrade.md:21 ../../source/user_guide/upgrade.md:45
-#: ../../source/user_guide/upgrade.md:63 ../../source/user_guide/upgrade.md:80
-#: ../../source/user_guide/upgrade.md:95 ../../source/user_guide/upgrade.md:114
-#: ../../source/user_guide/upgrade.md:129
-#: ../../source/user_guide/upgrade.md:151
-#: ../../source/user_guide/upgrade.md:168 8ef5e8ad826e4b77b7f6e7e41cf3040e
-msgid "OpenGL 2.1 or above"
-msgstr "OpenGL 2.1 以上"
-
-#: ../../source/user_guide/upgrade.md:23 ../../source/user_guide/upgrade.md:47
-#: ../../source/user_guide/upgrade.md:65 ../../source/user_guide/upgrade.md:82
-#: ../../source/user_guide/upgrade.md:97 ../../source/user_guide/upgrade.md:116
-#: ../../source/user_guide/upgrade.md:131
-#: ../../source/user_guide/upgrade.md:153
-#: ../../source/user_guide/upgrade.md:170 dae746b5b9ec4ba884c0eb9a73154330
-msgid "Download link"
-msgstr "下载链接"
-
-#: ../../source/user_guide/upgrade.md:24 ec2906e802944e6c955b9f42a737336c
+#: ../../source/user_guide/upgrade.md:46 729bfb9a9cdd43fcbb1fc7bbddf29cf4
 msgid ""
 "[BiologicalImagingViewer-v1.0.9-beta-"
 "windows-x86_64.exe](http://71.131.244.138:22224/Image-1.0.9-beta/BiologicalImagingViewer-v1.0.9"
 "-beta-windows-x86_64.exe)"
 msgstr ""
 
-#: ../../source/user_guide/upgrade.md:26 e706d79990e9408494f50601dd911676
+#: ../../source/user_guide/upgrade.md:48 becd34f0b1884afc83c26e5e1ba1019b
 msgid "Version 1.0.8-beta"
 msgstr ""
 
-#: ../../source/user_guide/upgrade.md:28 429881a80ec1424eb3997b1919b16825
+#: ../../source/user_guide/upgrade.md:50 ed1f1636e6ad4d0b97fc48a9cb9d5768
 msgid "Release Date : 2023/10/25"
 msgstr "发布日期 : 2023/10/25"
 
-#: ../../source/user_guide/upgrade.md:31 dfa40f21797545a082e5b5c771086558
+#: ../../source/user_guide/upgrade.md:53 8e0ce44b06364b6eac03dc34728f8de8
 msgid "New field of view selection function in Stitcher module"
 msgstr "Stitcher模块中的新增视野选择功能"
 
-#: ../../source/user_guide/upgrade.md:32 bb6e7da038fe4816a3134d8229947992
+#: ../../source/user_guide/upgrade.md:54 702a02dd9bec4c8bb2fd9d2df3f5534c
 msgid "Add binding for colormap and channel in Stitcher module"
 msgstr "在Stitcher模块中添加颜色映射和通道的绑定"
 
-#: ../../source/user_guide/upgrade.md:33 fddb683b31ad47bfa873dae8979c0a2f
+#: ../../source/user_guide/upgrade.md:55 8b0c19fc7e5c477f9bdce99a029003dc
 msgid "Add automatic contrast adjustment function"
 msgstr "增加自动对比度调节功能"
 
-#: ../../source/user_guide/upgrade.md:34 76754cf169794275b84a0c5ef7ec7901
+#: ../../source/user_guide/upgrade.md:56 94b9e1eb4db447ac84d497cb93522e51
 msgid "Add automatic adjustment of node position after node creation"
 msgstr "新增节点位置的自动调整"
 
-#: ../../source/user_guide/upgrade.md:35 f8c1c90be3bc40fa92174caf8a49d349
+#: ../../source/user_guide/upgrade.md:57 89a75d85b3044b07a05285421a1a2f5e
 msgid "Add a default display style for 2D/3D images in the preference interface"
 msgstr "为2D/3D图像添加默认显示模块"
 
-#: ../../source/user_guide/upgrade.md:36 bb6e7da038fe4816a3134d8229947992
+#: ../../source/user_guide/upgrade.md:58 32b7617119624c7b8bc3ac09ba385d3c
 msgid "Supports multiple outputs in Stitcher module"
 msgstr "Stitcher模块支持多个输出结果"
 
-#: ../../source/user_guide/upgrade.md:39 2ad7f0f76445448abb52f4c78ce56d34
+#: ../../source/user_guide/upgrade.md:61 393fec1ec2cb4972888c4d09b05f62cd
 msgid "Fix memory leaks when nodes are deleted"
 msgstr "修复节点删除后未释放内存"
 
-#: ../../source/user_guide/upgrade.md:40 22bdd12245a041dd98bde1fe955dd6d8
+#: ../../source/user_guide/upgrade.md:62 cfe760e73c0b4b8794a907608427f0f8
 msgid "Fix color and opacity error when colormap'scalar range changed"
 msgstr "修复颜色与不透明度错误，当调节伪彩映射范围时"
 
-#: ../../source/user_guide/upgrade.md:48 ec2906e802944e6c955b9f42a737336c
+#: ../../source/user_guide/upgrade.md:70 ce6293dc6c9b485e83adb6f0514bcfb4
 msgid ""
 "[BiologicalImagingViewer-v1.0.8-beta-"
 "windows-x86_64.exe](http://71.131.244.138:22224/Image-1.0.8-beta/BiologicalImagingViewer-v1.0.8"
 "-beta-windows-x86_64.exe)"
 msgstr ""
 
-#: ../../source/user_guide/upgrade.md:50 e706d79990e9408494f50601dd911676
+#: ../../source/user_guide/upgrade.md:72 61de615cc9484097bcd123e9b43ef12b
 msgid "Version 1.0.7-beta"
 msgstr ""
 
-#: ../../source/user_guide/upgrade.md:52 429881a80ec1424eb3997b1919b16825
+#: ../../source/user_guide/upgrade.md:74 e5c1cf516df6484c8585ba2297b71c83
 msgid "Release Date : 2023/9/21"
 msgstr "发布日期 : 2023/9/21"
 
-#: ../../source/user_guide/upgrade.md:55 8ad5291bdefc41ed878e139326e75b54
+#: ../../source/user_guide/upgrade.md:77 fe7fac5a4f2b41d295bd430bf051464a
 msgid "Optimize stitching performance"
 msgstr "优化Stitcher拼接性能"
 
-#: ../../source/user_guide/upgrade.md:58 bb6e7da038fe4816a3134d8229947992
+#: ../../source/user_guide/upgrade.md:80 c27ae56e0445419280a579f849285738
 msgid "Fix output result errors in Stitcher Module/Plugin"
 msgstr "修复Stitcher模块输出结果错误"
 
-#: ../../source/user_guide/upgrade.md:66 ec2906e802944e6c955b9f42a737336c
+#: ../../source/user_guide/upgrade.md:88 8b4cab6caeab4dc68ea2e2e5a007cb09
 msgid ""
 "[BiologicalImagingViewer-v1.0.7-beta-"
 "windows-x86_64.exe](http://71.131.244.138:22224/Image-1.0.7-beta/BiologicalImagingViewer-v1.0.7"
 "-beta-windows-x86_64.exe)"
 msgstr ""
 
-#: ../../source/user_guide/upgrade.md:68 e706d79990e9408494f50601dd911676
+#: ../../source/user_guide/upgrade.md:90 1eb02bb3e2c64ae2a4d21c226be040b1
 msgid "Version 1.0.6-beta"
 msgstr ""
 
-#: ../../source/user_guide/upgrade.md:70 429881a80ec1424eb3997b1919b16825
+#: ../../source/user_guide/upgrade.md:92 ec11bc4862de4bb6be265cb752a20e62
 msgid "Release Date : 2023/8/29"
 msgstr "发布日期 : 2023/8/29"
 
-#: ../../source/user_guide/upgrade.md:73 bb6e7da038fe4816a3134d8229947992
+#: ../../source/user_guide/upgrade.md:95 aca30b08f8854dd69daa2bb762d53e11
 msgid "Adjusting the Z-axis thickness in Stitcher Module/Plugin"
 msgstr "调整Z轴厚度在Stitcher模块/插件中"
 
-#: ../../source/user_guide/upgrade.md:74 78919cca4c394787b052812f67e32947
+#: ../../source/user_guide/upgrade.md:96 c4b46af2c7af4db6afcdf1df191b880f
 msgid "Add Python console"
 msgstr "添加Python控制台"
 
-#: ../../source/user_guide/upgrade.md:83 ec2906e802944e6c955b9f42a737336c
+#: ../../source/user_guide/upgrade.md:105 3168a9cefee34c6b92295379a042b16d
 msgid ""
 "[BiologicalImagingViewer-v1.0.6-beta-"
 "windows-x86_64.exe](http://71.131.244.138:22224/Image-1.0.6-beta/BiologicalImagingViewer-v1.0.6"
 "-beta-windows-x86_64.exe)"
 msgstr ""
 
-#: ../../source/user_guide/upgrade.md:85 e706d79990e9408494f50601dd911676
+#: ../../source/user_guide/upgrade.md:107 0c1b78e9ad26431fbc3851c363ebe807
 msgid "Version 1.0.5-beta"
 msgstr ""
 
-#: ../../source/user_guide/upgrade.md:87 429881a80ec1424eb3997b1919b16825
+#: ../../source/user_guide/upgrade.md:109 4dc8db639dd648b7abd0d6abb4e1615a
 msgid "Release Date : 2023/8/14"
 msgstr "发布日期 : 2023/8/14"
 
-#: ../../source/user_guide/upgrade.md:90 bf1b89c7cba64576a38962af2e1e0e30
+#: ../../source/user_guide/upgrade.md:112 9a2536337a5f434289a12e73caed6823
 msgid "Update plugin Stitcher to version 1.0.2"
 msgstr "更新Stitcher插件至1.0.2版本"
 
-#: ../../source/user_guide/upgrade.md:98 ec2906e802944e6c955b9f42a737336c
+#: ../../source/user_guide/upgrade.md:120 7ea908d55cbc4939ae904aee783575ef
 msgid ""
 "[BiologicalImagingViewer-v1.0.5-beta-"
 "windows-x86_64.exe](http://71.131.244.138:22224/Image-1.0.5-beta/BiologicalImagingViewer-v1.0.5"
 "-beta-windows-x86_64.exe)"
 msgstr ""
 
-#: ../../source/user_guide/upgrade.md:100 e706d79990e9408494f50601dd911676
+#: ../../source/user_guide/upgrade.md:122 0a5f11d3e6714902b2ae1121a874a62f
 msgid "Version 1.0.4-beta"
 msgstr ""
 
-#: ../../source/user_guide/upgrade.md:102 429881a80ec1424eb3997b1919b16825
+#: ../../source/user_guide/upgrade.md:124 15c8bc1b2676446082c2f2c210c06a0d
 msgid "Release Date : 2023/8/9"
 msgstr "发布日期 : 2023/8/9"
 
-#: ../../source/user_guide/upgrade.md:105 7526d6a977ff4c92838926f94c4577c7
+#: ../../source/user_guide/upgrade.md:127 8347729144e5477491faa460ddc3340d
 msgid "Add Stitcher plugin"
 msgstr "新增Stitcher插件"
 
-#: ../../source/user_guide/upgrade.md:108 2ad7f0f76445448abb52f4c78ce56d34
+#: ../../source/user_guide/upgrade.md:130 19a5afee14f8413597220c7dcdf3be90
 msgid "Fix the default display mode that did not take effect"
 msgstr "修复默认显示模式设置无效问题"
 
-#: ../../source/user_guide/upgrade.md:109 f8c571eb48124d56942bae41ffc6c651
+#: ../../source/user_guide/upgrade.md:131 14cae3b628844b489c6306f79d52010d
 msgid "Fix file read error"
 msgstr "修复文件读取报错"
 
-#: ../../source/user_guide/upgrade.md:117 ec2906e802944e6c955b9f42a737336c
+#: ../../source/user_guide/upgrade.md:139 e1ffd6eb651d4c988f2134214ec341a8
 msgid ""
 "[BiologicalImagingViewer-v1.0.4-beta-"
 "windows-x86_64.exe](http://71.131.244.138:22224/Image-1.0.4-beta/BiologicalImagingViewer-v1.0.4"
 "-beta-windows-x86_64.exe)"
 msgstr ""
 
-#: ../../source/user_guide/upgrade.md:119 e706d79990e9408494f50601dd911676
+#: ../../source/user_guide/upgrade.md:141 30bfde15c9574a3e8f77ea338d3d36e5
 msgid "Version 1.0.3-beta"
 msgstr ""
 
-#: ../../source/user_guide/upgrade.md:121 22cd84de322a481393dfb941ecc08169
+#: ../../source/user_guide/upgrade.md:143 d1fda741396b46e9bc0a5cb19de7f618
 msgid "Release Date : 2023/7/28"
 msgstr "发布日期 : 2023/7/28"
 
-#: ../../source/user_guide/upgrade.md:124 0800ef4187ac46b19fb7fd27c85d86e7
+#: ../../source/user_guide/upgrade.md:146 2f94c94d13454da994ee80cd14164ecd
 msgid "Default language follows operating system settings"
 msgstr "默认语言跟随操作系统语言设置"
 
-#: ../../source/user_guide/upgrade.md:132 ec2906e802944e6c955b9f42a737336c
+#: ../../source/user_guide/upgrade.md:154 7b20dedfe77a4f259a8fd0e92bfdcaeb
 msgid ""
 "[BiologicalImagingViewer-v1.0.3-beta-"
 "windows-x86_64.exe](http://71.131.244.138:22224/Image-1.0.3-beta/BiologicalImagingViewer-v1.0.3"
 "-beta-windows-x86_64.exe)"
 msgstr ""
 
-#: ../../source/user_guide/upgrade.md:134 e706d79990e9408494f50601dd911676
+#: ../../source/user_guide/upgrade.md:156 d75ce557d50e473bb5a504129fa83a71
 msgid "Version 1.0.2-beta"
 msgstr ""
 
-#: ../../source/user_guide/upgrade.md:136 429881a80ec1424eb3997b1919b16825
+#: ../../source/user_guide/upgrade.md:158 9356977fdc57445d916ec4bfd52ac982
 msgid "Release Date : 2023/7/19"
 msgstr "发布日期 : 2023/7/19"
 
-#: ../../source/user_guide/upgrade.md:139 a01f14dcf162485fa47891d88136aae7
+#: ../../source/user_guide/upgrade.md:161 2f1a9fb9e3f241ce9b40f6cdbf4dce97
 msgid "The user manual supports Chinese and English"
 msgstr "用户手册支持中英文"
 
-#: ../../source/user_guide/upgrade.md:140 4bc12fae9f9c4283af7c467b6240fe77
+#: ../../source/user_guide/upgrade.md:162 9c7187849206411c963b6af270dece8a
 msgid "Added system configuration window"
 msgstr "新增系统配置窗口"
 
-#: ../../source/user_guide/upgrade.md:141 fddb683b31ad47bfa873dae8979c0a2f
+#: ../../source/user_guide/upgrade.md:163 1fec63cbcd794e5aab58bd3288dedcfa
 msgid "Added project save and restore function"
 msgstr "新增工程保存与恢复功能"
 
-#: ../../source/user_guide/upgrade.md:144 2ad7f0f76445448abb52f4c78ce56d34
+#: ../../source/user_guide/upgrade.md:166 71f86e51995b479d9c8eed5782715e9d
 msgid "Fix the problem that switching Chinese does not take effect"
 msgstr "修复切换中文无效问题"
 
-#: ../../source/user_guide/upgrade.md:145 400cd026bba945678292c1fdb6e5ae3a
+#: ../../source/user_guide/upgrade.md:167 d6f2f53288d24000b752215b6e69d411
 msgid "Fix thumbnail function is invalid in Volume"
 msgstr "修复三维体绘制中缩略图功能无效问题"
 
-#: ../../source/user_guide/upgrade.md:149
-#: ../../source/user_guide/upgrade.md:166 29505b3f61a24b2dad63450f146243e1
+#: ../../source/user_guide/upgrade.md:171
+#: ../../source/user_guide/upgrade.md:188 0b77fed521e343dfb14d7c388d4311dc
 msgid "License needs to be re-applied and activated"
 msgstr "许可证需要重新申请和激活"
 
-#: ../../source/user_guide/upgrade.md:154 ec2906e802944e6c955b9f42a737336c
+#: ../../source/user_guide/upgrade.md:176 6e8e217f05d24f27bc4bd28baa13e10d
 msgid ""
 "[BiologicalImagingViewer-v1.0.2-beta-"
 "windows-x86_64.exe](http://71.131.244.138:22224/Image-1.0.2-beta/BiologicalImagingViewer-v1.0.2"
 "-beta-windows-x86_64.exe)"
 msgstr ""
 
-#: ../../source/user_guide/upgrade.md:156 f03e914759064084afe0a9fc1ddd6d0a
+#: ../../source/user_guide/upgrade.md:178 c37bd607bb6141a8a9985f29d29f1237
 msgid "Version 1.0.1-beta"
 msgstr ""
 
-#: ../../source/user_guide/upgrade.md:158 22cd84de322a481393dfb941ecc08169
+#: ../../source/user_guide/upgrade.md:180 683c614695ab4693ad1b5a5fe3929c3a
 msgid "Release Date : 2023/6/28"
 msgstr "发布日期 : 2023/6/28"
 
-#: ../../source/user_guide/upgrade.md:161 41b28a812b734b58b176a03339f16171
+#: ../../source/user_guide/upgrade.md:183 a011d9dd54c944c6b7556ac17f1b21f2
 msgid "New plugin system"
 msgstr "新增插件系统"
 
-#: ../../source/user_guide/upgrade.md:162 500cd44aab184a72bc7baa08a0b2af4f
+#: ../../source/user_guide/upgrade.md:184 01dbc42485ee498d99ba045f6c4a4db3
 msgid "Added viewing angle connection function"
 msgstr "新增视角连接功能"
 
-#: ../../source/user_guide/upgrade.md:171 e99a739994c94a549fef69706fee6abf
+#: ../../source/user_guide/upgrade.md:193 acc934a7bc824a26b7e1a5a0d01d3ae4
 msgid ""
 "[BiologicalImagingViewer-v1.0.1-beta-"
 "windows-x86_64.exe](http://71.131.244.138:22224/Image-1.0.1-beta/BiologicalImagingViewer-v1.0.1"

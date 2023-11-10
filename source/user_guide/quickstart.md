@@ -33,7 +33,7 @@ This page contains information that you need to get started with BI-Viewer, incl
 
 ### High End System
 
-* CPU: 2.4GHz CPU 56 cores
+* CPU: 2.4GHz CPU 56 Cores
 * RAM: 128-256GB
 * Graphics: NVIDIA RTX A4000
 

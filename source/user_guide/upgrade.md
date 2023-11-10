@@ -1,5 +1,27 @@
 # Version Update Notes
 
+## Version 1.1.0-beta
+
+Release Date : 2023/11/10
+
+### New
+* New some warnings when memory is insufficient in Stitcher module
+* The region of selecting fields area from adaptive size to fixed size in Stitcher module
+* New a warning when texture size is insufficient in Volume module
+
+### Fix
+* Fix Z-axis quantity statistics error in Stitcher module
+* Fix memory size calculation errors when user select different down sample in Stitcher module
+* Fix voxel size calculation error when user select different down sample in Stitcher module
+
+### Notes
+* This is still a beta version and may contain many bugs.
+* Windows 7/10 (x64) or above  
+* OpenGL 2.1 or above
+
+### Download link
+[BiologicalImagingViewer-v1.1.0-beta-windows-x86_64.exe](http://71.131.244.138:22224/Image-1.1.0-beta/BiologicalImagingViewer-v1.1.0-beta-windows-x86_64.exe)
+
 ## Version 1.0.9-beta
 
 Release Date : 2023/11/2
