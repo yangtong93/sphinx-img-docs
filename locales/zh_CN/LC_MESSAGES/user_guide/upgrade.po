@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Biological Imaging Viewer \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-10 14:43+0800\n"
+"POT-Creation-Date: 2024-01-10 11:21+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,390 +23,1818 @@ msgid "Version Update Notes"
 msgstr "版本更新说明"
 
 #: ../../source/user_guide/upgrade.md:3 3eff624cf1714a1c8ad17303eb572feb
-msgid "Version 1.1.0-beta"
+msgid "Version 1.1.1-beta"
 msgstr ""
 
-#: ../../source/user_guide/upgrade.md:5 baf71fa921d344f5a7faa7008be239a7
-msgid "Release Date : 2023/11/10"
-msgstr "发布日期 : 2023/11/10"
+#: ../../source/user_guide/upgrade.md:5 15c8bc1b2676446082c2f2c210c06a0d
+msgid "Release Date : 2024/1/9"
+msgstr "发布日期 : 2024/1/9"
 
-#: ../../source/user_guide/upgrade.md:7 ../../source/user_guide/upgrade.md:29
-#: ../../source/user_guide/upgrade.md:52 ../../source/user_guide/upgrade.md:76
-#: ../../source/user_guide/upgrade.md:94 ../../source/user_guide/upgrade.md:111
-#: ../../source/user_guide/upgrade.md:126
-#: ../../source/user_guide/upgrade.md:145
-#: ../../source/user_guide/upgrade.md:160
-#: ../../source/user_guide/upgrade.md:182 4ac47b615d5048e88b73d4f7abc9f68a
-#: a678d1363d444c8e84eb1866eef9b8fc e7ba265a9b1f4472b228db0984850db0
+#: ../../source/user_guide/upgrade.md:7 ../../source/user_guide/upgrade.md:51
+#: ../../source/user_guide/upgrade.md:73 ../../source/user_guide/upgrade.md:96
+#: ../../source/user_guide/upgrade.md:120
+#: ../../source/user_guide/upgrade.md:138
+#: ../../source/user_guide/upgrade.md:155
+#: ../../source/user_guide/upgrade.md:170
+#: ../../source/user_guide/upgrade.md:189
+#: ../../source/user_guide/upgrade.md:204
+#: ../../source/user_guide/upgrade.md:226 4ac47b615d5048e88b73d4f7abc9f68a
+#: e7ba265a9b1f4472b228db0984850db0
 msgid "New"
 msgstr "新增"
 
 #: ../../source/user_guide/upgrade.md:8 8e0ce44b06364b6eac03dc34728f8de8
+msgid "New image file output function with colormap"
+msgstr "新增带伪彩的图像文件输出功能"
+
+#: ../../source/user_guide/upgrade.md:9 612fc171ba414e19b80032f9bb4f044b
+msgid ""
+"The Stitcher module supports data export from Harmony 4.1, 4.9, 5.1, and "
+"5.2"
+msgstr "Stitcher模块支持Harmony 4.1 4.9 5.1 5.2导出的数据"
+
+#: ../../source/user_guide/upgrade.md:11 ../../source/user_guide/upgrade.md:56
+#: ../../source/user_guide/upgrade.md:79 ../../source/user_guide/upgrade.md:104
+#: ../../source/user_guide/upgrade.md:123
+#: ../../source/user_guide/upgrade.md:173
+#: ../../source/user_guide/upgrade.md:209 40d409dc60f44586802a5372ca4e8fca
+msgid "Fix"
+msgstr "修复"
+
+#: ../../source/user_guide/upgrade.md:12 7117c7f11faf4e9f8ff1c7e681e829d8
+msgid "Fix the crash issue of the log module"
+msgstr "修复日志模块引起的程序崩溃"
+
+#: ../../source/user_guide/upgrade.md:13 7117c7f11faf4e9f8ff1c7e681e829d8
+msgid "Fix size error of box in Crop module"
+msgstr "修复裁剪模块的辅助框初始化大小错误"
+
+#: ../../source/user_guide/upgrade.md:14 7a11536bd6b04673aec3c0d4aee6a0fd
+msgid "Fix crash issue with reading empty directories"
+msgstr "修复读取空目录引起的程序崩溃"
+
+#: ../../source/user_guide/upgrade.md:15 d0abcfd111c146ddae2083dfcfbbc3f7
+msgid "Fix the issue of incorrect progress bar for saving image files"
+msgstr "修复保存图像文件进度条进度显示错误"
+
+#: ../../source/user_guide/upgrade.md:16 3cc59be2f49f4412b41ffd8ed6ebffec
+msgid "Fix saving sequence tif image file error"
+msgstr "修复保存序列tif图像文件错误"
+
+#: ../../source/user_guide/upgrade.md:17 7bc7b4ef6837461faef262967c1a30b3
+msgid "Fix crash issue caused by reading incorrect directory in Stitcher module"
+msgstr "修复Stitcher模块读取错误目录引起的崩溃"
+
+#: ../../source/user_guide/upgrade.md:18 7117c7f11faf4e9f8ff1c7e681e829d8
+msgid "Fix crash issue caused by invalid Z-axis values in Stitcher module"
+msgstr "修复Stitcher模块无效Z轴数值导致的崩溃"
+
+#: ../../source/user_guide/upgrade.md:19 0921a74abc5d47f9b44abb7ec92f3ba0
+msgid "Fix the issue where the thumbnail of the Volume module cannot be displayed"
+msgstr "修复Volume模块缩略图无法显示问题"
+
+#: ../../source/user_guide/upgrade.md:20 2a306d6e3f3d49cf8853da14515d51a2
+msgid "Fix crash issue with Volume module after disconnection"
+msgstr "修复Volume模块断开连接后崩溃问题"
+
+#: ../../source/user_guide/upgrade.md:21 9adb96bf6c3b4ac295f365ddea433e7c
+msgid ""
+"Fix the issue of incorrect decimal places in the measurement distance "
+"module"
+msgstr "修复测试距离小数位数显示不正确问题"
+
+#: ../../source/user_guide/upgrade.md:22 b3eb3b421aa641a197118e99c4170c29
+msgid "Fix warning pop up issue"
+msgstr "修复警告弹窗问题"
+
+#: ../../source/user_guide/upgrade.md:23 7dd87f381ce046198eb423444ba5147a
+msgid ""
+"Fix the issue of not being able to open the program by clicking on the "
+"project file"
+msgstr "修复点击工程文件无法打开程序问题"
+
+#: ../../source/user_guide/upgrade.md:24 980652c90543412a9bcba7c2915f4bc0
+msgid ""
+"Fix display and functional issues caused by deleting the Stitcher node in"
+" the menu"
+msgstr "修复菜单中删除Stitcher节点导致显示与功能异常问题"
+
+#: ../../source/user_guide/upgrade.md:25 c98c2c5f519f488c887f3b700d518117
+msgid "Fix crash issue with click to install plugin"
+msgstr "修复点击安装插件程序崩溃问题"
+
+#: ../../source/user_guide/upgrade.md:26 b636b58a6df84fc480009a6cc213076e
+msgid "Fix crash issue with reading abnormal files"
+msgstr "修复读取异常文件崩溃问题"
+
+#: ../../source/user_guide/upgrade.md:27 4ccea937ad7245e3ab5bda091e2b8470
+msgid "Fix duplicate save project issues"
+msgstr "修复重复保存工程问题"
+
+#: ../../source/user_guide/upgrade.md:28 9b67e56026294a9abdafb08bbd9e8de5
+msgid "Fix false color mapping display issue caused by invalid values"
+msgstr "修复无效数值引起伪彩映射显示问题"
+
+#: ../../source/user_guide/upgrade.md:31 a24ce3b8c57c4ab2909f29e654937ed4
+msgid "Optimize"
+msgstr "优化"
+
+#: ../../source/user_guide/upgrade.md:32 8e0ce44b06364b6eac03dc34728f8de8
+msgid "Optimize the framing view function in Stitcher module"
+msgstr "优化Stitcher模块框选视野性能问题"
+
+#: ../../source/user_guide/upgrade.md:33 c8e7a12a2f0c4e68be1df48090210504
+msgid "Optimize the process of reading field coordinates in Stitcher module"
+msgstr "优化Stitcher模块视野坐标读取流程"
+
+#: ../../source/user_guide/upgrade.md:35 d32a2f34f291436391d7a33c21389850
+msgid "Remove"
+msgstr "移除"
+
+#: ../../source/user_guide/upgrade.md:36 398b96b972df4031b7b4812dfd3fe70b
+msgid "Remove the display and hiding of items from the menu"
+msgstr "移除菜单中显示与隐藏相关菜单项"
+
+#: ../../source/user_guide/upgrade.md:37 8e0ce44b06364b6eac03dc34728f8de8
+msgid "Remove selection UI style menu item"
+msgstr "移除选择风格菜单项"
+
+#: ../../source/user_guide/upgrade.md:39 ../../source/user_guide/upgrade.md:61
+#: ../../source/user_guide/upgrade.md:84 ../../source/user_guide/upgrade.md:108
+#: ../../source/user_guide/upgrade.md:126
+#: ../../source/user_guide/upgrade.md:143
+#: ../../source/user_guide/upgrade.md:158
+#: ../../source/user_guide/upgrade.md:177
+#: ../../source/user_guide/upgrade.md:192
+#: ../../source/user_guide/upgrade.md:213
+#: ../../source/user_guide/upgrade.md:230 818ac2806d74496398ff17d5f96ac1a9
+msgid "Notes"
+msgstr "注意事项"
+
+#: ../../source/user_guide/upgrade.md:40 ../../source/user_guide/upgrade.md:62
+#: ../../source/user_guide/upgrade.md:85 ../../source/user_guide/upgrade.md:109
+#: ../../source/user_guide/upgrade.md:127
+#: ../../source/user_guide/upgrade.md:144
+#: ../../source/user_guide/upgrade.md:159
+#: ../../source/user_guide/upgrade.md:178
+#: ../../source/user_guide/upgrade.md:193
+#: ../../source/user_guide/upgrade.md:214
+#: ../../source/user_guide/upgrade.md:231 fd0d8f7ede2145f485caf8ee2714fc2f
+msgid "This is still a beta version and may contain many bugs."
+msgstr "此版本为测试版本，可能存在较多bug"
+
+#: ../../source/user_guide/upgrade.md:41 ../../source/user_guide/upgrade.md:63
+#: ../../source/user_guide/upgrade.md:86 ../../source/user_guide/upgrade.md:110
+#: ../../source/user_guide/upgrade.md:128
+#: ../../source/user_guide/upgrade.md:145
+#: ../../source/user_guide/upgrade.md:160
+#: ../../source/user_guide/upgrade.md:179
+#: ../../source/user_guide/upgrade.md:194
+#: ../../source/user_guide/upgrade.md:216
+#: ../../source/user_guide/upgrade.md:233 5275e07de4df4dd7a3bde46ae6b1da32
+msgid "Windows 7/10 (x64) or above"
+msgstr "Windows 7/10 (x64) 以上操作系统"
+
+#: ../../source/user_guide/upgrade.md:42 ../../source/user_guide/upgrade.md:64
+#: ../../source/user_guide/upgrade.md:87 ../../source/user_guide/upgrade.md:111
+#: ../../source/user_guide/upgrade.md:129
+#: ../../source/user_guide/upgrade.md:146
+#: ../../source/user_guide/upgrade.md:161
+#: ../../source/user_guide/upgrade.md:180
+#: ../../source/user_guide/upgrade.md:195
+#: ../../source/user_guide/upgrade.md:217
+#: ../../source/user_guide/upgrade.md:234 f62b4b400fd9465290872ea9cc7ceb9c
+msgid "OpenGL 2.1 or above"
+msgstr "OpenGL 2.1 以上"
+
+#: ../../source/user_guide/upgrade.md:44 ../../source/user_guide/upgrade.md:66
+#: ../../source/user_guide/upgrade.md:89 ../../source/user_guide/upgrade.md:113
+#: ../../source/user_guide/upgrade.md:131
+#: ../../source/user_guide/upgrade.md:148
+#: ../../source/user_guide/upgrade.md:163
+#: ../../source/user_guide/upgrade.md:182
+#: ../../source/user_guide/upgrade.md:197
+#: ../../source/user_guide/upgrade.md:219
+#: ../../source/user_guide/upgrade.md:236 dbfde8076c9c476d94d763f7b94ce30d
+msgid "Download link"
+msgstr "下载链接"
+
+#: ../../source/user_guide/upgrade.md:45 729bfb9a9cdd43fcbb1fc7bbddf29cf4
+msgid ""
+"[BiologicalImagingViewer-v1.1.1-beta-"
+"windows-x86_64.exe](http://71.131.244.138:22224/Image-1.1.1-beta/BiologicalImagingViewer-v1.1.1"
+"-beta-windows-x86_64.exe)"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:47 3eff624cf1714a1c8ad17303eb572feb
+msgid "Version 1.1.0-beta"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:49 baf71fa921d344f5a7faa7008be239a7
+msgid "Release Date : 2023/11/10"
+msgstr "发布日期 : 2023/11/10"
+
+#: ../../source/user_guide/upgrade.md:52 8e0ce44b06364b6eac03dc34728f8de8
 msgid "New some warnings when memory is insufficient in Stitcher module"
 msgstr "新增内存不足的警告在Stitcher模块中"
 
-#: ../../source/user_guide/upgrade.md:9 c8e7a12a2f0c4e68be1df48090210504
+#: ../../source/user_guide/upgrade.md:53 c8e7a12a2f0c4e68be1df48090210504
 msgid ""
 "The region of selecting fields area from adaptive size to fixed size in "
 "Stitcher module"
 msgstr "选择视野的界面从自适应大小修改为固定比例在Stitcher模块中"
 
-#: ../../source/user_guide/upgrade.md:10 31ff4e3453ac4591be2563dd13e05420
+#: ../../source/user_guide/upgrade.md:54 31ff4e3453ac4591be2563dd13e05420
 msgid "New a warning when texture size is insufficient in Volume module"
 msgstr "新增一个显卡纹理大小的警告在体绘制模块中"
 
-#: ../../source/user_guide/upgrade.md:12 ../../source/user_guide/upgrade.md:35
-#: ../../source/user_guide/upgrade.md:60 ../../source/user_guide/upgrade.md:79
-#: ../../source/user_guide/upgrade.md:129
-#: ../../source/user_guide/upgrade.md:165 40d409dc60f44586802a5372ca4e8fca
-msgid "Fix"
-msgstr "修复"
-
-#: ../../source/user_guide/upgrade.md:13 7117c7f11faf4e9f8ff1c7e681e829d8
+#: ../../source/user_guide/upgrade.md:57 7117c7f11faf4e9f8ff1c7e681e829d8
 msgid "Fix Z-axis quantity statistics error in Stitcher module"
 msgstr "修复Z轴数量统计错误在Stitcher模块中"
 
-#: ../../source/user_guide/upgrade.md:14 7bc7b4ef6837461faef262967c1a30b3
+#: ../../source/user_guide/upgrade.md:58 7bc7b4ef6837461faef262967c1a30b3
 msgid ""
 "Fix memory size calculation errors when user select different down sample"
 " in Stitcher module"
 msgstr "修复输出图像内存大小计算错误，当用户选择不同下采样时，在Stitcher模块中"
 
-#: ../../source/user_guide/upgrade.md:15 2e934df85d3b4bc2aa2ac2d397a3c6bd
+#: ../../source/user_guide/upgrade.md:59 2e934df85d3b4bc2aa2ac2d397a3c6bd
 msgid ""
 "Fix voxel size calculation error when user select different down sample "
 "in Stitcher module"
 msgstr "修复输出图像体素大小计算错误，当用户选择不同下采样时，在Stitcher模块中"
 
-#: ../../source/user_guide/upgrade.md:17 ../../source/user_guide/upgrade.md:40
-#: ../../source/user_guide/upgrade.md:64 ../../source/user_guide/upgrade.md:82
-#: ../../source/user_guide/upgrade.md:99 ../../source/user_guide/upgrade.md:114
-#: ../../source/user_guide/upgrade.md:133
-#: ../../source/user_guide/upgrade.md:148
-#: ../../source/user_guide/upgrade.md:169
-#: ../../source/user_guide/upgrade.md:186 818ac2806d74496398ff17d5f96ac1a9
-msgid "Notes"
-msgstr "注意事项"
-
-#: ../../source/user_guide/upgrade.md:18 ../../source/user_guide/upgrade.md:41
-#: ../../source/user_guide/upgrade.md:65 ../../source/user_guide/upgrade.md:83
-#: ../../source/user_guide/upgrade.md:100
-#: ../../source/user_guide/upgrade.md:115
-#: ../../source/user_guide/upgrade.md:134
-#: ../../source/user_guide/upgrade.md:149
-#: ../../source/user_guide/upgrade.md:170
-#: ../../source/user_guide/upgrade.md:187 fd0d8f7ede2145f485caf8ee2714fc2f
-msgid "This is still a beta version and may contain many bugs."
-msgstr "此版本为测试版本，可能存在较多bug"
-
-#: ../../source/user_guide/upgrade.md:19 ../../source/user_guide/upgrade.md:42
-#: ../../source/user_guide/upgrade.md:66 ../../source/user_guide/upgrade.md:84
-#: ../../source/user_guide/upgrade.md:101
-#: ../../source/user_guide/upgrade.md:116
-#: ../../source/user_guide/upgrade.md:135
-#: ../../source/user_guide/upgrade.md:150
-#: ../../source/user_guide/upgrade.md:172
-#: ../../source/user_guide/upgrade.md:189 47bb50ae925042b99f07ab7622216add
-#: 5275e07de4df4dd7a3bde46ae6b1da32
-msgid "Windows 7/10 (x64) or above"
-msgstr "Windows 7/10 (x64) 以上操作系统"
-
-#: ../../source/user_guide/upgrade.md:20 ../../source/user_guide/upgrade.md:43
-#: ../../source/user_guide/upgrade.md:67 ../../source/user_guide/upgrade.md:85
-#: ../../source/user_guide/upgrade.md:102
-#: ../../source/user_guide/upgrade.md:117
-#: ../../source/user_guide/upgrade.md:136
-#: ../../source/user_guide/upgrade.md:151
-#: ../../source/user_guide/upgrade.md:173
-#: ../../source/user_guide/upgrade.md:190 915fc1e992cb4df7a912558d4c551526
-#: f62b4b400fd9465290872ea9cc7ceb9c
-msgid "OpenGL 2.1 or above"
-msgstr "OpenGL 2.1 以上"
-
-#: ../../source/user_guide/upgrade.md:22 ../../source/user_guide/upgrade.md:45
-#: ../../source/user_guide/upgrade.md:69 ../../source/user_guide/upgrade.md:87
-#: ../../source/user_guide/upgrade.md:104
-#: ../../source/user_guide/upgrade.md:119
-#: ../../source/user_guide/upgrade.md:138
-#: ../../source/user_guide/upgrade.md:153
-#: ../../source/user_guide/upgrade.md:175
-#: ../../source/user_guide/upgrade.md:192 1c8eadd0e97a46929dfa181c6c7bab09
-#: dbfde8076c9c476d94d763f7b94ce30d
-msgid "Download link"
-msgstr "下载链接"
-
-#: ../../source/user_guide/upgrade.md:23 729bfb9a9cdd43fcbb1fc7bbddf29cf4
+#: ../../source/user_guide/upgrade.md:67 729bfb9a9cdd43fcbb1fc7bbddf29cf4
 msgid ""
 "[BiologicalImagingViewer-v1.1.0-beta-"
 "windows-x86_64.exe](http://71.131.244.138:22224/Image-1.1.0-beta/BiologicalImagingViewer-v1.1.0"
 "-beta-windows-x86_64.exe)"
 msgstr ""
 
-#: ../../source/user_guide/upgrade.md:25 3eff624cf1714a1c8ad17303eb572feb
+#: ../../source/user_guide/upgrade.md:69 3eff624cf1714a1c8ad17303eb572feb
 msgid "Version 1.0.9-beta"
 msgstr ""
 
-#: ../../source/user_guide/upgrade.md:27 baf71fa921d344f5a7faa7008be239a7
+#: ../../source/user_guide/upgrade.md:71 baf71fa921d344f5a7faa7008be239a7
 msgid "Release Date : 2023/11/2"
 msgstr "发布日期 : 2023/11/2"
 
-#: ../../source/user_guide/upgrade.md:30 fc0f29c7b9a041a2ba7df39259633a90
+#: ../../source/user_guide/upgrade.md:74 fc0f29c7b9a041a2ba7df39259633a90
 msgid "Focus on the position where the object is first displayed"
 msgstr "视角聚焦图像第一次显示的位置"
 
-#: ../../source/user_guide/upgrade.md:31 7527c79559f6444c8232d750104577db
+#: ../../source/user_guide/upgrade.md:75 7527c79559f6444c8232d750104577db
 msgid "New Z-axis range selection in Stitcher module"
 msgstr "Stitcher模块中的新增Z轴范围选择功能"
 
-#: ../../source/user_guide/upgrade.md:32 32b1df0a6da94457aee461e353888bdd
+#: ../../source/user_guide/upgrade.md:76 32b1df0a6da94457aee461e353888bdd
 msgid "Increase ETA time on progress bar"
 msgstr "状态栏新增预计耗时显示"
 
-#: ../../source/user_guide/upgrade.md:33 a2fb5f2b16fb44d9afd2560864a57d0c
+#: ../../source/user_guide/upgrade.md:77 a2fb5f2b16fb44d9afd2560864a57d0c
 msgid ""
 "Display expected memory usage and resolution information in Stitcher "
 "module"
 msgstr "Stitcher模块中的新增预计的分辨率和内存占用"
 
-#: ../../source/user_guide/upgrade.md:36 f973415523954760b6635a53240fd6bd
+#: ../../source/user_guide/upgrade.md:80 f973415523954760b6635a53240fd6bd
 msgid "Fix incorrect calculation of camera clipping range"
 msgstr "修复计算不正确的相机裁剪区域"
 
-#: ../../source/user_guide/upgrade.md:37 c7ffa94beab44e84936d00d251f8c10a
+#: ../../source/user_guide/upgrade.md:81 c7ffa94beab44e84936d00d251f8c10a
 msgid ""
 "Fix the error in displaying the output image after multiple executions of"
 " the algorithm"
 msgstr "修复多次执行算法后，输出图像的更新显示错误"
 
-#: ../../source/user_guide/upgrade.md:38 7117c7f11faf4e9f8ff1c7e681e829d8
+#: ../../source/user_guide/upgrade.md:82 7117c7f11faf4e9f8ff1c7e681e829d8
 msgid "Fix the image direction error in Stitcher module"
 msgstr "修复Stitcher模块输出图像的方向错误"
 
-#: ../../source/user_guide/upgrade.md:46 729bfb9a9cdd43fcbb1fc7bbddf29cf4
+#: ../../source/user_guide/upgrade.md:90 729bfb9a9cdd43fcbb1fc7bbddf29cf4
 msgid ""
 "[BiologicalImagingViewer-v1.0.9-beta-"
 "windows-x86_64.exe](http://71.131.244.138:22224/Image-1.0.9-beta/BiologicalImagingViewer-v1.0.9"
 "-beta-windows-x86_64.exe)"
 msgstr ""
 
-#: ../../source/user_guide/upgrade.md:48 becd34f0b1884afc83c26e5e1ba1019b
+#: ../../source/user_guide/upgrade.md:92 becd34f0b1884afc83c26e5e1ba1019b
 msgid "Version 1.0.8-beta"
 msgstr ""
 
-#: ../../source/user_guide/upgrade.md:50 ed1f1636e6ad4d0b97fc48a9cb9d5768
+#: ../../source/user_guide/upgrade.md:94 ed1f1636e6ad4d0b97fc48a9cb9d5768
 msgid "Release Date : 2023/10/25"
 msgstr "发布日期 : 2023/10/25"
 
-#: ../../source/user_guide/upgrade.md:53 8e0ce44b06364b6eac03dc34728f8de8
+#: ../../source/user_guide/upgrade.md:97 8e0ce44b06364b6eac03dc34728f8de8
 msgid "New field of view selection function in Stitcher module"
 msgstr "Stitcher模块中的新增视野选择功能"
 
-#: ../../source/user_guide/upgrade.md:54 702a02dd9bec4c8bb2fd9d2df3f5534c
+#: ../../source/user_guide/upgrade.md:98 702a02dd9bec4c8bb2fd9d2df3f5534c
 msgid "Add binding for colormap and channel in Stitcher module"
 msgstr "在Stitcher模块中添加颜色映射和通道的绑定"
 
-#: ../../source/user_guide/upgrade.md:55 8b0c19fc7e5c477f9bdce99a029003dc
+#: ../../source/user_guide/upgrade.md:99 8b0c19fc7e5c477f9bdce99a029003dc
 msgid "Add automatic contrast adjustment function"
 msgstr "增加自动对比度调节功能"
 
-#: ../../source/user_guide/upgrade.md:56 94b9e1eb4db447ac84d497cb93522e51
+#: ../../source/user_guide/upgrade.md:100 94b9e1eb4db447ac84d497cb93522e51
 msgid "Add automatic adjustment of node position after node creation"
 msgstr "新增节点位置的自动调整"
 
-#: ../../source/user_guide/upgrade.md:57 89a75d85b3044b07a05285421a1a2f5e
+#: ../../source/user_guide/upgrade.md:101 89a75d85b3044b07a05285421a1a2f5e
 msgid "Add a default display style for 2D/3D images in the preference interface"
 msgstr "为2D/3D图像添加默认显示模块"
 
-#: ../../source/user_guide/upgrade.md:58 32b7617119624c7b8bc3ac09ba385d3c
+#: ../../source/user_guide/upgrade.md:102 32b7617119624c7b8bc3ac09ba385d3c
 msgid "Supports multiple outputs in Stitcher module"
 msgstr "Stitcher模块支持多个输出结果"
 
-#: ../../source/user_guide/upgrade.md:61 393fec1ec2cb4972888c4d09b05f62cd
+#: ../../source/user_guide/upgrade.md:105 393fec1ec2cb4972888c4d09b05f62cd
 msgid "Fix memory leaks when nodes are deleted"
 msgstr "修复节点删除后未释放内存"
 
-#: ../../source/user_guide/upgrade.md:62 cfe760e73c0b4b8794a907608427f0f8
+#: ../../source/user_guide/upgrade.md:106 cfe760e73c0b4b8794a907608427f0f8
 msgid "Fix color and opacity error when colormap'scalar range changed"
 msgstr "修复颜色与不透明度错误，当调节伪彩映射范围时"
 
-#: ../../source/user_guide/upgrade.md:70 ce6293dc6c9b485e83adb6f0514bcfb4
+#: ../../source/user_guide/upgrade.md:114 ce6293dc6c9b485e83adb6f0514bcfb4
 msgid ""
 "[BiologicalImagingViewer-v1.0.8-beta-"
 "windows-x86_64.exe](http://71.131.244.138:22224/Image-1.0.8-beta/BiologicalImagingViewer-v1.0.8"
 "-beta-windows-x86_64.exe)"
 msgstr ""
 
-#: ../../source/user_guide/upgrade.md:72 61de615cc9484097bcd123e9b43ef12b
+#: ../../source/user_guide/upgrade.md:116 61de615cc9484097bcd123e9b43ef12b
 msgid "Version 1.0.7-beta"
 msgstr ""
 
-#: ../../source/user_guide/upgrade.md:74 e5c1cf516df6484c8585ba2297b71c83
+#: ../../source/user_guide/upgrade.md:118 e5c1cf516df6484c8585ba2297b71c83
 msgid "Release Date : 2023/9/21"
 msgstr "发布日期 : 2023/9/21"
 
-#: ../../source/user_guide/upgrade.md:77 fe7fac5a4f2b41d295bd430bf051464a
+#: ../../source/user_guide/upgrade.md:121 fe7fac5a4f2b41d295bd430bf051464a
 msgid "Optimize stitching performance"
 msgstr "优化Stitcher拼接性能"
 
-#: ../../source/user_guide/upgrade.md:80 c27ae56e0445419280a579f849285738
+#: ../../source/user_guide/upgrade.md:124 c27ae56e0445419280a579f849285738
 msgid "Fix output result errors in Stitcher Module/Plugin"
 msgstr "修复Stitcher模块输出结果错误"
 
-#: ../../source/user_guide/upgrade.md:88 8b4cab6caeab4dc68ea2e2e5a007cb09
+#: ../../source/user_guide/upgrade.md:132 8b4cab6caeab4dc68ea2e2e5a007cb09
 msgid ""
 "[BiologicalImagingViewer-v1.0.7-beta-"
 "windows-x86_64.exe](http://71.131.244.138:22224/Image-1.0.7-beta/BiologicalImagingViewer-v1.0.7"
 "-beta-windows-x86_64.exe)"
 msgstr ""
 
-#: ../../source/user_guide/upgrade.md:90 1eb02bb3e2c64ae2a4d21c226be040b1
+#: ../../source/user_guide/upgrade.md:134 1eb02bb3e2c64ae2a4d21c226be040b1
 msgid "Version 1.0.6-beta"
 msgstr ""
 
-#: ../../source/user_guide/upgrade.md:92 ec11bc4862de4bb6be265cb752a20e62
+#: ../../source/user_guide/upgrade.md:136 ec11bc4862de4bb6be265cb752a20e62
 msgid "Release Date : 2023/8/29"
 msgstr "发布日期 : 2023/8/29"
 
-#: ../../source/user_guide/upgrade.md:95 aca30b08f8854dd69daa2bb762d53e11
+#: ../../source/user_guide/upgrade.md:139 aca30b08f8854dd69daa2bb762d53e11
 msgid "Adjusting the Z-axis thickness in Stitcher Module/Plugin"
 msgstr "调整Z轴厚度在Stitcher模块/插件中"
 
-#: ../../source/user_guide/upgrade.md:96 c4b46af2c7af4db6afcdf1df191b880f
+#: ../../source/user_guide/upgrade.md:140 c4b46af2c7af4db6afcdf1df191b880f
 msgid "Add Python console"
 msgstr "添加Python控制台"
 
-#: ../../source/user_guide/upgrade.md:105 3168a9cefee34c6b92295379a042b16d
+#: ../../source/user_guide/upgrade.md:149 3168a9cefee34c6b92295379a042b16d
 msgid ""
 "[BiologicalImagingViewer-v1.0.6-beta-"
 "windows-x86_64.exe](http://71.131.244.138:22224/Image-1.0.6-beta/BiologicalImagingViewer-v1.0.6"
 "-beta-windows-x86_64.exe)"
 msgstr ""
 
-#: ../../source/user_guide/upgrade.md:107 0c1b78e9ad26431fbc3851c363ebe807
+#: ../../source/user_guide/upgrade.md:151 0c1b78e9ad26431fbc3851c363ebe807
 msgid "Version 1.0.5-beta"
 msgstr ""
 
-#: ../../source/user_guide/upgrade.md:109 4dc8db639dd648b7abd0d6abb4e1615a
+#: ../../source/user_guide/upgrade.md:153 4dc8db639dd648b7abd0d6abb4e1615a
 msgid "Release Date : 2023/8/14"
 msgstr "发布日期 : 2023/8/14"
 
-#: ../../source/user_guide/upgrade.md:112 9a2536337a5f434289a12e73caed6823
+#: ../../source/user_guide/upgrade.md:156 9a2536337a5f434289a12e73caed6823
 msgid "Update plugin Stitcher to version 1.0.2"
 msgstr "更新Stitcher插件至1.0.2版本"
 
-#: ../../source/user_guide/upgrade.md:120 7ea908d55cbc4939ae904aee783575ef
+#: ../../source/user_guide/upgrade.md:164 7ea908d55cbc4939ae904aee783575ef
 msgid ""
 "[BiologicalImagingViewer-v1.0.5-beta-"
 "windows-x86_64.exe](http://71.131.244.138:22224/Image-1.0.5-beta/BiologicalImagingViewer-v1.0.5"
 "-beta-windows-x86_64.exe)"
 msgstr ""
 
-#: ../../source/user_guide/upgrade.md:122 0a5f11d3e6714902b2ae1121a874a62f
+#: ../../source/user_guide/upgrade.md:166 0a5f11d3e6714902b2ae1121a874a62f
 msgid "Version 1.0.4-beta"
 msgstr ""
 
-#: ../../source/user_guide/upgrade.md:124 15c8bc1b2676446082c2f2c210c06a0d
+#: ../../source/user_guide/upgrade.md:168 15c8bc1b2676446082c2f2c210c06a0d
 msgid "Release Date : 2023/8/9"
 msgstr "发布日期 : 2023/8/9"
 
-#: ../../source/user_guide/upgrade.md:127 8347729144e5477491faa460ddc3340d
+#: ../../source/user_guide/upgrade.md:171 8347729144e5477491faa460ddc3340d
 msgid "Add Stitcher plugin"
 msgstr "新增Stitcher插件"
 
-#: ../../source/user_guide/upgrade.md:130 19a5afee14f8413597220c7dcdf3be90
+#: ../../source/user_guide/upgrade.md:174 19a5afee14f8413597220c7dcdf3be90
 msgid "Fix the default display mode that did not take effect"
 msgstr "修复默认显示模式设置无效问题"
 
-#: ../../source/user_guide/upgrade.md:131 14cae3b628844b489c6306f79d52010d
+#: ../../source/user_guide/upgrade.md:175 14cae3b628844b489c6306f79d52010d
 msgid "Fix file read error"
 msgstr "修复文件读取报错"
 
-#: ../../source/user_guide/upgrade.md:139 e1ffd6eb651d4c988f2134214ec341a8
+#: ../../source/user_guide/upgrade.md:183 e1ffd6eb651d4c988f2134214ec341a8
 msgid ""
 "[BiologicalImagingViewer-v1.0.4-beta-"
 "windows-x86_64.exe](http://71.131.244.138:22224/Image-1.0.4-beta/BiologicalImagingViewer-v1.0.4"
 "-beta-windows-x86_64.exe)"
 msgstr ""
 
-#: ../../source/user_guide/upgrade.md:141 30bfde15c9574a3e8f77ea338d3d36e5
+#: ../../source/user_guide/upgrade.md:185 30bfde15c9574a3e8f77ea338d3d36e5
 msgid "Version 1.0.3-beta"
 msgstr ""
 
-#: ../../source/user_guide/upgrade.md:143 d1fda741396b46e9bc0a5cb19de7f618
+#: ../../source/user_guide/upgrade.md:187 d1fda741396b46e9bc0a5cb19de7f618
 msgid "Release Date : 2023/7/28"
 msgstr "发布日期 : 2023/7/28"
 
-#: ../../source/user_guide/upgrade.md:146 2f94c94d13454da994ee80cd14164ecd
+#: ../../source/user_guide/upgrade.md:190 2f94c94d13454da994ee80cd14164ecd
 msgid "Default language follows operating system settings"
 msgstr "默认语言跟随操作系统语言设置"
 
-#: ../../source/user_guide/upgrade.md:154 7b20dedfe77a4f259a8fd0e92bfdcaeb
+#: ../../source/user_guide/upgrade.md:198 7b20dedfe77a4f259a8fd0e92bfdcaeb
 msgid ""
 "[BiologicalImagingViewer-v1.0.3-beta-"
 "windows-x86_64.exe](http://71.131.244.138:22224/Image-1.0.3-beta/BiologicalImagingViewer-v1.0.3"
 "-beta-windows-x86_64.exe)"
 msgstr ""
 
-#: ../../source/user_guide/upgrade.md:156 d75ce557d50e473bb5a504129fa83a71
+#: ../../source/user_guide/upgrade.md:200 d75ce557d50e473bb5a504129fa83a71
 msgid "Version 1.0.2-beta"
 msgstr ""
 
-#: ../../source/user_guide/upgrade.md:158 9356977fdc57445d916ec4bfd52ac982
+#: ../../source/user_guide/upgrade.md:202 9356977fdc57445d916ec4bfd52ac982
 msgid "Release Date : 2023/7/19"
 msgstr "发布日期 : 2023/7/19"
 
-#: ../../source/user_guide/upgrade.md:161 2f1a9fb9e3f241ce9b40f6cdbf4dce97
+#: ../../source/user_guide/upgrade.md:205 2f1a9fb9e3f241ce9b40f6cdbf4dce97
 msgid "The user manual supports Chinese and English"
 msgstr "用户手册支持中英文"
 
-#: ../../source/user_guide/upgrade.md:162 9c7187849206411c963b6af270dece8a
+#: ../../source/user_guide/upgrade.md:206 9c7187849206411c963b6af270dece8a
 msgid "Added system configuration window"
 msgstr "新增系统配置窗口"
 
-#: ../../source/user_guide/upgrade.md:163 1fec63cbcd794e5aab58bd3288dedcfa
+#: ../../source/user_guide/upgrade.md:207 1fec63cbcd794e5aab58bd3288dedcfa
 msgid "Added project save and restore function"
 msgstr "新增工程保存与恢复功能"
 
-#: ../../source/user_guide/upgrade.md:166 71f86e51995b479d9c8eed5782715e9d
+#: ../../source/user_guide/upgrade.md:210 71f86e51995b479d9c8eed5782715e9d
 msgid "Fix the problem that switching Chinese does not take effect"
 msgstr "修复切换中文无效问题"
 
-#: ../../source/user_guide/upgrade.md:167 d6f2f53288d24000b752215b6e69d411
+#: ../../source/user_guide/upgrade.md:211 d6f2f53288d24000b752215b6e69d411
 msgid "Fix thumbnail function is invalid in Volume"
 msgstr "修复三维体绘制中缩略图功能无效问题"
 
-#: ../../source/user_guide/upgrade.md:171
-#: ../../source/user_guide/upgrade.md:188 0b77fed521e343dfb14d7c388d4311dc
+#: ../../source/user_guide/upgrade.md:215
+#: ../../source/user_guide/upgrade.md:232 0b77fed521e343dfb14d7c388d4311dc
 msgid "License needs to be re-applied and activated"
 msgstr "许可证需要重新申请和激活"
 
-#: ../../source/user_guide/upgrade.md:176 6e8e217f05d24f27bc4bd28baa13e10d
+#: ../../source/user_guide/upgrade.md:220 6e8e217f05d24f27bc4bd28baa13e10d
 msgid ""
 "[BiologicalImagingViewer-v1.0.2-beta-"
 "windows-x86_64.exe](http://71.131.244.138:22224/Image-1.0.2-beta/BiologicalImagingViewer-v1.0.2"
 "-beta-windows-x86_64.exe)"
 msgstr ""
 
-#: ../../source/user_guide/upgrade.md:178 c37bd607bb6141a8a9985f29d29f1237
+#: ../../source/user_guide/upgrade.md:222 c37bd607bb6141a8a9985f29d29f1237
 msgid "Version 1.0.1-beta"
 msgstr ""
 
-#: ../../source/user_guide/upgrade.md:180 683c614695ab4693ad1b5a5fe3929c3a
+#: ../../source/user_guide/upgrade.md:224 683c614695ab4693ad1b5a5fe3929c3a
 msgid "Release Date : 2023/6/28"
 msgstr "发布日期 : 2023/6/28"
 
-#: ../../source/user_guide/upgrade.md:183 a011d9dd54c944c6b7556ac17f1b21f2
+#: ../../source/user_guide/upgrade.md:227 a011d9dd54c944c6b7556ac17f1b21f2
 msgid "New plugin system"
 msgstr "新增插件系统"
 
-#: ../../source/user_guide/upgrade.md:184 01dbc42485ee498d99ba045f6c4a4db3
+#: ../../source/user_guide/upgrade.md:228 01dbc42485ee498d99ba045f6c4a4db3
 msgid "Added viewing angle connection function"
 msgstr "新增视角连接功能"
 
-#: ../../source/user_guide/upgrade.md:193 acc934a7bc824a26b7e1a5a0d01d3ae4
+#: ../../source/user_guide/upgrade.md:237 acc934a7bc824a26b7e1a5a0d01d3ae4
 msgid ""
 "[BiologicalImagingViewer-v1.0.1-beta-"
 "windows-x86_64.exe](http://71.131.244.138:22224/Image-1.0.1-beta/BiologicalImagingViewer-v1.0.1"
 "-beta-windows-x86_64.exe)"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:239 6c2248eb4f1e4d28a9aa9798e987f2d2
+msgid "Previous"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:241 30bfde15c9574a3e8f77ea338d3d36e5
+msgid "Version 0.2.3"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:242 6cecb9fc37904b6694fce95d87d608af
+msgid "发布日期：2023/4/14"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:244
+#: ../../source/user_guide/upgrade.md:259
+#: ../../source/user_guide/upgrade.md:293
+#: ../../source/user_guide/upgrade.md:302
+#: ../../source/user_guide/upgrade.md:316
+#: ../../source/user_guide/upgrade.md:342
+#: ../../source/user_guide/upgrade.md:359
+#: ../../source/user_guide/upgrade.md:383
+#: ../../source/user_guide/upgrade.md:406
+#: ../../source/user_guide/upgrade.md:418
+#: ../../source/user_guide/upgrade.md:440
+#: ../../source/user_guide/upgrade.md:456
+#: ../../source/user_guide/upgrade.md:476
+#: ../../source/user_guide/upgrade.md:503
+#: ../../source/user_guide/upgrade.md:518
+#: ../../source/user_guide/upgrade.md:534
+#: ../../source/user_guide/upgrade.md:554
+#: ../../source/user_guide/upgrade.md:585
+#: ../../source/user_guide/upgrade.md:609
+#: ../../source/user_guide/upgrade.md:633
+#: ../../source/user_guide/upgrade.md:650
+#: ../../source/user_guide/upgrade.md:666
+#: ../../source/user_guide/upgrade.md:689 084d94d55d514d5892649a15167e84ef
+#: 0e39c726666f43cf9b7451fe2e49c826 1b0c073b2bae4bdc83f07d3cf7b4d3c8
+#: 28cb3bf3ae064196b9f2ce7b44f627b5 29a8136963f74912a553ddf28f50ef80
+#: 2b6d63fb699d49d2bea13638c24b44f8 354080270f9548cc8a4c7d0f5e05ad12
+#: 3c3700065d5c499686ada6d117611d5b 55c373070bf2417683e025e25b56e148
+#: 6331cb4aa80c42aa81c89f4676969fd2 6aeed8396cff4d8ab0712f532346a2ee
+#: 7221a27a57ab4d679f738ee02472cc45 90434ff6245a4705b0d586d1c3513d42
+#: 98d6421e0c1e41548559df4fdf8a2e96 9dc7e1dad3b3438aa2e36bfc728fe0ef
+#: a25a66099cb84a1f99dafcc4908706df a9620f8f66ec4cf3aea30f35355b6622
+#: b24cf01d12e04e5ca10c457f4af8f816 ceb174d8870d4118abd787c474a25a6a
+#: cf53bc6c4b4e4a9499f3b00b9091d20a f27e4e0218c440d681b0d332e1e5452d
+#: f9f27bccf10b408ba6361cbb28fadb48 ff57809d8ca44b728f9a0123570202b0
+msgid "新增"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:245 40977a0ec2b04e3bb70d97065974151f
+msgid "软件重命名为BiologicalImagingViewer"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:246 688528c505e14637b95c54c3bfa94fe7
+msgid "保存图像支持保存至网络设备"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:247 2d59b153c0ea4d9db1b8e7fe1acf2550
+msgid "新增Grey风格的UI界面"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:249
+#: ../../source/user_guide/upgrade.md:273
+#: ../../source/user_guide/upgrade.md:296
+#: ../../source/user_guide/upgrade.md:307
+#: ../../source/user_guide/upgrade.md:325
+#: ../../source/user_guide/upgrade.md:345
+#: ../../source/user_guide/upgrade.md:367
+#: ../../source/user_guide/upgrade.md:394
+#: ../../source/user_guide/upgrade.md:428
+#: ../../source/user_guide/upgrade.md:461
+#: ../../source/user_guide/upgrade.md:485
+#: ../../source/user_guide/upgrade.md:506
+#: ../../source/user_guide/upgrade.md:522
+#: ../../source/user_guide/upgrade.md:543
+#: ../../source/user_guide/upgrade.md:566
+#: ../../source/user_guide/upgrade.md:594
+#: ../../source/user_guide/upgrade.md:617
+#: ../../source/user_guide/upgrade.md:658
+#: ../../source/user_guide/upgrade.md:681 20ca83eb914d48bd91c6087ac5924c2b
+#: 3960205de4994a56a07b7dff398b4d1f 3f3f37114cd14a5f94058c4b88fb5ee6
+#: 53bc2b51a7a9406e8d2cd35d0faa398f 5e111ca7f3b747b994b0eca09668e3c7
+#: 7757a6f32dca4908bd1cff6e4ec8ce7f 778730dd87d04ec9bb50c5a12ec4d124
+#: 79bc8de9696945388561c61f88cd11ce 7c4b60610e8a4875a25909823b0bf0a9
+#: 7f3b959e6d054b469fbe9e373c291f70 8e7df4f2b96d424fbed91b5df0c383fc
+#: a3d16bef6d924a14821ef039b54db7c2 acf119235fab4e5aa9886eb6a8667b24
+#: b9f45d301fca4f2a9264bd4630612a44 c04103cdaf86445382b9256cdbfd0f90
+#: d367df0c8c314b24be333690faf1745f dce6f6603d0c457e8aaf8b8c36b7b44b
+#: f6458ca1f4bc4e659cad399ef616d9bf fcf97650398240ba8330d7f023874118
+msgid "修复"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:250 09661dee9c0c403985e82c24b11d3006
+msgid "修复SliceViews导入工程报错问题"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:252
+#: ../../source/user_guide/upgrade.md:284
+#: ../../source/user_guide/upgrade.md:310
+#: ../../source/user_guide/upgrade.md:335
+#: ../../source/user_guide/upgrade.md:352
+#: ../../source/user_guide/upgrade.md:374
+#: ../../source/user_guide/upgrade.md:399
+#: ../../source/user_guide/upgrade.md:434
+#: ../../source/user_guide/upgrade.md:451
+#: ../../source/user_guide/upgrade.md:498
+#: ../../source/user_guide/upgrade.md:511
+#: ../../source/user_guide/upgrade.md:526
+#: ../../source/user_guide/upgrade.md:549
+#: ../../source/user_guide/upgrade.md:576
+#: ../../source/user_guide/upgrade.md:601
+#: ../../source/user_guide/upgrade.md:623
+#: ../../source/user_guide/upgrade.md:644
+#: ../../source/user_guide/upgrade.md:655
+#: ../../source/user_guide/upgrade.md:676 26b7749ac71e43d98a19117d10380363
+#: 285ba0d99da24de3a57e820b826844f8 35eeca9703114e2e9c0dfa3ce7e75118
+#: 3e6caea9b5d34a3aba70ec1a372c1dc3 5b5e4e4132d644999c27ad2867f871c7
+#: 644a7553cab841e9819ba2950ad2a47e 64fcf635eb49447d8c725776473a185d
+#: 6a75be5ae3844ce5ac64a07d3927f390 703112915ea842cfa5bf54e12c2cb1fa
+#: 707f413e5bb146e7b80564c9e5717c1b 7d6a04fd03974cd39559c310f278999d
+#: 92c76cb001a64a4e91d09a4c5989103d a5c5640c195c4829b1e9e795a1c65c51
+#: ae5b70085b654d16952a8e9a14b80352 afe704b164fd4e84b0e3c779442a3838
+#: b49320ed7a6c4d408ebddbd159062d47 be9cf14d2c0448968c20e7035f0b7f2d
+#: e83932194d674ef99439e9ad0c2e2f61 f25729b9defe4c0e99177379b4884124
+msgid "优化"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:253 d65c6d249db2495d94a9fdca83a9219c
+msgid "优化图像导入导出功能"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:254 cb9d681b39874edeabef0e10272de143
+msgid "优化主要界面的UI设计"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:256 d75ce557d50e473bb5a504129fa83a71
+msgid "Version 0.2.2"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:257 ba5a956d411a44a681309757c429f4ba
+msgid "发布日期：2023/3/17"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:260 9b49c1455b114759a9ee52fd301822e9
+msgid "新增3D距离测量工具"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:261 de9aec03d55b478f836dab9501e4044e
+msgid "截图功能新增DPI设置功能"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:262 5a457ecc1e434fb0bb25ccc886711ec4
+msgid "Slice显示方式，新增任意角度切片显示与厚度调节功能"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:263 14feb96e3c13461bbf89d8e2e7184b47
+msgid "新增图像Display移动指定窗口功能"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:264 a958f7fc778d4b8796a29dc02047d714
+msgid "Volume新增最大投影密度渲染"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:265 df19167a07d94909a0997100c33b4a71
+msgid "新增BoundingBox"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:266 40021c1d0ebc486587381230227372ea
+msgid "新增Slice和OthroSlice的Frame"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:267 6822870dd0c14ac0971f6d0f545bab28
+msgid "新增Scalebars"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:268 c9aab395e48a454ea6c91cc4c16b437e
+msgid "Transform新增辅助box"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:269 8209e0d97aa6451d97b8b2224113dadc
+msgid "裁剪功能新增原始坐标设置"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:270 9b3e2e6fea53480e99ca297176689f5a
+msgid "About新增开源库的许可声明"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:271 b4f184ecd98140879c45de05d5bc9800
+msgid "colormap新增自定义颜色功能"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:274 501ce2755ce64537b8c48724e485d4c3
+msgid "修复Project保存与导入功能异常问题"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:275 122d757efa3348898f272c5505409792
+msgid "修复相机Reset范围计算错误"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:276 a58f96bebd744ee69c3dfa2ce9cf8a5a
+msgid "修复光标不生效问题"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:277 a5df6c2336134e2eac39f52c67872129
+msgid "修复删除Object内存泄漏问题"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:278 eada94f8668f4516a54544445500fd2f
+msgid "修复OrthoSlice设置方向视角不切换问题"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:279 f4acc5f5daef44b3877520665fb566eb
+msgid "修复colormap设置无效scalar range"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:280 297412f263c64738a5117d5e6265bbad
+msgid "修复Upgrade翻译问题"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:281 703d6a966d844bc698a97b57cd1675cd
+msgid "修复缩略图内存泄漏问题"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:282 3370b58d8cfc420ea72035b29c68d723
+msgid "修复日志无法输出到文化问题"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:285 7ea86632b1544d1f9bd36bb2e9313ebe
+msgid "优化裁剪辅助box"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:286 447efb3f160649349c12bfe099c4f091
+msgid "优化SliceViews的性能与功能"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:287 078aafa321ac475cae92aa4deee3d9ee
+msgid "优化缩略图性能"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:290 d75ce557d50e473bb5a504129fa83a71
+msgid "Version 0.2.1"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:291 a47ffe29638b47c8bd7ac78317e82b7c
+msgid "发布日期：2023/2/3"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:294 cf20d969c3ae4803ac9ed90994d16f34
+msgid "新增Intel OSPRay CPU Volume Renderering"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:297 c03f7c510ecb4e3aa9072af1e788bb22
+msgid "修复Slice显示效果差异问题"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:299 3eff624cf1714a1c8ad17303eb572feb
+msgid "Version 0.2.0"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:300 ced58ce2cbc44104aa010588c7348530
+msgid "发布日期：2023/1/19"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:303 60ab653e6a584005984d817a04cc2125
+msgid "新增Grid Axis 支持刻度显示，颜色修改，文本编辑"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:304 f3831fe088d84040a94856ac7d71dd2f
+msgid "图像处理输出结果规则命名"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:305 f44ebde97f6c40528784ebb76a432898
+msgid "Volume新增缩略图+局部显示大容量图像"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:308 dba02993fb314563b1dbeae3bbcbdba3
+msgid "修复colormap加载histogram崩溃问题"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:311 e6eb0e1f7f3b469dad7585e844336d5c
+msgid "优化等值面提取可视化"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:313 3eff624cf1714a1c8ad17303eb572feb
+msgid "Version 0.1.9"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:314 fc91ad435e154bf7a9e89bc708ce33e0
+msgid "发布日期：2022/12/30"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:317 87d1d26364de4264bbc2fffa2b974461
+msgid "支持图像在不同视图窗口显示"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:318 6d0e5d38837e4015979eeff9852b6020
+msgid "新增图像融合，类型转换，通道提取功能"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:319 690c5c724a6d42d28cad46010504fc7a
+msgid "新增节点重命名功能，三种方式，双击，F2，菜单项rename object"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:320 c21df834d1884eeab453a94569ed494b
+msgid "新增节点复制、粘贴、拷贝功能"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:321 4bb3e95d04fb41eaa6aecd8b2966a774
+msgid "支持TIFF格式所有压缩方式"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:322 b8cf26c8037e4d81bb185420e6df2b02
+msgid "colormap editor新增直方图显示"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:323 40eed390f0ca426baa667636996adf57
+msgid "新增缩略图显示，图像属性页面"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:326 60c0f30b10fa4450ae7e6228c8e93835
+msgid "修复节点删除未被释放问题"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:327 541ee2377a544458a7e3838e5a68dab2
+msgid "修复scalar range值不一致问题"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:328 579c1166c9bf4fa08901b57e38a9a8f8
+msgid "修复下采样无效参数导致崩溃问题"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:329 b695e55f6acd4c9eaae4416e7aab0358
+msgid "修复Volume的显示属性控件使用异常问题"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:330 a5fa4e45b4dd4b7093d835b22efdfe82
+msgid "修复截图中文路径报错问题"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:331 0b45093363674d928848e8b070940cbf
+msgid "修复取消读取文件后对象内存未释放问题"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:332 6b45eb93d0824f5aa115c7d88d5807af
+msgid "修复最近文件/project乱序问题"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:333 6ab6bf7b6c0e4cce8ae1846bb8300739
+msgid "修复全选隐藏/显示功能"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:336 3064de80fb384aeaaa2725eca6d4add9
+msgid "优化安装包的安装/卸载"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:339 3eff624cf1714a1c8ad17303eb572feb
+msgid "Version 0.1.8"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:340 e040b1e99d4e44acbd7d595656c8b0ce
+msgid "发布日期：2022/11/4"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:343 530ea413801b4a29b3212fa9c54b7446
+msgid "新增colormap配置导入导出功能"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:346 6e3ee1ac0a6d4ad58c0d5127a712e43c
+msgid "修复截图功能失效的bug"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:347 98ddd5931aa64969ae73c13d34da8619
+msgid "修复单通道数据提取功能的bug"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:348 73cd320f1480428495e1ef4b659c319a
+msgid "修复图像处理内存泄漏问题"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:349 6360812149604967a17e1b052497bf53
+msgid "修复体绘制渲染100GB图像异常问题"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:350 948b7ca90c1f4d239d3dee7985bc9677
+msgid "修复license偶现失效问题"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:353 69d819a114314d5f90c0b1b109d2d7ec
+msgid "优化colormap editor"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:356 3eff624cf1714a1c8ad17303eb572feb
+msgid "Version 0.1.7"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:357 1617e19a2b744e34be4cb9d729310c17
+msgid "发布日期：2022/10/24"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:360 23c448cd1a53403c902a08188a19b9e5
+msgid "每种显示方式新增图像平移，旋转，缩放功能"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:361 5f193a8170694349b751b2e8cad04bee
+msgid "新增多选后显示与隐藏功能"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:362 931cf69ff2b6419e8874d4d8f28f6e08
+msgid "新增选取单通道或多通道读取图像文件"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:363 319610ea3ee8485ab67aeaf078c8a5f6
+msgid "新增多种体绘制渲染模式"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:364 bbfcbbb051ed4ec2992f8f5aa61f04e8
+msgid "新增文件拖拽功能"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:365 2587888c0489449fb22bb8d5fe504b6c
+msgid "新增和完善colormap editor功能及界面"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:368 9fc9d49a92674851851b9f75dbecb12e
+msgid "修复裁剪功能的辅助box相关bug"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:369 35765ee744c948ee85930f062aaccb82
+msgid "修复project打开报错问题"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:370 fc8557049d67412fb8dc98eca3fbc633
+msgid "修复全屏退出后焦点丢失问题"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:371 035f41d0219a4a1bad541437bb31aeea
+msgid "修复isosurface无法显示问题"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:372 adbbb9f10be445caaefe8c07cac5f8a3
+msgid "修复切换语言scalar range变化问题"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:375 777cc9ba59994609a6365dcb98476da6
+msgid "优化scalar range计算性能"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:376 b865425546d54677a0152516cd225f4f
+msgid "优化colormap模块"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:377 49157319ff3e4deebf4f8ebad4ce5fe8
+msgid "优化体绘制的性能"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:378 65c8d6844133423e8c174d7dd3847a2f
+msgid "优化scalar range调节功能"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:380 3eff624cf1714a1c8ad17303eb572feb
+msgid "Version 0.1.6"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:381 f81cce87abd14242a030328602640af4
+msgid "发布日期：2022/9/30"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:384 d551c830a8a3433ca08ec90d28975ff5
+msgid "新增colormap设置窗口"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:385 57de70ca02cc4c38a4eb7660d5a07eee
+msgid "统一每个显示方式的colormap调节功能"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:386 025134ded946488b951a56a5e9fcbf36
+msgid "新增背景色设置窗口及功能"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:387 f1067edb4a254402913d01ecebaf0084
+msgid "截图功能新增4种格式输出，自定义分辨率"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:388 f7a96494e30448648dbf581035513271
+msgid "等值面可视化增加colormap调节功能"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:389 bd9e363ea09e41faa04576d2dc45de38
+msgid "slice增加属性调节功能"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:390 652293c2eef842b2b0875b79030a9ca7
+msgid "sliceview显示方式增加colormap调节功能"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:391 625201b74eb64726b090be646e2c816a
+msgid "volume增加属性调节功能"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:395 7e38bf6e21724240bdd252901c9fb002
+msgid "修复等值面提取可视化无法显示问题"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:396 3301719770224ec69562935d31193e2b
+msgid "修复sliceviews的colormap功能"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:397 fe49f5a138bd4558a43302fec977d018
+msgid "修复volume的colormap功能"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:400 746eb962dc934137b9d5163fe1656adb
+msgid "进度条优化，进度更准确和详细"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:403 3eff624cf1714a1c8ad17303eb572feb
+msgid "Version 0.1.5"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:404 b4224a0a56a2475faaffe8126c45cbda
+msgid "发布日期：2022/9/19"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:407 06b6c5df8a3f45889e393fbd219921c4
+msgid "新增叠加显示功能"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:408 34f2121360d144628597be72995ab785
+msgid "新增图像平移，旋转，缩放功能"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:409 80c5fde06c7a437d8b8eb0b3fc638f2e
+msgid "新增修改图像voxel spacing和origin功能"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:410 db7b335c0da942489b536326d56d272e
+msgid "新增box来辅助裁剪功能"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:411 41f7f9bb486240568c8f1c5e88ef716f
+msgid "体绘制新增3d 坐标轴"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:412 c01b4ba5866848b8ad5f6fd5718ec9e7
+msgid "体绘制新增缩略图来进行区域提取并显示"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:413 47304653cd524ca7a2bcb2c3ed058945
+msgid "新增大容量图像下采样功能"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:416 3eff624cf1714a1c8ad17303eb572feb
+msgid "Version 0.1.4"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:417 a84ab41ec1a440da803518c46d0f1061
+msgid "发布日期：2022/8/31"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:419 7a390da7cfc34e66a1f705a419e9bf06
+msgid "新增配置界面，可配置volume rendering模式，以及是否进行自动下采样。"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:420 241b4fc5aad541e69d863f3e0ed0f66b
+msgid "新增等值面提取可视化，"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:421 3e92906b1fda4b4e93204f8793e09ed6
+msgid "新增正负XYZ三个方向视角切换功能"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:422 c7218df529d74cfba85901d8455a8b7e
+msgid "slice显示方式，新增3d Axes Grid显示"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:423 cf3ee9d2605847ff9ddf4e56686e62c3
+msgid "新增XYZ轴导航控件"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:424 0ef0d10522474b29a9e2f97e6c9f600a
+msgid "新增intel ospray体绘制渲染技术"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:425 ff8c369f60a5455ca6abdbf6f68c179c
+msgid "新增双向滑块，控制对比度和亮度调节"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:426 5695e2d5c6594221bf487ca90a21faf6
+msgid "新增物理尺寸的图像属性显示"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:429 8c172638767a4aab90f15ccc591761b8
+msgid "修复全屏显示问题"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:430 ba46d573225c4a5db0664921e5d84d28
+msgid "修复内存大小显示问题"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:431 5e6037e418ce48e3acca74185abaa736
+msgid "修复取消退出程序，仍然退出问题"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:432 03bcdf0e117248609baba623cdfb3e41
+msgid "修复高DPI支持问题"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:435 a1ec5e67ab1f4520a10f5db1e653b102
+msgid "优化初始的对比度亮度min/max范围"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:438 3eff624cf1714a1c8ad17303eb572feb
+msgid "Version 0.1.3"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:439 ca9a87264457494ab18efbeee66f7003
+msgid "发布日期：2022/8/10"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:441 5cc1cf55d2054c5ea733930cec51faf4
+msgid "使用Sphinx生成html帮助手册"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:442 ee29bf9b9e71484e903f5dcc66f416ab
+msgid "新增重采样图像处理算法"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:443 9d431a012b3c4efaa6c4a6ca9b1d0a89
+msgid "新增图像一些属性显示"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:444 afcf7091472648cfbbbdf2527b3a4a55
+msgid "新增图像voxel size/spacing属性修改功能"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:445 beae96b8e1d645acbe35cfe139e07cb5
+msgid "新增记忆dockwidget窗口位置功能"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:447 3f66c4b415d64d218d92510803dcf7d5
+msgid "改动"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:448 0dfb777a36304381b07aa19865f2d333
+msgid "使用直方图min和max代替window level/width"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:449 815719f4151648b284c4e99282ba6d95
+msgid "菜单help加载在线/离线html"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:452 f65c391c917b4926b718888be54c15e1
+msgid "优化体绘制性能"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:454 3eff624cf1714a1c8ad17303eb572feb
+msgid "Version 0.1.2"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:455 af19f4a44e314c23b8730883025705f3
+msgid "发布日期：2022/7/29"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:458 68d580e7e741455e817734e31b5a3488
+msgid "exe增加版本号信息"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:459 597773f10d944d629c18be56d5d5bdfc
+msgid "支持高DPI显示"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:463 417a4861ba4c430cbb2eca135f4bc003
+msgid "修复失去焦点的视图边框不刷新问题"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:464 392defd085b443c9b4d5a9165a02b5ad
+msgid "修复ITK拷贝VTK图像数据问题"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:465 0ceb0e7cef9641e3a92ddba2a0c52276
+msgid "修复slice框线未隐藏问题"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:466 62717398bdc747d0819d4a52f18a6d38
+msgid "修复脑血管算法未正常加载问题"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:467 eb300053432644149fcf913c4df000ad
+msgid "修复重复点击全屏闪烁问题"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:468 c942924deee54db484c1c9555714a2f4
+msgid "修复升级取消后，仍然进行升级问题"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:469 0c8d5da199b64b96b17c7a8c8c9f1223
+msgid "修复三视图slice views的切片范围错误问题"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:470 3c5e187218164830a23ac589fbbb312a
+msgid "修复最小化主窗口，部分子窗口隐藏问题"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:471 f7aa541ff98644dea7bc3c4c4733293e
+msgid "修复打开project未保存当前project问题"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:474 3eff624cf1714a1c8ad17303eb572feb
+msgid "Version 0.1.1"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:475 9f1e867af1f24ccba395f56bbdd0683b
+msgid "发布日期：2022/7/23"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:477 9e587cb0f5d445da99168d0054c4570a
+msgid "新增MRA脑血管形态特征分析算法界面及功能"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:478 93c7b9571c4d43eabcad70bf1fff8b14
+msgid "新增itk读取tiff图像格式"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:480
+#: ../../source/user_guide/upgrade.md:540
+#: ../../source/user_guide/upgrade.md:561 2e0b4198f79e4108a04b4ec03572dcd0
+#: 6041171911964671b8ea9e705bc1a2d9 9128f47f045b481dbcb2ef73d98079e0
+msgid "调整"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:481 8e04702935ce4ea58d49b193a8355ad3
+msgid "移除全屏子菜单状态"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:482 5af34b962917451da4989f4c39e0c323
+msgid "打开图像分为目录选择对话框和文件选择对话框"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:483 f7e5e86255b64ef3bfbdde7333866ec7
+msgid "python环境增加了一些依赖"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:486 44c09b464ae84599b6984922ba7641d4
+msgid "修复三视图隐藏失效问题"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:487 fff15d9ded3245bca13ee7684486f2ef
+msgid "修复树控件高亮显示错误问题"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:488 fda0d2ee81b64f92bec8a0303719a4e8
+msgid "修复深拷贝问题"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:489 b53f84f1167b4c5ba8244a7f585c4a0e
+msgid "修复多通道itk格式转vtk格式问题"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:490 a6feda5fed98415ab522eeb9b2194898
+msgid "修复分水岭算法问题"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:491 a9a435ee574142e4bf9a32bbc7bc5954
+msgid "修复裁剪相关问题"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:492 2a1982acf96f40e481291b604da39a26
+msgid "修复语言切换后界面内容消失问题"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:493 ae40917cc5214642b1c64d6d16ac9fe4
+msgid "修复状态栏状态不一致问题"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:494 118e49f8fa874f3d9e35e3cd6fcd98f7
+msgid "修复第2次升级请求无法启动安装包问题"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:495 ecd59dee32f94577b54f19badceb7a6e
+msgid "修复新建project不保存当前project问题"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:496 d76c2e5d37f6484c8c852131fe066af7
+msgid "修复视图全部全屏后，状态栏位置异常问题"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:499 6a83d5ab82894a2b94a446d045b48697
+msgid "license模块较大调整与优化"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:501 3eff624cf1714a1c8ad17303eb572feb
+msgid "Version 0.1.0"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:502 0e065f5d8d2c44b8ae135040d0094133
+msgid "发布日期：2022//15"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:504 f2c96d42d371464ab2b58e0ffde6b242
+msgid "新增录制AVI格式视频功能"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:507 ed208e5dad864245a1a7e49ba6f2fc13
+msgid "修复单视图还原后视角方向不正确bug"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:508 288a0b3923214335b1e42a82f2e98474
+msgid "修复无权限读写C盘导致程序退出bug"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:509 2b8fd0ae132e4781b15deb5f11979fbd
+msgid "修复切换语言后，界面信息丢失问题"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:512 522bc93eeef74558b3bfc379aca27161
+msgid "左下角tab页中的窗口动态创建和删除"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:513 06b0dbe9d32348eda7abbd7b8db6eefa
+msgid "python算法编译成动态库pyd文件"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:516 3eff624cf1714a1c8ad17303eb572feb
+msgid "Version 0.0.9"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:517 24254bbb7a9f49bb9d204cc138e07b4a
+msgid "发布日期：2022/7/8"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:519 5a0c4a2f50624a66bf309f38e3a7ebe4
+msgid "光片显微配准算法，支持多实例运行"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:520 09362fe57737497fb8d4a6e7a8c16cf9
+msgid "图像属性界面，增加体绘制下采样参数输入以及功能"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:523 e5bcca47777f4b959a673d1a69655afa
+msgid "修复Lisence相关bug"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:524 f59184741294450dbd385a0e96bdc4e7
+msgid "修复右键菜单翻译问题"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:527 2b0f2a9adb3b437f9236b47f0d09642a
+msgid "体绘制渲染流程优化"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:528 92edef81bdce4d268488ddf201d780c8
+msgid "优化Lisence激活流程"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:529 a5a1d3dd132e47a0afc645e1ca538987
+msgid "优化图像加载过程，直方图计算移至属性界面"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:530 5f1b932adb354e9ea2036d52a745ae68
+msgid "引导界面提前显示"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:532 becd34f0b1884afc83c26e5e1ba1019b
+msgid "Version 0.0.8"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:533 ef752a94d1884e079e1405d97c57c573
+msgid "发布日期：2022/7/1"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:535 53cd8035e59f4e8abeee6fcaec49f3c5
+msgid "属性页面新增直方图最小值最大值显示，通道数显示"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:536 c47239ae5ba94a218ea52924ce6f81b1
+msgid "加强license安全性"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:537 d0215f15820047789ca8ad2bfc4a6b13
+msgid "新增启动引导界面"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:538 b9cee12eddb74eed8e60f1b14ed1e713
+msgid "工具栏增加图标"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:541 fa4adde4298743afb8f5ebd2c19c56cd
+msgid "日志库变更为spdlog，移除easylogging日志库(原因是2年没人维护，多线程存在bug)"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:544 7a28a54732414b1ca9636489a4ac9ead
+msgid "修复小部分内存泄漏问题"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:545 6b7f462526e44040bb9f38faf46e9e83
+msgid "修复国际化翻译功能使用方式问题"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:546 e373889fac224dd7886abfa7bce6454c
+msgid "修复加载project文件顺序问题"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:547 e615f769b4b0456ea53d2b9c72c35022
+msgid "修复关闭程序计算CPU线程未销毁问题"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:550 a7ceea4b087f4975b22f4963518b99b0
+msgid "python算法使用多线程异步执行，同步等待结果"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:552 61de615cc9484097bcd123e9b43ef12b
+msgid "Version 0.0.7"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:553 01fcfef5f0094cfa9c4dbdc12946d409
+msgid "发布日期：2022/6/24"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:555 368ab2f830194f419d890684cba503d5
+msgid "新增删除全部Object功能"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:556 2c42fdedc5ae4ae2ae4e6dfb95f52f51
+msgid "新增像素点值显示"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:557 11296af3e3a748a189f154b6959d7942
+msgid "交互器增加对应的鼠标样式"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:558 ec74eb28fe8845129376d6624fd64590
+msgid "新增dmp文件，当程序崩溃后"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:562 0a96b0eff8ec46fdadd48699f400fa59
+msgid "交互器为选择时，才计算坐标和像素值，其他交互器不计算"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:563 54c35b9212834f99a7cc197f64fedaff
+msgid "多帧图像才允许三视图和体绘制子菜单"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:564 6366d14827824e5a93fce2d840629e1e
+msgid "体绘制只显示在左上角窗口，其他窗口不进行显示"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:567 0ebe2de2518b4c5e99e0792abc978217
+msgid "修复全屏后焦点转移问题"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:568 f201c51890c244f28abd9d6aab37a88c
+msgid "修复大部分内存泄漏问题"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:569 fd129d6e787a4490989c565753c4b66f
+msgid "修复三视图无法隐藏问题"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:570 bacbbf0a99124d92a71a7eaaa99200ef
+msgid "修复打开slice没有显示问题"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:571 19bd462608ef4b78aaf8cd190c9d2492
+msgid "修复KtImageData浅拷贝问题"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:572 3d125cb34216400fba99edcaecf2b1d4
+msgid "修复树控件和树数据结构删除功能问题"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:573 c49e26891bf24e9b83653c926db24d47
+msgid "修复部分页面中文翻译问题"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:574 2150c9796a654d448fab77434af104de
+msgid "修复安装包安装完成后强制重启问题"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:577 4be28f14183045b7bd27355f91f6728e
+msgid "优化单视图，三视图和体绘制的渲染流程"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:578 d6090f8d64f44640b9b547f61a2322fd
+msgid "优化单视图，三视图，体绘制的增删更新，切换逻辑"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:579 3dd0f51888294e52860f407cc0e300da
+msgid "优化单视图界面布局，框线逻辑"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:580 92ee6480c5e44034bc4077eb2972ea6e
+msgid "优化全屏显示"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:583 1eb02bb3e2c64ae2a4d21c226be040b1
+msgid "Version 0.0.6"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:584 318394497ace49ef9397b50e6b7bfad7
+msgid "发布日期：2022/6/20"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:586 3b7231a4396f43a9b1322b69dc0087b6
+msgid "新增光片显微配准python算法坐标调整实时显示"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:587 3d4f43a8b49043f285e99fd06766641e
+msgid "状态栏信息新增耗时显示"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:588 869bafeb100c4a72aa3731b2251a3c62
+msgid "新增图像显示与隐藏功能，三视图隐藏存在问题"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:589 f12ee906e11f4bd4aead743f7c8e300a
+msgid "新增license离线/在线激活功能"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:590 e4944814a20b4e5789eaf9bc02cbe46c
+msgid "新增指定屏幕进行全屏显示功能"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:591 dd3eb13135b0452a8bdf76798a91bd3e
+msgid "新增安装包下载功能"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:592 f9013529a26e45f1a1d7bc6b5a329645
+msgid "新增程序启动加载进度窗口"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:595 32e756d724c947a9b8f6264b32d2dfd9
+msgid "修复图像处理异常退出问题"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:596 83de15779aab48acbc28c3e9f5d35b8e
+msgid "修复project加载未知路径图像问题"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:597 64448cf4a8124da6abc29376b86333e6
+msgid "修复单视图切换方向后切片范围错误"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:598 8b8b93ce72b644449b46b9cce10b4aa6
+msgid "修复opengl版本太低导致崩溃问题"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:599 bc2ccaf65b3d48168f71eab44c9df2c1
+msgid "修复菜单中文翻译问题"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:602 5e09efba6ef44dc5a23f6134f3348af8
+msgid "优化体绘制切换的渲染流程"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:603 2f8c847b3a97452fa3185c11e36b49a6
+msgid "图像文件选择对话框优化"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:604 65c057e6853c48f7bf7c755e1b1ecb96
+msgid "单视图，移除窗位窗宽的范围限制"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:605 c8be09fea9214146beda569737344bea
+msgid "优化保存project功能"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:607 0c1b78e9ad26431fbc3851c363ebe807
+msgid "Version 0.0.5"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:608 cc1459b97034439abd0b5cfc3e29108d
+msgid "发布日期：2022/6/13"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:610 699e9b1d94dc43cd81d2eda316ad4e77
+msgid "新增单视图框线功能"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:611 4dbe3062c2234493a14bdbfa25458c11
+msgid "新增单视图，三视图，体绘制相关界面参数project保存与加载"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:612 a520f509cba8452f897dbaaeedf2de0d
+msgid "新建project，清空objects"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:613 c551543eec864b758182cd9254837fac
+msgid "新增光片显微配准python算法"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:614 d62787ec2a3b4229af9d5d29950ce350
+msgid "新增图像处理相关算法的进度展示与信息提示"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:615 4498cb789e9e4bbbb1fc75c8b5f3e60a
+msgid "新增中文/English支持"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:618 11a803c9ede14c1bb8142c955db8c026
+msgid "解决单视图colormap不显示问题"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:619 127b32a5e09644e3a2a23e84aa620652
+msgid "修复最近文件/project显示顺序问题"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:620 5db5bc911e6b43b69639125d482748aa
+msgid "修复三视图colomap不显示问题"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:621 b5a2396f2f024742ada1e7dd475f660d
+msgid "修复文件保存格式位深支持问题"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:624 83e2106248e243db8b4706f4f6c16bde
+msgid "重命名colormap相关json文件名"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:625 9bd20468087d427f8b4c952a346f0069
+msgid "删除三视图的colormap"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:626 9612a0f25aac445b827f458a8570561f
+msgid "删除单视图亮度对比度"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:627 a3f4e14e56fa4a758a4a578075705cd8
+msgid "优化project创建于保存功能"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:628 2983a90d5aae4b1a908464b34858ddc7
+#, python-format
+msgid "优化cpu资源显示，误差5%-10%"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:629 029a084f7c0e4661a8ff48039e6210cf
+msgid "去掉必须管理员权限执行，projson文件关联功能用inno写注册表实现"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:631 0a5f11d3e6714902b2ae1121a874a62f
+msgid "Version 0.0.4"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:632 7c27234d230241458bb9d5882c04e4dd
+msgid "发布日期：2022/6/2"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:634 3a5edbde40f94992b045c436bfec3f56
+msgid "新增用户手册界面及功能，内容待补充"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:635 2b18258660e0424583f1618852d42352
+msgid "新增Lisence界面及功能，功能待完善"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:636 80a08e0cc8f64547b3f374e3602948dc
+msgid "新增cpu和内存占用显示"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:637 ed5780055e684739b54466d42719c40f
+msgid "新增不同深度的图像导出，格式之间相互转换功能"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:638 25cffbf21c8f40f2aa545e502c107bb8
+msgid "新增退出程序时，可选保存project/图像数据的界面及功能"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:639 5a00d600a74b48f2bf88d7061786bf57
+msgid "新增以管理员权限运行功能"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:640 c181041f1dfd46c183459f6a8de0abbc
+msgid "新增标题显示"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:641 8b9647728e89414d8b6fc4ce34655849
+msgid "about对话框新增openssl和日志库版本号"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:645 9380f11a31584351a2646beb5ba90f87
+msgid "优化图像读取功能"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:646 2547bf675dc145f8af18f41c9337b133
+msgid "优化图像导出功能，自动选择后缀"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:648 30bfde15c9574a3e8f77ea338d3d36e5
+msgid "Version 0.0.3"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:649 58f6908e746f4849821ec01e2b1db70b
+msgid "发布日期：2022/5/27"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:651 c9722cace08a4db2846cb1be3a0b308d
+msgid "新增dicom序列和单个导出功能，支持二维图片格式导出"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:652 d9d71924b7a04104bbf3fc3ebe13e66d
+msgid "新增tiff序列和单个文件导入功能"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:653 9c3d8c1378cb40f0a4fa60460296d178
+msgid "新增project加载与保存进度条和提示信息"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:656 7a4328642aad4e6da99c42d158ce8c8f
+msgid "优化打开/导出图像文件选择对话框"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:659 495f56751d464550b7518a517a52f08d
+msgid "修复Project加载报错bug"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:660 9e3f6a0551764fe79b94390a60df7dd1
+msgid "修复裁剪功能异常参数报错bug"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:661 f085a3753a2e4d2ca50c28b0fe081b8b
+msgid "修复三视图显示不一致bug"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:664 d75ce557d50e473bb5a504129fa83a71
+msgid "Version 0.0.2"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:665 8ef042788064493ba983df2400345d23
+msgid "发布日期：2022/5/20"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:667 9b9ca7e652da4812a77bd845724c2bb7
+msgid "新增菜单状态，工具栏状态，视图之间的联动，以及状态的保存与恢复。"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:668 478e18952cff4cfe86a3f2e81a8706d8
+msgid "新增进度条和信息提示接口，实现读取文件和裁剪的进度条展示。"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:669 b5ce83c42b564fa5aabe9f6a8ae9ebee
+msgid "新增提取骨架界面与功能"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:670 cb7f623bb1fa4c679256732243a13afb
+msgid "新增dicom批量读取和单个读取功能"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:671 ba30c7275a35487d87de2aa87e9a6dff
+msgid "新增About界面，实现版本信息展示"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:672 693dc8334ec94f64b53aca85faf5af40
+msgid "新增坐标显示功能"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:673 8962ca200c514ab592661e680d9924ec
+msgid "新增两种界面UI风格"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:674 89da7c7c5c8e4657a1f432a725382236
+msgid "新增界面风格，交互器，视图选择，窗口状态保存与恢复"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:677 0759f83fbb0748058fe48071c320a122
+msgid "优化和完善形态学操作功能"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:678 84407b59f742479ebdc564a0cd726a26
+msgid "优化cmake拷贝dll至debug和release目录"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:679 3cd9226adef84ed094b8b0598f0c5f3d
+msgid "优化交互器相关类"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:682 3d06cf5eecd34f068acfa3fe59b4a4da
+msgid "修复默认交互器不一致问题"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:683 fdc92ea10cf541a0993684cfebc8c175
+msgid "修复日志功能失效问题"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:684 13c1e51ebdf54093b25c6af0131ba8d6
+msgid "修复左右旋转报错问题"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:686 c37bd607bb6141a8a9985f29d29f1237
+msgid "Version 0.0.1"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:687 f339d3bb852840bc8f1cd39820c54a34
+msgid "发布日期：2022/5/13"
+msgstr ""
+
+#: ../../source/user_guide/upgrade.md:690 ca46acf44e2d4a8d81bcd96f0743c17b
+msgid "第一次发布"
 msgstr ""
 

@@ -1,5 +1,49 @@
 # Version Update Notes
 
+## Version 1.1.1-beta
+
+Release Date : 2024/1/9
+
+### New
+* New image file output function with colormap
+* The Stitcher module supports data export from Harmony 4.1, 4.9, 5.1, and 5.2
+
+### Fix
+* Fix the crash issue of the log module
+* Fix size error of box in Crop module
+* Fix crash issue with reading empty directories
+* Fix the issue of incorrect progress bar for saving image files
+* Fix saving sequence tif image file error
+* Fix crash issue caused by reading incorrect directory in Stitcher module
+* Fix crash issue caused by invalid Z-axis values in Stitcher module
+* Fix the issue where the thumbnail of the Volume module cannot be displayed
+* Fix crash issue with Volume module after disconnection
+* Fix the issue of incorrect decimal places in the measurement distance module
+* Fix warning pop up issue
+* Fix the issue of not being able to open the program by clicking on the project file
+* Fix display and functional issues caused by deleting the Stitcher node in the menu
+* Fix crash issue with click to install plugin
+* Fix crash issue with reading abnormal files
+* Fix duplicate save project issues
+* Fix false color mapping display issue caused by invalid values
+
+
+### Optimize
+* Optimize the framing view function in Stitcher module
+* Optimize the process of reading field coordinates in Stitcher module
+
+### Remove
+* Remove the display and hiding of items from the menu
+* Remove selection UI style menu item
+
+### Notes
+* This is still a beta version and may contain many bugs.
+* Windows 7/10 (x64) or above  
+* OpenGL 2.1 or above
+
+### Download link
+[BiologicalImagingViewer-v1.1.1-beta-windows-x86_64.exe](http://71.131.244.138:22224/Image-1.1.1-beta/BiologicalImagingViewer-v1.1.1-beta-windows-x86_64.exe)
+
 ## Version 1.1.0-beta
 
 Release Date : 2023/11/10
