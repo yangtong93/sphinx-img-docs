@@ -1,5 +1,39 @@
 # Version Update Notes
 
+## Version 1.1.2-beta
+
+Release Date : 2024/1/31
+
+### New
+* Display module added display and hiding
+* New unit settings and conversions for Scalebars, Distance Measure and GridAxis module
+* Add a warning prompt when the user enters an invalid scale range
+* Add undo, redo, copy, paste, delete, and select all in the editing menu
+
+### Fix
+* Fix the issue of exporting color files that do not support DCM format
+* Fix Scalebars module related issues
+* Fix occasional crashes when switching directories in Stitcher module
+* Fix a bug where data was not saved to the project file in Stitcher module
+* Fix click reset crash issue in colormap editor
+* Fix the issue of crop assist box disappearing
+* Fix the issue of ineffective cropping function
+
+
+### Optimize
+* Optimize the default display effect of GridAxis and GridAxis
+
+### Remove
+* Remove OSPRayVolume module
+
+### Notes
+* This is still a beta version and may contain many bugs.
+* Windows 7/10 (x64) or above  
+* OpenGL 2.1 or above
+
+### Download link
+[BiologicalImagingViewer-v1.1.2-beta-windows-x86_64.exe](http://71.131.244.138:22224/Image-1.1.2-beta/BiologicalImagingViewer-v1.1.2-beta-windows-x86_64.exe)
+
 ## Version 1.1.1-beta
 
 Release Date : 2024/1/9
