@@ -1,5 +1,33 @@
 # Version Update Notes
 
+## Version 1.1.3-beta
+
+Release Date : 2024/3/13
+
+### New
+* Automatically adjust the projectview field of view when a node is created
+
+### Fix
+* Fix the issue of inconsistent display units in Scalebars module
+* The repair project cannot be restored to its previous state
+* Fix the correspondence error between color mapping and channels in Stitcher module
+* Fix initial memory limit size error in Volume module
+* Fix up and down movement crash issue in animation module
+* Fix the issue of abnormal full screen functionality
+* Fix the abnormal function of the Crop module after disconnection and reconnection
+
+### Optimize
+* Optimize algorithms to reduce noise caused by fluorescence flat field correction
+* Optimize colonmap operations
+
+### Notes
+* This is still a beta version and may contain many bugs.
+* Windows 7/10 (x64) or above  
+* OpenGL 2.1 or above
+
+### Download link
+[BiologicalImagingViewer-v1.1.3-beta-windows-x86_64.exe](http://71.131.244.138:22224/Image-1.1.3-beta/BiologicalImagingViewer-v1.1.3-beta-windows-x86_64.exe)
+
 ## Version 1.1.2-beta
 
 Release Date : 2024/1/31
