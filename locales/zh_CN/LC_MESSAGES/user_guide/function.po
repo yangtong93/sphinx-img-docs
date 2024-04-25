@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Biological Imaging Viewer \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-02 15:19+0800\n"
+"POT-Creation-Date: 2024-04-25 16:47+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,347 +17,467 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.12.1\n"
 
-#: ../../source/user_guide/function.md:1 e527b8313b234741a34c27231a8e47cb
+#: ../../source/user_guide/function.md:1 21688ff2837246faab1d5058913f4ac9
 msgid "Features"
 msgstr "功能介绍"
 
-#: ../../source/user_guide/function.md:3 22945b70d8144678a5777c59f3cdfc3b
-msgid "Data"
-msgstr "数据"
+#: ../../source/user_guide/function.md:3 e6a3d7264cdd42dfaa8f724ea0f072b8
+msgid "Supported file formats"
+msgstr "支持的文件格式"
 
-#: ../../source/user_guide/function.md:5 7c63f14f1e55494c82d79d872df35c04
+#: ../../source/user_guide/function.md:5 0442386b0c504841807304030c78051e
 msgid "Input file format"
 msgstr "输入文件格式"
 
-#: ../../source/user_guide/function.md 6e8ab56fe491483f825306226d767325
-#: e23cf2fdd7f24ac18da3b2985ef6fbe5
+#: ../../source/user_guide/function.md f28d5a68fed944e5a673d547bf4d8b6b
+#: ff93d443256641fe92ba13483b937e65
 msgid "Name"
 msgstr "名称"
 
-#: ../../source/user_guide/function.md 314224128b3547ab8d6f19f12554fe28
-#: 9493e80bd67647b3ba6fc2507aa35a87
+#: ../../source/user_guide/function.md 4775cc22e8584362a983c057b960ff41
+#: a8dab6b946f8491d8db771d7fa8d0111
 msgid "Introduction"
 msgstr "简介"
 
-#: ../../source/user_guide/function.md c1f1d22be47443199d96026e32dd185f
-#: f013449e4b104fb294792b57361e8e1f
+#: ../../source/user_guide/function.md 2fed77853498464190a996fd8ae27309
+#: f10ddee1161a4fe68792f6b3c62d0693
 msgid "Suffix"
 msgstr "后缀"
 
-#: ../../source/user_guide/function.md 236e5bbbe7a8425bb0c6bcee32f33bdb
-#: 77788f84865d47fcb4a5edb1373440f5
+#: ../../source/user_guide/function.md 84a6df4891ad410fbff726eb42af1ed2
+#: aad3bcbf575f472489fc430535e676ae
 msgid "Support"
 msgstr "支持"
 
-#: ../../source/user_guide/function.md 3a1b96a9d3ee41818c6d4f2f859c2f4e
-#: 5123ddba01d04b88863bf2938b3a60c7
+#: ../../source/user_guide/function.md 85795d5459c74445a78d6b0f7659b60e
+#: eb954fdefbe14866978947e0cf6b8c3f
 msgid "PNG"
 msgstr ""
 
-#: ../../source/user_guide/function.md 4bcef0cb45b4435bb8697fe6a1d9c64a
-#: 713045e9115c45bdafddb6a9f377bb3e
+#: ../../source/user_guide/function.md 51d9358749384b2696adadc4ca218a0a
+#: 8961ef0d6373435db9abad1fceeb2bed
 msgid "PNG (Portable Network Graphics) is a lossless bitmap image file format"
 msgstr "PNG（Portable Network Graphics）是一种无损的位图图像文件格式。"
 
-#: ../../source/user_guide/function.md 6eb72c004f024071bce11346dfb19584
-#: 75686cfe8a5c498e9247195f4d2237ea
+#: ../../source/user_guide/function.md 1d71ba21b044466cbc7585b6efe9d857
+#: e7f44fba7c8541e0b28fc25a31315100
 msgid ".png"
 msgstr ""
 
-#: ../../source/user_guide/function.md 121a93b3fa934e3491dc7d50ee6c0833
-#: 1409617e0a0445e8892368a6b6934204 349497856d5a4c398b8f53280567c3cd
-#: 3acc691f24204e9f91e6bf82c1b7d19a 3f2084a9200b44f992b72bec77e2e751
-#: 631aa8ed93d046e4947c849e0742c084 6a762b569b4b48db9e5c0553d53ac64d
-#: 8b209e6300f7465d8d3737c15c636d62 a56a8895122c48de9276c71cc88dce7b
-#: b829d3bf7fdb44bdb6282a46602c62ac c9cdb21db1af4182933c621775c77293
-#: d9e2811bfa3e4f9a89ced06a876400aa
+#: ../../source/user_guide/function.md 0f1dd1eaf0e141d5b0ace94ba322340a
+#: 33ee9b4211e34e54b44b9559dc463e04 381a06d81ca14f91b4fff4a04f89eeb7
+#: 6deaa291344c4378bc8ac3a893953336 7e5c0ec2621b42dd9e4759a936448bb8
+#: 89193bbc215c46718c23744f56b14204 a1fbbd84e01a46edb32f6b0cee169f63
+#: a9b1da92e92b4f0e98663404129ffe7e ae8a0aa9d49b474a897078463a21b0ef
+#: b01f533c13244e9fb3aa29d5783baa85 c90cec20618448609dbb4ec2463fe20d
+#: d150769a2cd4467eabd5a2112fd10294
 msgid "[✓]"
 msgstr ""
 
-#: ../../source/user_guide/function.md 6ceff9b5082144408616447764f7781f
-#: e55c89a9a7f54b64b19ca2b3c09d60f2
+#: ../../source/user_guide/function.md 504b0bd7efac47d3ba7dac4c35d27206
+#: 6956fc00e7374769be9c54d48feefdd1
 msgid "JPG"
 msgstr ""
 
-#: ../../source/user_guide/function.md abbede231fe0498286a6a83a04ef982a
-#: f0fe3a8ca86243638afd78adc7e54cee
+#: ../../source/user_guide/function.md 58df5dac57d64d60a51ab07d31207ac9
+#: 713413845922441692f9e97d70699c40
 msgid ""
 "JPG (Joint Photographic Experts Group) is a common lossy compressed "
 "bitmap image file format"
 msgstr "JPG（Joint Photographic Experts Group）是一种常见的有损压缩位图图像文件格式。"
 
-#: ../../source/user_guide/function.md 8090942a9d474c40afbc85dc286f09bf
-#: 998f458b87484f97a3b36f718e2f603d
+#: ../../source/user_guide/function.md a7bd97bd8218474bb95a59b6ec1a7d2e
+#: f0dcc0bd097e48bea10c10df9c587313
 msgid ".jpg,.jpeg"
 msgstr ""
 
-#: ../../source/user_guide/function.md 054363fe78d8445184df69edecf96af6
-#: 4252f858440c40ddba06284a631e7e51
+#: ../../source/user_guide/function.md 32e9015e8712437ebe5a69d457cf46e9
+#: 7aa63f6142534c2e8484f343e5ec3b19
 msgid "BMP"
 msgstr ""
 
-#: ../../source/user_guide/function.md 41571918fc0b495c9fb0f438eaf2781d
-#: 4d1f5709397d4c14a904bc2b25b0f4a6
+#: ../../source/user_guide/function.md 564e81a1811841ee8f5ef95694b584f5
+#: b912e2d820164fdcaaceb0e9660ce0df
 msgid ""
 "BMP (Bitmap) is a lossless bitmap image file format. It was originally "
 "developed by Microsoft to store and display images in the Windows "
 "operating system."
 msgstr "BMP（Bitmap）是一种无损的位图图像文件格式。它最初由微软开发，用于在Windows操作系统中存储和显示图像。"
 
-#: ../../source/user_guide/function.md 0420b1d37a0849a9b939c8d9c1b6e1ca
-#: 5bd128c34ffd46788447cfc1c739bbb7
+#: ../../source/user_guide/function.md 31d092041c154190b7ddbe2504a5affc
+#: c872ebcacd924a6d9fa62bfffc347b73
 msgid ".bmp"
 msgstr ""
 
-#: ../../source/user_guide/function.md 47b78072d17e4be5aba143b86c624dc0
-#: 58fed73ac48f42deb5656d41b46367cf
+#: ../../source/user_guide/function.md 124b2522118b43dc95508b7407af7e76
+#: 58ce96a84a52421a94d66219a234b280
 msgid "TIFF"
 msgstr ""
 
-#: ../../source/user_guide/function.md 1426d979bf7047e190d31ca329db277b
-#: 38e6d177889b4127b3626517e13880b9
+#: ../../source/user_guide/function.md bcad0b72e3534392b1fa925fe3ba790d
+#: dd299b5eb0e94ac48c1b4cb95957f2d7
 msgid ""
 "TIFF (Tagged Image File Format) is a lossless bitmap image file format "
 "widely used to store and exchange high-quality image data."
 msgstr "TIFF（Tagged Image File Format）是一种无损的位图图像文件格式，广泛用于存储和交换高质量的图像数据。"
 
-#: ../../source/user_guide/function.md 0e54ed43ac2e47459b6701e2deaa198b
-#: 17322ada74f345009bf35cc0d3b14d7c
+#: ../../source/user_guide/function.md 68df40132927473e8afe4a6328d66255
+#: e639a7293cd54db6b7cde18c7381b1b4
 msgid ".tiff,.tif"
 msgstr ""
 
-#: ../../source/user_guide/function.md 7d5b7f05c59d427c92a64039678259ad
-#: 879a4ead7f9a415c9cd6b4b39e82ac66
+#: ../../source/user_guide/function.md 179033087bd34e82b04abf1809902075
+#: e991baddcb1141c89a1820782d2b695e
 msgid "DICOM"
 msgstr ""
 
-#: ../../source/user_guide/function.md 62a106ab172e46baaecd6ed1390899b0
-#: eca06f73e6d5465995dcdcfc1fa86a79
+#: ../../source/user_guide/function.md 7599cc2e049a41149c39a983c26574e5
+#: bbe58875ac5744c5b4ec66906d2b2984
 msgid ""
 "DICOM (Digital Imaging and Communications in Medicine) is a file format "
 "and communication protocol commonly used in the field of medical imaging."
 msgstr "DICOM（Digital Imaging and Communications in Medicine）是医学影像领域常用的文件格式和通信协议。"
 
-#: ../../source/user_guide/function.md 8f590e9db6d34a949df38fc46e41279a
-#: afc07c4be06f4f2fbf18405d8774ce77
+#: ../../source/user_guide/function.md 44490377e0d047fd90f723ae1a1f261c
+#: 840278e42ec94544b501de74c1003e2d
 msgid ".dcm,.dicom"
 msgstr ""
 
-#: ../../source/user_guide/function.md bb7d52e5eff445fa89937cacaa7a4f80
-#: e33751052bdb4188a0e31e8fa0a53feb
+#: ../../source/user_guide/function.md 1b3cec3a490d4423bc3c62d9f1d41364
+#: 4df5face23b841788ffcd139e3f760ff
 msgid "VTK Image Data"
 msgstr ""
 
-#: ../../source/user_guide/function.md 2a11f7d65f4c4ce2bedfcb86c4d29d9f
-#: 34ddee4aadea42b5b77220a63fb6884c
+#: ../../source/user_guide/function.md 9eaa909bb4ed45ad92bd0b3e749c639f
+#: e4c0436df99a4d898638b434d6bbd8fb
 msgid "is a common file format for storing 3D image data"
 msgstr "是一种常见的用于存储三维图像数据的文件格式"
 
-#: ../../source/user_guide/function.md 514bb02215b6483a8dcf79f6b284de0f
-#: 92392fbc191b4b2491b244deeb7b004e
+#: ../../source/user_guide/function.md 8dd3bf20cb294f6ab70daccd6c1481e6
+#: 9ab409c5e8774adb9332ae00d86d4de7
 msgid ".vti"
 msgstr ""
 
-#: ../../source/user_guide/function.md:17 884409cc790047c5a26766d1c923db39
+#: ../../source/user_guide/function.md:16 b957b139e1b846df8ec52b8ff1923d1b
+msgid "Import image files"
+msgstr "导图图像文件"
+
+#: ../../source/user_guide/function.md:17 30426a33e2b44663957620943c0a2237
+msgid "Under the file menu, click to open data."
+msgstr "文件菜单下，点击**打开数据**"
+
+#: ../../source/user_guide/function.md:18 f1bef62f93774941b6d16b8e26dbc085
+msgid ""
+"In the project view, right-click on the blank area menu and click to open"
+" data."
+msgstr "在工程视图中，右键空白区域，点击**打开数据**"
+
+#: ../../source/user_guide/function.md:19 e5b41929af5743dea0c5bc77711ab35e
+msgid "Drag and drop files to the project view area."
+msgstr "拖拽文件至工程视图"
+
+#: ../../source/user_guide/function.md:21 3e29025d0fed4c62b2e3ae2039e5c55e
 msgid "Output file format"
 msgstr "输出文件格式"
 
-#: ../../source/user_guide/function.md:28 84858573c0be4598a90759008079a3f2
+#: ../../source/user_guide/function.md:32 ce25d2ab6b2347cb931a6ec853038ba3
+msgid "Export image files"
+msgstr "导出图像文件"
+
+#: ../../source/user_guide/function.md:33 dc2c28e8124e49efbb2d212f5fbaca64
+msgid ""
+"Select the data nodes that need to be exported. Under the file menu, "
+"click to data save."
+msgstr "选择需要导出的图像数据节点，文件菜单下，选择**数据保存**"
+
+#: ../../source/user_guide/function.md:35 26ef9488e79744e38b95e0e02ee1e6d0
 msgid "Display"
 msgstr "可视化(Display)"
 
-#: ../../source/user_guide/function.md:30 e092885812c0449a9248192c488b0ec6
+#: ../../source/user_guide/function.md:37 05b3d286327b47faa539912f67f80b99
 msgid "OrthoSlice"
 msgstr "正交切片(OrthoSlice)"
 
-#: ../../source/user_guide/function.md:32 1a6314bf3c714f0cb185e3185d42f997
-msgid "Displays 2D slices of multiple orthogonal directions in a 3D dataset."
-msgstr "展示三维数据集中多个正交方向的二维切片。"
-
-#: ../../source/user_guide/function.md:34 8a2e2c693a2140e8ab657386bc9affeb
+#: ../../source/user_guide/function.md:39 fb400b99555145d1a7e0af0412039249
 msgid "![](../_static/images/function_orthoslice.png)"
 msgstr "![](../_static/images/zh_CN/function_orthoslice.png)"
 
-#: ../../source/user_guide/function.md:36 ac6ae04b50754774b595500652819663
+#: ../../source/user_guide/function.md:41 d4dee640db6349a189cd4a53e1f81873
+msgid ""
+"Introduction: Displays 2D slices of multiple orthogonal directions in a "
+"3D dataset."
+msgstr "简介：展示三维数据集中正交方向的二维切片。"
+
+#: ../../source/user_guide/function.md:43
+#: ../../source/user_guide/function.md:61
+#: ../../source/user_guide/function.md:81
+#: ../../source/user_guide/function.md:101
+#: ../../source/user_guide/function.md:122 325525576e2342eca0d4beec9e39648d
+#: 63b6cc0e58dc4400a908a6151636915d 787abceecfb74bdb809aa72939970703
+#: ca1731f7dba44d3da80a0499df954338 eb06c2f8073941c4b803738528e05919
+msgid "Operation steps:"
+msgstr "操作步骤："
+
+#: ../../source/user_guide/function.md:44
+#: ../../source/user_guide/function.md:62
+#: ../../source/user_guide/function.md:82
+#: ../../source/user_guide/function.md:102
+#: ../../source/user_guide/function.md:123 00d633cca40e46149996837b65461a5b
+#: 185603c896da4a578675104811ffe927 286c284f29084ef8b363e345b0c09d98
+#: c7cf289e45294acbb6e36dc4f7007442 f03b7bd6eb274e779a4af048c8b16dbf
+msgid "Right click on the node to pop up a menu"
+msgstr "在节点上右键，弹出菜单"
+
+#: ../../source/user_guide/function.md:45 bacebd399bdf4d51b60e99ec3772a669
+msgid "Select OrthoSlice"
+msgstr "选择OrthoSlice"
+
+#: ../../source/user_guide/function.md:47
+#: ../../source/user_guide/function.md:65
+#: ../../source/user_guide/function.md:85
+#: ../../source/user_guide/function.md:105
+#: ../../source/user_guide/function.md:126
+#: ../../source/user_guide/function.md:156 054bf725fb9645df8fd3067a93de53b3
+#: 0f7f87a261b6449d82125eba76b7f82d 725f186f481949739cc7bac36b26ee25
+#: 81cbebc580bb40488a75bac166c00451 c6533b282a4d409d80167a74cc0a06a3
+#: cfee41127a1d41e9ba658e363b443cb8
+msgid "Function Description:"
+msgstr "功能描述："
+
+#: ../../source/user_guide/function.md:48
+#: ../../source/user_guide/function.md:66 5de302d5c5c24005bb42a427bf76891a
+#: a84be0af292b4e7ab47e3140e26cd2ad
+msgid ""
+"Slice direction: Region 1 in the figure, change the direction of the "
+"slice."
+msgstr "切片方向：图中区域1，可以改变显示切片的方向"
+
+#: ../../source/user_guide/function.md:49
+#: ../../source/user_guide/function.md:67 4c21b9f8efe14941807d5054d9666d77
+#: 6955a188c3474e40b13dc4f16504daa7
+msgid "Slice number: Region 2 in the figure, change the position of the slice."
+msgstr "切片位置：图中区域2，可以改变显示切片的位置"
+
+#: ../../source/user_guide/function.md:50 4b98d189f9ac4fedab41ea894f9b7b36
+msgid ""
+"Color map: Region 3 in the figure. Left slider, increase background to "
+"the left and decrease background to the right.Right slider, increase "
+"brightness to the left and decrease brightness to the right. Dropdown "
+"menu allows you to choose colors with different styles."
+msgstr "颜色映射：图中区域3，左边滑块，向左可以增加背景，向右减少背景。右边滑块，向左可以增加亮度，向右可以减少亮度。下拉框可以选择不同风格的颜色。"
+
+#: ../../source/user_guide/function.md:51 36c493b46d854bb7a9394ab037a7d428
+msgid ""
+"Frame: Region 4 in the figure. Show and hide borders, adjust color and "
+"width."
+msgstr "边框：图中区域4，可以显示与隐藏边框，修改边框的颜色和宽度"
+
+#: ../../source/user_guide/function.md:52 5daa0ba6da00449eaa4855248502b680
+msgid ""
+"Properties: Region 5 in the figure. Adjustable interpolation method, "
+"opacity, ambient light, scattered light."
+msgstr "属性：图中区域5，可以修改插值方式，不透明度，环境光，散射光"
+
+#: ../../source/user_guide/function.md:53 f7c1433cc0094ee5b5d0689b4adaab56
+msgid ""
+"Transform: Region 6 in the figure. Perform spatial transformations on "
+"objects, such as translation, scaling, and rotation."
+msgstr "空间变换：图中区域6，可以对物体进行空间变换，例如平移，缩放，旋转。"
+
+#: ../../source/user_guide/function.md:55 567a9e48aa994466a27b9e3e0685ea1e
 msgid "Slice"
 msgstr "切片(Slice)"
 
-#: ../../source/user_guide/function.md:38 50a4591c095449c6a029de1b54b35a89
-msgid ""
-"Arbitrary angle slice display, slice display in 3D data at the angle and "
-"direction specified by the user, not limited to the orthogonal direction."
-msgstr "任意角度切片显示，在三维数据中以用户指定的角度和方向进行切片展示，而不仅限于正交方向。"
-
-#: ../../source/user_guide/function.md:40 01291a86e11345b2bd2360d524f80b78
-msgid ""
-"Thickness adjustment function, adjust the thickness of slices to control "
-"the range of data contained in each slice."
-msgstr "厚度调节功能，调整切片的厚度，以控制每个切片包含的数据范围。"
-
-#: ../../source/user_guide/function.md:42 1324db2d1ff84388870391a8f08ca4d0
+#: ../../source/user_guide/function.md:57 5949ee7e81f54c06a640bd82a1d57541
 msgid "![](../_static/images/function_slice.png)"
 msgstr "![](../_static/images/zh_CN/function_slice.png)"
 
-#: ../../source/user_guide/function.md:45 b44eaae5646a4f6dabdcc9e675d68766
+#: ../../source/user_guide/function.md:59 a7a2b460e63540159928fe85ce04fe1e
+msgid ""
+"Introduction: Arbitrary angle slice display, slice display in 3D data at "
+"the angle and direction specified by the user, not limited to the "
+"orthogonal direction."
+msgstr "简介：任意角度切片显示，在三维数据中以用户指定的角度和方向进行切片展示，而不仅限于正交方向。"
+
+#: ../../source/user_guide/function.md:63 68fc345453f247b2afd14a6f702fa7b0
+msgid "Select Slice"
+msgstr "选择Slice"
+
+#: ../../source/user_guide/function.md:68 cea2ef59fafa42459619c5cf801e7c2a
+msgid ""
+"Thickness: Region 3 in the figure. Thickness adjustment function, adjust "
+"the thickness of slices to control the range of data contained in each "
+"slice."
+msgstr "厚度调节功能：图中区域3，调整切片的厚度，以控制每个切片包含的数据范围。"
+
+#: ../../source/user_guide/function.md:69 56eea60028404728903ac1880598260a
+msgid ""
+"Color map: Region 4 in the figure. Left slider, increase background to "
+"the left and decrease background to the right.Right slider, increase "
+"brightness to the left and decrease brightness to the right. Dropdown "
+"menu allows you to choose colors with different styles."
+msgstr "颜色映射：图中区域4，左边滑块，向左可以增加背景，向右减少背景。右边滑块，向左可以增加亮度，向右可以减少亮度。下拉框可以选择不同风格的颜色。"
+
+#: ../../source/user_guide/function.md:70 33fd9c0db83e4e6ead8a21f183795fca
+msgid "Plane: Region 5 in the figure. The origin and normal position of the axis."
+msgstr "平面：图中区域5，轴的原点与法线位置。"
+
+#: ../../source/user_guide/function.md:71 82a560b92fd54f9d9b75f1bf3ee477d7
+msgid ""
+"Transform: Region 6 in the figure. Perform spatial transformations on "
+"objects, such as translation, scaling, and rotation"
+msgstr "空间变换：图中区域6，可以对物体进行空间变换，例如平移，缩放，旋转。"
+
+#: ../../source/user_guide/function.md:74 e31398c2d6b6434886189468488e5f23
 msgid "Volume"
 msgstr "体绘制(Volume)"
 
-#: ../../source/user_guide/function.md:47 5396c3e9c2bc4d72b370c5cee9c46b77
-msgid ""
-"Through volume rendering rendering technology, the three-dimensional data"
-" is converted into a visualized three-dimensional image to display the "
-"internal structure and surface shape."
-msgstr "通过体绘制渲染技术，将三维数据转化为可视化的立体图像，以显示内部结构和表面形状。"
-
-#: ../../source/user_guide/function.md:49 a0d89289d13142b8ab047177db24f601
+#: ../../source/user_guide/function.md:76 a286a0190bff41a1ac2935e98ad41f61
 msgid "![](../_static/images/function_volume.png)"
 msgstr "![](../_static/images/zh_CN/function_volume.png)"
 
-#: ../../source/user_guide/function.md:52 b904b10669af44e4902301faf68e3215
+#: ../../source/user_guide/function.md:78 044ad8d27da244d98559a8a555d98ecb
+msgid ""
+"Introduction: Through volume rendering rendering technology, the three-"
+"dimensional data is converted into a visualized three-dimensional image "
+"to display the internal structure and surface shape."
+msgstr "简介：通过体绘制渲染技术，将三维数据转化为可视化的立体图像，以显示内部结构和表面形状。"
+
+#: ../../source/user_guide/function.md:83 7ca616312a824ca3b4a18df200150d07
+msgid "Select Volume"
+msgstr "选择Volume"
+
+#: ../../source/user_guide/function.md:86 976851a467604e0883a54e39dc448239
+msgid ""
+"Blend mode: Region 1 in the figure. Choosing different blending modes "
+"will result in different rendering effects. Composite blending mode is a "
+"method of blending foreground and background images, which determines the"
+" final color presentation based on the alpha value (transparency) of each"
+" pixel.Maximum intensity mode is a hybrid method that takes the maximum "
+"value of each channel in the foreground and background pixel values. "
+"Minimum intensity mode is a hybrid method that takes the minimum value of"
+" each channel in the foreground and background pixel values. Average "
+"intensity mode is a hybrid method that averages the color values of "
+"foreground and background pixels.Additive intensity mode is a mixing "
+"method that adds foreground and background pixel values. Isosurface "
+"extraction drawing is a method of connecting voxels with the same "
+"numerical values in a three-dimensional dataset to display these surface "
+"structures."
+msgstr ""
+"混合模式：图中区域1，选择不同的混合模式，会产生不同的渲染效果。Composite混合模式，是一种将前景图像与背景图像进行混合的方式，该混合模式会根据各个像素的"
+" Alpha "
+"值（透明度）来确定最终呈现的颜色。最大密度投影模式，是一种将前景和背景像素值中的每个通道取最大值的混合方式。最小密度投影模式，是一种将前景和背景像素值中的每个通道取最小值的混合方式。平均密度投影模式，是一种将前景和背景像素的颜色值进行平均处理的混合方式。累积密度投影模式，是一种将前景和背景像素值相加的混合方式。等值面提取绘制，是一种将立体数据集中具有相同数值的体素连接起来，从而显示出这些表面结构。"
+
+#: ../../source/user_guide/function.md:87
+#: ../../source/user_guide/function.md:107
+#: ../../source/user_guide/function.md:128 0d814992d8df458788b33457042c0be7
+#: 588def87899444fe8fa4333cba88e285 ede5966438274834852ed29788997550
+msgid ""
+"Color map: Region 2 in the figure.Left slider, increase background to the"
+" left and decrease background to the right.Right slider, increase "
+"brightness to the left and decrease brightness to the right. Dropdown "
+"menu allows you to choose colors with different styles."
+msgstr "颜色映射：图中区域2，左边滑块，向左可以增加背景，向右减少背景。右边滑块，向左可以增加亮度，向右可以减少亮度。下拉框可以选择不同风格的颜色。"
+
+#: ../../source/user_guide/function.md:88
+#: ../../source/user_guide/function.md:129
+#: ../../source/user_guide/function.md:265 000b10226a9344c0be9ccb5a2cb38b54
+#: 1884962367af49879e478d1eb96968f6 46a6eb3b326a499195b092383ed5fbdc
+msgid ""
+"Down sample: Region 3 in the figure. Downsampling according to proportion"
+" reduces clarity while improving rendering speed."
+msgstr "下采样：图中区域3，按照比例进行下采样，降低清晰度的同时，带来了渲染速度的提升。"
+
+#: ../../source/user_guide/function.md:89 e88720d1eaed4c90a6374b77870d5de8
+msgid ""
+"Properties: Region 4 in the figure. Adjustable interpolation method, "
+"ambient, diffuse, specular, specular power."
+msgstr "属性：图中区域4，可以修改插值方式，环境光，散射光，镜面反射。"
+
+#: ../../source/user_guide/function.md:90 702a6053e57b47df930628b24429d96c
+msgid ""
+"Transform: Region 5 in the figure. Perform spatial transformations on "
+"objects, such as translation, scaling, and rotation"
+msgstr "空间变换：图中区域5，可以对物体进行空间变换，例如平移，缩放，旋转。"
+
+#: ../../source/user_guide/function.md:94 c2d48970b2f04d619f6f138fb85b9f2b
 msgid "SliceViews"
 msgstr "四视图(SlieViews)"
 
-#: ../../source/user_guide/function.md:54 f127868124a8436e9bf1f443f7eba927
-msgid ""
-"Simultaneously display four different perspectives or images. It provides"
-" a more comprehensive and convenient ability to observe and compare data "
-"in multiple views."
-msgstr "同时显示四个不同的视角或图像。它提供了更全面、更方便的多视图观察和比较数据的能力。"
-
-#: ../../source/user_guide/function.md:56 974d2fe1be6a4eceb767a836497165d3
-msgid ""
-"Multi-angle observation: The four-view function divides the screen into "
-"four independent windows, and each window can display different viewing "
-"angles. Users can observe different aspects or different parts of the "
-"data by selecting different views to obtain more comprehensive "
-"information."
-msgstr "多角度观察：四视图功能将屏幕分割成四个独立的窗口，每个窗口可以显示不同的视角。用户可以通过选择不同的视图来观察数据的不同方面或不同部分，以获得更全面的信息。"
-
-#: ../../source/user_guide/function.md:58 d5c41bffdc0943e5a095b32d5fd19f10
-msgid ""
-"Data comparison: In the four views, users can simultaneously display "
-"multiple related images or data sets for intuitive comparison and "
-"analysis. This is useful for comparing different processing results, time"
-" series data, or the effects of different parameter settings."
-msgstr "数据对比：在四视图中，用户可以同时显示多个相关的图像或数据集，以进行直观的对比和分析。这对于比较不同的处理结果、时间序列数据或不同参数设置下的影响非常有用。"
-
-#: ../../source/user_guide/function.md:60 8ba6167ac1144d14bdf94f8aafbaa1c5
-msgid ""
-"Synchronous operation: The four-view function usually supports "
-"synchronous operation, that is, the operation in one window will be "
-"automatically reflected in other windows. For example, zooming in, "
-"rotating, or labeling an image in one window will simultaneously affect "
-"images in other windows, thereby maintaining data consistency."
-msgstr "同步操作：四视图功能通常支持同步操作，即在一个窗口中的操作会自动反映到其他窗口中。例如，放大、旋转或标记一个窗口中的图像将同时影响其他窗口中的图像，从而保持数据的一致性。"
-
-#: ../../source/user_guide/function.md:62 19f00ef2ce40453182cf18833f8be4b4
-msgid ""
-"Interactivity: The four-view function allows users to interact between "
-"different windows, such as linkage zooming, translation and rotation "
-"operations. This gives users the flexibility to view different angles or "
-"layers of data for deeper insights."
-msgstr "交互性：四视图功能允许用户在不同的窗口之间进行交互，如联动缩放、平移和旋转操作。这使得用户可以灵活地查看不同角度或不同层次的数据，以获得更深入的了解。"
-
-#: ../../source/user_guide/function.md:64 aac1d4c8ee20495eb4a260981253bc37
+#: ../../source/user_guide/function.md:96 4c89693f4620474285b44414cb046ccc
 msgid "![](../_static/images/function_orthoviews.png)"
 msgstr "![](../_static/images/zh_CN/function_orthoviews.png)"
 
-#: ../../source/user_guide/function.md:66 56b42ea086954545bc98039ea5e9ab40
+#: ../../source/user_guide/function.md:98 769e7480389744dfbc2a81f79658e53c
+msgid "Introduction: Display slices in three directions with different windows."
+msgstr "简介：将三个方向的切片显示在不同的窗口。"
+
+#: ../../source/user_guide/function.md:103 c4719a5f2d9948beaeb54bb3926050be
+msgid "Select OrthoViews"
+msgstr "选择OrthoViews"
+
+#: ../../source/user_guide/function.md:106 8f0cefb0381b41afafd5e60db6b437f2
+msgid "Slice number: Region 1 in the figure, change the position of the slice."
+msgstr "切片位置：图中区域1，可以改变显示切片的位置"
+
+#: ../../source/user_guide/function.md:108 d4363dbe57ca481aba77d14590f43858
+msgid ""
+"Transform: Region 3 in the figure. Perform spatial transformations on "
+"objects, such as translation, scaling, and rotation"
+msgstr "空间变换：图中区域3，可以对物体进行空间变换，例如平移，缩放，旋转。"
+
+#: ../../source/user_guide/function.md:114 437f573c72894d88b087cb1bf55c6dec
 msgid "Isosurface"
 msgstr "等值面提取(Isosurface)"
 
-#: ../../source/user_guide/function.md:67 2b3db19125614489918a10ea30438cc6
-msgid ""
-"The isosurface extraction visualization function is a common function in "
-"image software, which is used to extract the surface corresponding to a "
-"specific value or attribute in a 3D data set and visualize it."
-msgstr "等值面提取可视化功能是一种在图像软件中常见的功能，用于将三维数据集中特定数值或属性所对应的表面提取出来，并进行可视化展示。"
-
-#: ../../source/user_guide/function.md:69 48ed097382f643009d73204986ca79cb
-msgid ""
-"Isosurface extraction: This function can extract the surface equal to the"
-" specified value or attribute from the three-dimensional data according "
-"to the threshold value or value range set by the user. This allows the "
-"user to focus on regions of interest or structures corresponding to "
-"specific values."
-msgstr "等值面提取：该功能可以根据用户设定的阈值或数值范围，从三维数据中提取出与指定数值或属性相等的表面。这使得用户可以专注于感兴趣的区域或特定数值所对应的结构。"
-
-#: ../../source/user_guide/function.md:71 cf624508fc5d4960b12b149c5a556d0f
-msgid ""
-"Surface visualization: The extracted isosurfaces can be visualized in "
-"various ways, such as coloring, transparency and texture to distinguish "
-"different surface regions. This helps to better observe and analyze the "
-"surface shape and features of the data."
-msgstr "表面可视化：提取的等值面可以以各种方式进行可视化呈现，例如通过着色、透明度和纹理等来区分不同的表面区域。这有助于更好地观察和分析数据的表面形状和特征。"
-
-#: ../../source/user_guide/function.md:73 45ef4e651cfc4bdc8e8be64ee68d205c
-msgid ""
-"Interactive operation: The isosurface extraction visualization function "
-"usually supports interactive operations, such as adjusting the threshold,"
-" smoothing the surface, selecting a specific area, etc. This enables the "
-"user to dynamically adjust the extracted isosurfaces as needed, with "
-"real-time feedback and comparison."
-msgstr "交互性操作：等值面提取可视化功能通常支持交互操作，如调整阈值、平滑表面、选择特定区域等。这使用户能够根据需要动态调整提取的等值面，并进行实时反馈和比较。"
-
-#: ../../source/user_guide/function.md:75 8d9aac2dfc05400db8de12f734bc08fa
-msgid ""
-"Multiple isosurfaces: In addition to extracting a single isosurface, this"
-" function can also extract multiple isosurfaces at the same time, so that"
-" users can observe and analyze surfaces corresponding to multiple values "
-"or attributes. This is useful for comparing structural changes across "
-"different value ranges or for multilevel data analysis."
-msgstr "多重等值面：除了提取单个等值面外，该功能还可以同时提取多个等值面，以便用户可以观察和分析多个数值或属性所对应的表面。这有助于比较不同数值范围下的结构变化或进行多层次的数据分析。"
-
-#: ../../source/user_guide/function.md:77 6488987dec98423fa17df613929abea1
-msgid ""
-"3D interaction: The isosurface extraction visualization function usually "
-"has 3D interactivity, allowing users to perform rotation, zoom and "
-"translation operations on the extracted surface to obtain a more "
-"comprehensive observation angle and in-depth analysis."
-msgstr "三维交互：等值面提取可视化功能通常具有三维交互性，允许用户在提取的表面上进行旋转、缩放和平移操作，以获得更全面的观察角度和深入的分析。"
-
-#: ../../source/user_guide/function.md:79 f75f5fb319b943b18aa9d7bee5af7053
-msgid ""
-"Provides an intuitive and flexible way to observe and analyze the surface"
-" structure corresponding to a specific value or attribute, thereby "
-"helping to reveal important information and features in the data."
-msgstr "提供了一种直观且灵活的方式来观察和分析特定数值或属性所对应的表面结构，从而帮助揭示数据中的重要信息和特征。"
-
-#: ../../source/user_guide/function.md:81 047b8ba10aea40469ec0485792569fe6
+#: ../../source/user_guide/function.md:116 03a56a9230474141af71838c6e23b75a
 msgid "![](../_static/images/function_isosurface.png)"
 msgstr "![](../_static/images/zh_CN/function_isosurface.png)"
 
-#: ../../source/user_guide/function.md:83 fe814cfc71b14e46bdee26264e7321b5
-msgid "OSPRayVolume"
-msgstr ""
-
-#: ../../source/user_guide/function.md:85 4387edf2b6ff4fb4a9ed210b5a28ae70
+#: ../../source/user_guide/function.md:119 afb337b2fb5b487a91412278bee67eb1
 msgid ""
-"OSPRay is a high-performance, scalable ray-traced rendering engine for "
-"scientific visualization and computer graphics. It was developed by Intel"
-" to provide high-quality rendering and great performance."
-msgstr "OSPRay是一种高性能、可扩展的光线追踪渲染引擎，用于科学可视化和计算机图形学。它由Intel开发，旨在提供高质量的渲染效果和出色的性能。"
+"Introduction: The isosurface extraction visualization function is a "
+"common function in image software, which is used to extract the surface "
+"corresponding to a specific value or attribute in a 3D data set and "
+"visualize it."
+msgstr "简介：等值面提取可视化功能是一种在图像软件中常见的功能，用于将三维数据集中特定数值或属性所对应的表面提取出来，并进行可视化展示。"
 
-#: ../../source/user_guide/function.md:87 a9461e183e9041ab99c2b844d7cf7818
-msgid "![](../_static/images/function_ospray.png)"
-msgstr "![](../_static/images/zh_CN/function_ospray.png)"
+#: ../../source/user_guide/function.md:124 b85847bbe3d1458fa63288bff9e6d663
+msgid "Select Isosurface"
+msgstr "选择Isosurface"
 
-#: ../../source/user_guide/function.md:89 2023d017388748668501592be176e029
+#: ../../source/user_guide/function.md:127 8f03a6051c5e4b4ba11ab542cf5b7b01
+msgid ""
+"Threshold: Region 1 in the figure, enter the threshold for contour "
+"extraction."
+msgstr "阈值：图中区域1，输入需要进行等值面提取的阈值"
+
+#: ../../source/user_guide/function.md:130 6c1f96b9e6544d1c8f1193dffc45e649
+msgid ""
+"Transform: Region 4 in the figure. Perform spatial transformations on "
+"objects, such as translation, scaling, and rotation"
+msgstr "空间变换：图中区域6，可以对物体进行空间变换，例如平移，缩放，旋转。"
+
+#: ../../source/user_guide/function.md:137 d005561ea8734fd2a8e979176187500c
 msgid "Colormap"
 msgstr "颜色映射"
 
-#: ../../source/user_guide/function.md:91 578c813441a040a48e925e1cfd9880e9
-msgid ""
-"Colormap is a technique for mapping data values to colors, often used in "
-"visualization. It represents the change and distribution of data by "
-"assigning different colors to different values."
-msgstr "颜色映射是一种将数据值映射到颜色的技术，常用于可视化中。它通过为不同数值赋予不同的颜色来表示数据的变化和分布情况。"
+#: ../../source/user_guide/function.md:139 d074a8f0e7c740008a9ee1f14f12dbf8
+msgid "![](../_static/images/function_colormap.png)"
+msgstr "![](../_static/images/zh_CN/function_colormap.png)"
 
-#: ../../source/user_guide/function.md:93 90ea5e20e6a34665ac8136c4e2f92d93
+#: ../../source/user_guide/function.md:141 78b3be33706f4209bf0f32c8991138f5
+msgid ""
+"Introduction: Colormap is a technique for mapping data values to colors, "
+"often used in visualization. It represents the change and distribution of"
+" data by assigning different colors to different values."
+msgstr "简介：颜色映射是一种将数据值映射到颜色的技术，常用于可视化中。它通过为不同数值赋予不同的颜色来表示数据的变化和分布情况。"
+
+#: ../../source/user_guide/function.md:143 abbcbc85445f4539816821e94968104c
 msgid "Here are some features and uses of the Colormap function:"
 msgstr "以下是颜色映射功能的一些特点和用途："
 
-#: ../../source/user_guide/function.md:95 036762cc3e5240f295cf44308edb53f1
+#: ../../source/user_guide/function.md:145 e0e71ade9dcb44b6a917c98d83196bdf
 msgid ""
 "Data presentation: Colormap can map the range of values to a continuous "
 "color band with various colors. This enables users to visually see the "
@@ -365,7 +485,7 @@ msgid ""
 "the data."
 msgstr "数据呈现：可以将数值范围映射到具有各种颜色的连续色带上。这使得用户能够直观地看到数据的变化趋势和分布，从而更好地理解数据。"
 
-#: ../../source/user_guide/function.md:97 3046a0c8e2d044cba4cc305442eae450
+#: ../../source/user_guide/function.md:147 15a81af27a854474ac86d1dd60adfd02
 msgid ""
 "Emphasize differences: Colormap can highlight differences and patterns in"
 " data. By using high-contrast color maps or special maps designed for "
@@ -373,7 +493,7 @@ msgid ""
 " in data."
 msgstr "强调差异：可以突出显示数据中的差异和模式。通过使用对比度较高的颜色映射或者针对特定数据类型设计的特殊映射，用户可以更准确地分辨数据的细微变化。"
 
-#: ../../source/user_guide/function.md:99 a697aed379774e7394397a332e303d3c
+#: ../../source/user_guide/function.md:149 53a27da6525c48e1afddb56a30fe727d
 msgid ""
 "Optionality and flexibility: Colormap provides a variety of predefined "
 "color mappings, such as rainbow, temperature, grayscale, etc., to meet "
@@ -382,7 +502,7 @@ msgid ""
 "the data."
 msgstr "可选性和灵活性：提供了多种预定义的颜色映射，如彩虹、温度、灰度等，以满足不同需求。此外，用户还可以自定义颜色映射，根据数据的特点和目标进行个性化设计。"
 
-#: ../../source/user_guide/function.md:101 ded6d4bf28994eb89cfdb6f724aca12c
+#: ../../source/user_guide/function.md:151 8e4311d7144d41de9a48fa18dda51a90
 msgid ""
 "Association with data: Colormap usually establishes a clear association "
 "with data values. Among them, low values can be represented by cool "
@@ -391,7 +511,7 @@ msgid ""
 "colors (such as gray)."
 msgstr "与数据关联：通常与数据值之间建立明确的关联。其中，低值可以使用冷色调（如蓝色）表示，高值可以使用暖色调（如红色）表示，中间值可以使用中性色调（如灰色）表示。"
 
-#: ../../source/user_guide/function.md:103 9408588bdaba45b984e17a17881c3000
+#: ../../source/user_guide/function.md:153 dd105bf1ca6243319994714ab2ae1818
 msgid ""
 "Color Interpretation: With Colormap, users can convert data values into "
 "easy-to-understand color codes. In this way, whether it is a chart or an "
@@ -399,37 +519,59 @@ msgid ""
 "users make correct inferences and decisions."
 msgstr "颜色解释：用户可以将数据值转化为易于理解的颜色编码。这样，无论是图表还是图像，都可以更直观地传达数据的含义，帮助用户做出正确的推断和决策。"
 
-#: ../../source/user_guide/function.md:106 f068697c6f734bffa9adbcd5246f887c
-msgid "![](../_static/images/function_colormap.png)"
-msgstr "![](../_static/images/zh_CN/function_colormap.png)"
+#: ../../source/user_guide/function.md:157 9ef6fd51728843bbad5fb8cd72bb6cde
+msgid ""
+"Scalar range: Region 1 in the figure. Control the numerical range of "
+"color mapping."
+msgstr "标量范围：图中区域1，控制颜色映射的数值范围。"
 
-#: ../../source/user_guide/function.md:109 309805bf05b943df8edfb64a13048cb0
+#: ../../source/user_guide/function.md:158 a25e1e04f1f94c08ba21adff31dc5efe
+msgid "Color map: Region 2 in the figure. Preset color mapping style."
+msgstr "颜色映射：图中区域2，预设的颜色映射风格。"
+
+#: ../../source/user_guide/function.md:159 dd0081755f7f484a890dd56d4ec89da8
+msgid "Histogram: Region 3 in the figure. Displaying or hiding histogram."
+msgstr "直方图：图中区域3，显示与隐藏直方图。"
+
+#: ../../source/user_guide/function.md:160 9bdd6fc53b594fb58dbd1d03c4caa0c7
+msgid ""
+"Opacity: Region 4 in the figure. Opacity adjustment area. Adjust opacity "
+"by dividing into different areas through multiple points."
+msgstr "不透明度：图中区域4，不透明度调节区域。通过过多个点，切分成不同区域进行调节不透明度。"
+
+#: ../../source/user_guide/function.md:161 f5c6c1c17ea94459af7e237882364aeb
+msgid ""
+"Color: Region 5 in the figure. Color adjustment area. Adjust the color by"
+" dividing it into different areas through multiple points."
+msgstr "颜色：图中区域5，颜色调节区域。通过过多个点，切分成不同区域进行调节颜色。"
+
+#: ../../source/user_guide/function.md:163 3099914d986c42768b9433e0411196a1
 msgid "Annotate"
 msgstr "标注(Annotate)"
 
-#: ../../source/user_guide/function.md:111 6b296ebdbd364b888cdb44f6d5512b39
+#: ../../source/user_guide/function.md:165 284fbbac5c5048f4954f761051ea16be
 msgid "MeasuringDistance"
 msgstr "测量距离"
 
-#: ../../source/user_guide/function.md:113 c3bbd0182008416989c15177831d3621
+#: ../../source/user_guide/function.md:167 9ff4a944851440138877cdd473b0107f
 msgid "Measure the linear distance between two points."
 msgstr "测量两个点之间的线性距离。"
 
-#: ../../source/user_guide/function.md:115 c73773e487d8493ab08d2a2435b1c932
+#: ../../source/user_guide/function.md:169 3677a02fd6ac451f874233095ab99f35
 msgid "![](../_static/images/function_distance.png)"
 msgstr "![](../_static/images/zh_CN/function_distance.png)"
 
-#: ../../source/user_guide/function.md:118 4d60c0d7d36c4748bde31202774de9fc
+#: ../../source/user_guide/function.md:172 abc33f459e50436e925c191d23b3a244
 msgid "GridAxis"
 msgstr "网格坐标轴(GridAxis)"
 
-#: ../../source/user_guide/function.md:120 2ec1280dcf134b1ca19b6604705c8e0b
+#: ../../source/user_guide/function.md:174 ebed2d8b3f854cce99d5b09e1fbc0c3f
 msgid ""
 "Provides a convenient and accurate way to represent the location and "
 "value range of a data point."
 msgstr "网格线和坐标轴，提供了一种方便和准确的方式来表示数据点的位置和数值范围。"
 
-#: ../../source/user_guide/function.md:122 2a5efc95cc3a48d2bed5b87bb9c95615
+#: ../../source/user_guide/function.md:176 59c6394e3e804e52aa36e7200d1c3db8
 msgid ""
 "Grid line generation: GridAxis can generate horizontal and vertical grid "
 "lines to divide the chart area into uniform small squares. These "
@@ -437,7 +579,7 @@ msgid ""
 "reference lines to gauge the size and distribution of data."
 msgstr "网格线生成：可以生成水平和垂直的网格线，将图表区域划分为均匀的小方格。这些网格线有助于用户在图表上定位数据点，并提供参考线以衡量数据的大小和分布。"
 
-#: ../../source/user_guide/function.md:124 8cbd0797dc1c4a70ba6bbe35dbe5c2de
+#: ../../source/user_guide/function.md:178 0a21360935ed432d899bf9f9d4a6ccd5
 msgid ""
 "Coordinate axis drawing: GridAxis can also draw coordinate axes and mark "
 "the numerical range of data. It automatically calculates ticks and labels"
@@ -446,7 +588,7 @@ msgid ""
 "understanding of the scale and variability of the data."
 msgstr "坐标轴绘制：还可以绘制坐标轴，标记数据的数值范围。它根据数据的最小值和最大值自动计算刻度和标签，并将其显示在合适的位置上。这使得用户能够更清楚地了解数据的尺度和变化。"
 
-#: ../../source/user_guide/function.md:126 6b4785f12f6c4d0983249169d0e6b80c
+#: ../../source/user_guide/function.md:180 236f034b00cd47b4bd05423c7688d511
 msgid ""
 "Customization options: GridAxis usually provides various customization "
 "options, such as scale interval, scale line style, label format, etc. "
@@ -455,15 +597,15 @@ msgid ""
 "data visualizations."
 msgstr "自定义选项：通常提供各种自定义选项，如刻度间隔、刻度线样式、标签格式等。这使得用户可以根据自己的需求和喜好来调整坐标轴的显示方式，并满足特定数据可视化的要求。"
 
-#: ../../source/user_guide/function.md:129 4ddc8f9ab2be4bb2bc19ae498af81787
+#: ../../source/user_guide/function.md:183 9ee1463089ce4a9e99e6163fa572c48b
 msgid "![](../_static/images/function_grid.png)"
 msgstr "![](../_static/images/zh_CN/function_grid.png)"
 
-#: ../../source/user_guide/function.md:132 434be3f822ab44988e411e204f69a653
+#: ../../source/user_guide/function.md:186 8113254057cf440eb74c8818eba96e9b
 msgid "Scalebars"
 msgstr "比例尺(Scalebars)"
 
-#: ../../source/user_guide/function.md:134 91b89279a69c4deb84d291a47fe57105
+#: ../../source/user_guide/function.md:188 42f1846e03334fe5b5eedce7d5e738cb
 msgid ""
 "Scalebars are used to display lengths and scales in the real world. It "
 "provides a convenient way to measure and represent distances on images or"
@@ -471,7 +613,7 @@ msgid ""
 "images."
 msgstr "Scalebars（比例尺）用于显示真实世界中的长度和尺度。它提供了一种方便的方式来测量和表示图像或地图上的距离，并帮助用户理解图像的尺寸和相对大小。"
 
-#: ../../source/user_guide/function.md:136 44ee9eff723c494b8291a880eafe68a1
+#: ../../source/user_guide/function.md:190 552380f7316946abadff27b512137cae
 msgid ""
 "Length measurement: Scalebars allows the user to select two points on an "
 "image or map and calculate and display a scale based on the distance "
@@ -479,7 +621,7 @@ msgid ""
 " in the real world and map them onto images or maps."
 msgstr "长度测量：允许用户在图像或地图上选择两个点，并根据这两点之间的距离来计算和显示比例尺。这使得用户可以准确地测量真实世界中的距离，并将其映射到图像或地图上。"
 
-#: ../../source/user_guide/function.md:138 577b76452ab347d29832f24b0a2fc93e
+#: ../../source/user_guide/function.md:192 5225084b8f10455a8ae54e3ef64de064
 msgid ""
 "Unit conversion: Scalebars usually provide unit conversion options, such "
 "as expressing the scale bar in millimeters, centimeters, inches or other "
@@ -487,7 +629,7 @@ msgid ""
 " distance unit according to their own needs, and convert between units."
 msgstr "单位转换：通常提供单位转换选项，例如将比例尺以毫米、厘米、英寸或其他用户所需的单位来表示。这样，用户可以根据自己的需要选择合适的距离单位，并进行单位之间的转换。"
 
-#: ../../source/user_guide/function.md:140 269c1d2c1fb24250835fc2b709ff54b3
+#: ../../source/user_guide/function.md:194 6917a6d8200c493881cea27ea2fdb1eb
 msgid ""
 "Marking and Annotation: The Scalebars feature also typically allows the "
 "user to mark and annotate relevant information on the scale bar. This "
@@ -495,34 +637,34 @@ msgid ""
 "of the scale and provide a richer description."
 msgstr "标记和注释：在比例尺上标记和注释相关信息。添加文本、箭头或其他符号来解释比例尺的含义，并提供更丰富的说明。"
 
-#: ../../source/user_guide/function.md:142 88bf480fdc3a4de5b20bc34f76f989d3
+#: ../../source/user_guide/function.md:196 227d2b52ea584247b20ce7d0a290e51e
 msgid "![](../_static/images/function_scalebars.png)"
 msgstr "![](../_static/images/zh_CN/function_scalebars.png)"
 
-#: ../../source/user_guide/function.md:146 72c1f5b22f3b4ce982c314d723fb37ff
+#: ../../source/user_guide/function.md:200 bed1375e567a45d3b3ca0a74d489b1b7
 msgid "BoundingBox"
 msgstr "边界框(BoundingBox)"
 
-#: ../../source/user_guide/function.md:147 a3449e3519064a1aa2e006de9e9ad0aa
+#: ../../source/user_guide/function.md:201 dc6dd68d88974eb2851948e65dcfe576
 msgid ""
 "BoundingBox is used to draw a box on the image, showing the boundary and "
 "appearance range of the object. It provides a simple and intuitive way to"
 " label the position, size and boundary information of objects."
 msgstr "BoundingBox（边界框）用于在图像上绘制一个框，显示物体的边界和外观范围。它提供了一种简单而直观的方式来标示物体的位置、大小和边界信息。"
 
-#: ../../source/user_guide/function.md:149 d89fcddde49b4898b7b1c201a73225e4
+#: ../../source/user_guide/function.md:203 3c3447905a9641d887d7f0d455dbad2e
 msgid "![](../_static/images/function_box.png)"
 msgstr "![](../_static/images/zh_CN/function_box.png)"
 
-#: ../../source/user_guide/function.md:152 d8a4aeb1ae9446cead0f7ed03566b9a9
+#: ../../source/user_guide/function.md:206 9dcea3889fa34a5482b3f52807fadad1
 msgid "Algorithm"
 msgstr "算法"
 
-#: ../../source/user_guide/function.md:154 a40b5a730e214187b18f64f10748fa67
+#: ../../source/user_guide/function.md:208 1a8e201b13c646b188724fb353318567
 msgid "Crop"
 msgstr "裁剪(Crop)"
 
-#: ../../source/user_guide/function.md:156 25c783e37dda4a379f9686995254511b
+#: ../../source/user_guide/function.md:210 d28fcf26de2c49b38b27771a3c3bf948
 msgid ""
 "The cropping function is a common method of region extraction, which is "
 "used to intercept or delete unnecessary parts to obtain the desired "
@@ -531,162 +673,203 @@ msgid ""
 "areas of interest."
 msgstr "裁剪功能是一种常见的区域提取手段，用于从截取或删除不需要的部分，以获得所需的视角或内容。它提供了一种简单而有效的方式来调整和改变图像的组成，并帮助用户集中注意力在感兴趣的区域上。"
 
-#: ../../source/user_guide/function.md:158 70d03a6f5348482fb08aa5a5991dcce8
+#: ../../source/user_guide/function.md:212 4efecc1d7d6140e29f34e2c283ef6460
 msgid "![](../_static/images/function_crop.png)"
 msgstr "![](../_static/images/zh_CN/function_crop.png)"
 
-#: ../../source/user_guide/function.md:161 48dc23895de348249794ed8ad868f217
+#: ../../source/user_guide/function.md:215 17a4b3f955fe4beb88cc655ac5714894
 msgid "Resample"
 msgstr "重采样(Resample)"
 
-#: ../../source/user_guide/function.md:163 614e8851b3a443008ec4f91c804e2acf
+#: ../../source/user_guide/function.md:217 27aadf2d87024f4b9e860fe0b4ff4b4a
 msgid ""
 "The resampling function can increase or decrease the resolution of an "
 "image. Resize images by recalculating pixel values and interpolating to "
 "meet specific requirements or application needs."
 msgstr "重采样功能可以增加或减少图像的分辨率。通过重新计算像素值和插值来调整图像的大小，以满足特定的要求或应用需求。"
 
-#: ../../source/user_guide/function.md:165 d8f8011714e540ffaa2fa2bf98aadeb6
+#: ../../source/user_guide/function.md:219 eaa272d3806b4bd5997624fbf532be0b
 msgid ""
 "For lower resolution images, the details of the image are reduced by "
 "pixel binning or downsampling."
 msgstr "较低分辨率的图像，通过像素合并或降采样的方法减少图像的细节。"
 
-#: ../../source/user_guide/function.md:167 8c7aa93c6e7546f1af50921fe0cb0b32
+#: ../../source/user_guide/function.md:221 73965af4bf6e495084e062f9e9252629
 msgid ""
 "For higher resolution images, extra pixels are added through an "
 "interpolation method to improve image detail."
 msgstr "较高分辨率的图像，通过插值方法添加额外的像素，从而提升图像细节。"
 
-#: ../../source/user_guide/function.md:169 ec9935a103b54c008de837aa290ab01b
+#: ../../source/user_guide/function.md:223 2b23994c304243318a486129f018ef5b
 msgid "![](../_static/images/function_resample.png)"
 msgstr "![](../_static/images/zh_CN/function_resample.png)"
 
-#: ../../source/user_guide/function.md:170 119aad971e524837b1fd3385563f06a2
+#: ../../source/user_guide/function.md:224 4aedb903884346509eef2b84e35fc388
 msgid "Stitcher"
 msgstr "显微图像配准(Stitcher)"
 
-#: ../../source/user_guide/function.md:172 0011f5904bdd4b9c989e5873c3d44e1e
+#: ../../source/user_guide/function.md:226 58ab3811ff2f49b8bb8dcc5405545251
+msgid "![图片](../_static/images/stitch.jpg)"
+msgstr "![图片](../_static/images/zh_CN/function_stitcher.png)"
+
+#: ../../source/user_guide/function.md:226
+#: ../../source/user_guide/function.md:293
+#: ../../source/user_guide/function.md:299
+#: ../../source/user_guide/function.md:318
+#: ../../source/user_guide/function.md:324
+#: ../../source/user_guide/function.md:337
+#: ../../source/user_guide/function.md:344
+#: ../../source/user_guide/function.md:356
+#: ../../source/user_guide/function.md:380
+#: ../../source/user_guide/function.md:389
+#: ../../source/user_guide/function.md:395 1460408999c844d7a592236e5aba2ad1
+#: 23e91db9c74a4f6fbcfe9a4ed7e8148f 34eef0845b764dda96300f604ad51b43
+#: 3a93eb6905f64dabb56cc0cdb9eb1830 5f36d97f78c9475695f61a2ed8ae3701
+#: 69c5ea23dea64728a5767a5478a7d054 aa53959041b5437396926ecee397b2c2
+#: b2e680226772429dbb41c9613f078d0c d5c6516e25a04dc7a6be85321e47b428
+#: db598e0887134c789a467d3f4cda3083 ee4947709fc74417a3245bbc0bc70b80
+msgid "图片"
+msgstr ""
+
+#: ../../source/user_guide/function.md:228 4b6b38ab869d48dda51f131644c4fb0f
 msgid ""
 "Stitcher is made for precise alignment and fusing of multiple microscopy "
 "image tiles into one 2D, 3D or 4D volume."
 msgstr "用于将多个显微镜图像块精确对齐并融合到一个2D、3D或4D体积中。"
 
-#: ../../source/user_guide/function.md:174 9feb3dab853740ac819d981b9a834e9e
+#: ../../source/user_guide/function.md:230 1d90038f2f1c4a608ff7be997df92b67
 msgid ""
 "Stitching tiles into one large image requires large image handling as "
 "well as alignment precision for a high quality result."
 msgstr "多视野拼接成一幅高质量对齐精度的大图像。"
 
-#: ../../source/user_guide/function.md:176 2f6bb5de1260415fb5d581b0b2e1c9a6
+#: ../../source/user_guide/function.md:232 fe0cc4593c04425ebadece955f60acad
 msgid ""
 "Stitcher's algorithm addresses the imperfections in microscope stage "
 "positioning including camera rotation relative to the stage to provide "
 "the best alignment results across the entire fused image."
 msgstr "Stitcher算法解决了显微镜载物台定位中的缺陷，包括相机相对于载物台的旋转，以在整个融合图像中提供最佳对准结果。"
 
-#: ../../source/user_guide/function.md:179 b8b7f04bae254bb3bab786741d61dbfb
+#: ../../source/user_guide/function.md:235 f19d1726287740328ff1505ddd3ee480
 msgid "Position Correction"
 msgstr "位置矫正"
 
-#: ../../source/user_guide/function.md:181 120f717ab5f24a02a02ef04cd631eba9
+#: ../../source/user_guide/function.md:237 4f15b7cfa2ca46f39fe8850e3334df24
 msgid "Alignment and stitching of 2D,3D or 4D overlapping image blocks."
 msgstr "二维、三维及更高维度的重叠图像的位置对齐与融合"
 
-#: ../../source/user_guide/function.md:183 9bb0d6f302254e99871c2cbecb90f77d
+#: ../../source/user_guide/function.md:239 a7fbf14b368542f4b409e32adb08002b
 msgid "Possible alignment and stitching of multiple tiles with many channels."
 msgstr "多个视野与多个通道的对齐和融合"
 
-#: ../../source/user_guide/function.md:185 485351c408634765b5afd50bdab88997
+#: ../../source/user_guide/function.md:241 30caa831b07b41948bcd6527255fee99
 msgid "Image Stitching"
 msgstr "图像拼接"
 
-#: ../../source/user_guide/function.md:187 63bcd9e61dce4d87a6b6c1a260615677
+#: ../../source/user_guide/function.md:243 dcdec1a28700431a9325b54171ccf163
 msgid "Supports input and output  images up to Terabytes in size."
 msgstr "支持TB级别的图像数据输入与输出"
 
-#: ../../source/user_guide/function.md:189 ba121c1e3b0c4a27b407f1376dd39bd3
+#: ../../source/user_guide/function.md:245 77af8582f054425e9dab9370e7898527
 msgid "Pseudo color mapping function enhances image visualization effect."
 msgstr "伪彩映射功能，增强图像可视化效果。"
 
-#: ../../source/user_guide/function.md:191 5a9a1d58cd2f4886a844e424dfc015fd
+#: ../../source/user_guide/function.md:247 15b4578d8fb84628b77ca09e9c828f3e
 msgid ""
 "Provide rich image fusion methods and eliminate stitching marks, making "
 "image visualization clearer and more natural."
 msgstr "提供丰富的图像融合方式，以及消除拼接痕迹，让图像可视化效果更清晰、更自然。"
 
-#: ../../source/user_guide/function.md:193 5659a4e71a40471594a6c98ffe19b47d
+#: ../../source/user_guide/function.md:249 81387f91ee2e4fc684c1d86c6665a36d
 msgid "Lens Shadow Correction"
 msgstr "镜头阴影校正"
 
-#: ../../source/user_guide/function.md:195 7aea15e7bf904bd59c3a61f757b47582
+#: ../../source/user_guide/function.md:251 8fdfe415216249f3b44e780805e23849
 msgid ""
 "Remove and repair image shadows generated by light sources, lenses, or "
 "other factors, enhance image details, colors, and contrast."
 msgstr "去除和修复由光源、镜头或其他因素产生的图像阴影，增强图像的细节、颜色和对比度。"
 
-#: ../../source/user_guide/function.md:197 ca6b9e74528f492fab917398ed8b5e77
+#: ../../source/user_guide/function.md:253 09c52f98372d4479a3fc9154ff575637
 msgid "Low signal-to-noise ratio image noise suppression"
 msgstr "低信噪比图像噪声抑制"
 
-#: ../../source/user_guide/function.md:199 64793d611e0149289f7bb83981211950
+#: ../../source/user_guide/function.md:255 fd847c134ee84e05ab5b00624fe1b285
 msgid ""
 "By applying multi-scale processing technology, images are decomposed and "
 "denoised in different frequency ranges, thereby better suppressing noise "
 "in low signal-to-noise ratio images."
 msgstr "通过应用多尺度处理技术，对不同频率范围内对图像进行分解和降噪，从而更好地抑制低信噪比图像中的噪声。"
 
-#: ../../source/user_guide/function.md:202 93ab8510b42e4d0592d9889b2c711aaf
-msgid "![图片](../_static/images/stitch.jpg)"
-msgstr "![图片](../_static/images/stitch.jpg)"
+#: ../../source/user_guide/function.md:257 eababd3389af4610a5abe9bb928b3641
+msgid "Operation steps"
+msgstr "操作步骤"
 
-#: ../../source/user_guide/function.md:202
-#: ../../source/user_guide/function.md:209
-#: ../../source/user_guide/function.md:228
-#: ../../source/user_guide/function.md:234
-#: ../../source/user_guide/function.md:253
-#: ../../source/user_guide/function.md:259
-#: ../../source/user_guide/function.md:272
-#: ../../source/user_guide/function.md:279
-#: ../../source/user_guide/function.md:291
-#: ../../source/user_guide/function.md:315
-#: ../../source/user_guide/function.md:324
-#: ../../source/user_guide/function.md:330 5875a05bad3949538fdf35761a3d376c
-msgid "图片"
-msgstr ""
+#: ../../source/user_guide/function.md:258 1ff77cddf18041d2b990eda5c4b81620
+msgid "Right click on the blank area to bring up a menu"
+msgstr "在节点上右键，弹出菜单"
 
-#: ../../source/user_guide/function.md:203 8e5b4e740083498aa03861955a737c33
-msgid "Vessel"
-msgstr "MRA脑血管分析与诊断(Vessel)"
+#: ../../source/user_guide/function.md:259 00437347717e4ef4b9aa9574a1c92b08
+msgid "Click to create a new object and a pop-up menu will appear"
+msgstr "点击新建对象，弹出菜单"
 
-#: ../../source/user_guide/function.md:205 0e4bc07eadfa4d8c8735fcae393ab7b6
+#: ../../source/user_guide/function.md:260 2f70449e17e441aab13b3ff720002801
+msgid "Select Stitcher"
+msgstr "选择Stitcher"
+
+#: ../../source/user_guide/function.md:262 ef4614711ef8465fae1f0cfc882c657b
+msgid "Function Description"
+msgstr "功能描述"
+
+#: ../../source/user_guide/function.md:263 8c168dddcc694fd2b549f8da4e23f5a9
 msgid ""
-"MRA cerebrovascular analysis and diagnosis is used to evaluate the health"
-" status of the cerebrovascular system and help diagnose and treat "
-"diseases related to cerebrovascular. These diseases include stroke, "
-"aneurysm, cerebrovascular stenosis, etc."
-msgstr "MRA脑血管分析与诊断，用于评估脑血管系统的健康状况，并帮助诊断和治疗与脑血管有关的疾病。这些疾病包括中风、动脉瘤、脑血管狭窄等。"
+"Directory: Region 1 in the figure. Select the data directory exported by "
+"Harmony."
+msgstr "目录：图中区域1，选择Harmony导出的数据目录"
 
-#: ../../source/user_guide/function.md:207 06b0b5eac7ba49c787e197e3670667e2
+#: ../../source/user_guide/function.md:264 82a2e0dd2b5a4ab29bc147f8cb537217
 msgid ""
-"By segmenting and straightening important blood vessels in the image, it "
-"analyzes and calculates the stenosis rate of each blood vessel, providing"
-" auxiliary reference for disease prevention and diagnosis."
-msgstr "通过对图像中重要的血管进行分割，拉直，分析计算出每根血管的狭窄率，为疾病预防与诊断提供辅助参考。"
+"Channel: Region 2 in the figure. Select the channels that need to be "
+"spliced."
+msgstr "通道：图中区域2，选择需要拼接的通道。"
 
-#: ../../source/user_guide/function.md:209 7ede298e5a7941919e338cd66de36ed2
-msgid "![图片](../_static/images/vessel.jpg)"
-msgstr "![图片](../_static/images/vessel.jpg)"
+#: ../../source/user_guide/function.md:266 92c7248a5c5c424e8634255c64ea3e49
+msgid ""
+"Time Point: Region 4 in the figure. Selecting data at different time "
+"points"
+msgstr "时间点：图中区域4，选择数据不同的时间点。"
 
-#: ../../source/user_guide/function.md:210 b8b7f04bae254bb3bab786741d61dbfb
+#: ../../source/user_guide/function.md:267 daa1b84ebfe040efa51ddf585cfe4d94
+msgid "Plate: Region 5 in the figure. All wells in a plate."
+msgstr "孔板：图中区域5，一个孔板中所有的孔洞。"
+
+#: ../../source/user_guide/function.md:268 3c289ddb33254d1d9fa655dbd0998dce
+msgid "Well: Region 6 in the figure. All fields in a well."
+msgstr "孔洞：图中区域6，一个孔洞内所有的视野。"
+
+#: ../../source/user_guide/function.md:269 9e5d72f4909a467b84ec677b44010db1
+msgid "Z stack: Region 7 in the figure. Select Z-stack range"
+msgstr "Z轴：图中区域7，选择Z轴范围"
+
+#: ../../source/user_guide/function.md:270 1b8cd38c623a400184f25d23101572dc
+msgid ""
+"Expectation: Region 8 in the figure. Expected image resolution and memory"
+" usage."
+msgstr "预期：图中区域8，预计输出图像的分辨率和内存大小"
+
+#: ../../source/user_guide/function.md:271 ddf354fd065a4210be519652a354c6f6
+msgid "Apply: Region 9 in the figure. Button for executing."
+msgstr "应用：图中区域9，执行拼接。"
+
+#: ../../source/user_guide/function.md:275 354c1252e785477a90b46c7b6fa05977
 msgid "Platform Function"
 msgstr "平台功能"
 
-#: ../../source/user_guide/function.md:212 ad06c142bee445578ca8d9101e58b12b
+#: ../../source/user_guide/function.md:277 01dd9cd79ae341258846dfacf1508dfa
 msgid "Project"
 msgstr "工程"
 
-#: ../../source/user_guide/function.md:214 684e8c749d5e48c2b44aca8ba6fab0f6
+#: ../../source/user_guide/function.md:279 4841f78781aa46c6918bb747d3971a5e
 msgid ""
 "Saving and restoration of project engineering, users can save the state, "
 "configuration and operation records of the entire image processing "
@@ -694,7 +877,7 @@ msgid ""
 " state when needed."
 msgstr "项目工程的保存与恢复，用户可以将整个图像处理项目的状态、配置和操作记录保存为一个项目文件，并在需要时重新打开该文件以恢复到之前的状态。"
 
-#: ../../source/user_guide/function.md:217 43711da4a6c94833823000d212361430
+#: ../../source/user_guide/function.md:282 74dd64383d2842098b73c84a2744449f
 msgid ""
 "Node-based operations, representing data or tasks as independent nodes, "
 "and building complex data flows or processing processes by connecting "
@@ -703,53 +886,53 @@ msgid ""
 "sequence."
 msgstr "节点式操作，将数据或任务表示为独立的节点，并通过连接这些节点来构建复杂的数据流或处理流程。每个节点代表一个特定的功能或操作，节点之间的连接定义了数据的流向和处理顺序。"
 
-#: ../../source/user_guide/function.md:219 de69a27a99bd4f35967b4358e9b7d5dd
+#: ../../source/user_guide/function.md:284 fbd84320fa71410fb76448ad91cff794
 msgid "Animation"
 msgstr "动画制作"
 
-#: ../../source/user_guide/function.md:221 6dc8de3ff822472b94ce9f01b545825e
+#: ../../source/user_guide/function.md:286 de71fd423f1044678b48389f1af24912
 msgid "Fragment add, delete function."
 msgstr "片段添加，删除功能。"
 
-#: ../../source/user_guide/function.md:222 ced1e6f4db1d457185d1b8dc5b829a92
+#: ../../source/user_guide/function.md:287 c0eeae307acf4ebd88f9ea57939fe899
 msgid "Preview, loop preview, stop preview function."
 msgstr "预览，循环预览，停止预览功能。"
 
-#: ../../source/user_guide/function.md:223 0bd2bd2db43d4412877687eb745bab4a
+#: ../../source/user_guide/function.md:288 fc0749b8cdfe4eba9597c4a52df0a1d2
 msgid "Video generation function, providing setting frame rate and resolution."
 msgstr "视频生成功能，提供设置帧率和分辨率。"
 
-#: ../../source/user_guide/function.md:224 55e0f7fd40e846e8a2a88aebf8fc3274
+#: ../../source/user_guide/function.md:289 2778bcc8f84642c0a26b5a6aa48f1697
 msgid "CameraOrbit"
 msgstr "相机视角旋转(CameraOrbit)"
 
-#: ../../source/user_guide/function.md:226 3160c09ea4874651a60765d5f72c8cbf
+#: ../../source/user_guide/function.md:291 55a1938132064cdda1bfbaba28a4a5ca
 msgid ""
 "Create a clip by setting the camera's rotation direction, angle and "
 "duration."
 msgstr "通过设置相机视角旋转方向，角度和时长，来创建一段片段。"
 
-#: ../../source/user_guide/function.md:228 6c6f9cfb7a454262a9dacdbdc50f9b8e
+#: ../../source/user_guide/function.md:293 212e2147e30b4ababdd12ba2db3a7cb5
 msgid "![图片](../_static/images/function_rotate.png)"
 msgstr "![图片](../_static/images/zh_CN/function_rotate.png)"
 
-#: ../../source/user_guide/function.md:230 2cd1e3dd9de842469519f9bb6b62d136
+#: ../../source/user_guide/function.md:295 cf4d2da38e9741119e16550d17cf0224
 msgid "CameraPath"
 msgstr "自定义相机轨迹(CameraPath)"
 
-#: ../../source/user_guide/function.md:232 0fbcd798c3124b29a48ff7c5ed1a506f
+#: ../../source/user_guide/function.md:297 07119b8a847943b5962589c97503acc7
 msgid "Create a segment by adding custom track points."
 msgstr "通过添加自定义轨迹点，创建一段片段。"
 
-#: ../../source/user_guide/function.md:234 156234cc87664f0f802aae60feb6293e
+#: ../../source/user_guide/function.md:299 709b81a0781b4aa28bdb2449163be4eb
 msgid "![图片](../_static/images/function_path.png)"
 msgstr "![图片](../_static/images/zh_CN/function_path.png)"
 
-#: ../../source/user_guide/function.md:237 024946965f3b431191c800651b338d84
+#: ../../source/user_guide/function.md:302 e54e113b66c3457192fd22d07ec806a7
 msgid "Plugin System"
 msgstr "插件系统"
 
-#: ../../source/user_guide/function.md:239 1cd55941a47941959aaa245852833d70
+#: ../../source/user_guide/function.md:304 5ebf08dbf49442e2970f7f54ac91e1c0
 msgid ""
 "A plug-in system is a mechanism for providing extensibility and "
 "customization of software applications. It allows users or third-party "
@@ -757,11 +940,11 @@ msgid ""
 "enhance the functionality and features of the software."
 msgstr "插件系统是一种为软件应用程序提供可扩展性和定制化功能的机制。它允许用户或第三方开发者编写、安装和运行额外的插件模块，以增强软件的功能和特性。"
 
-#: ../../source/user_guide/function.md:241 0508685be6c14fcd82c6a44d8c24a096
+#: ../../source/user_guide/function.md:306 2b750946630c40ac8a4fa161724f33f7
 msgid "Here are some common features and benefits of plugin systems:"
 msgstr "以下是插件系统的一些常见功能和优势："
 
-#: ../../source/user_guide/function.md:243 611db7bf53414c1b8f2673a30f95ef9e
+#: ../../source/user_guide/function.md:308 ff8bcd56e986481ca9a71e04d715bd15
 msgid ""
 "Extended functions: The plug-in system allows users to extend the "
 "functions and features of the software by installing and enabling "
@@ -770,7 +953,7 @@ msgid ""
 "needs of more users."
 msgstr "扩展功能：插件系统允许用户通过安装和启用不同的插件来扩展软件的功能和特性。这些插件可以提供新的工具、功能、效果、过滤器、界面等，使得软件能够满足更多用户的需求。"
 
-#: ../../source/user_guide/function.md:245 bbd574296399431b8d7b134e1aa67af2
+#: ../../source/user_guide/function.md:310 91889488b1374f93893017f251302b8f
 msgid ""
 "Customization: The plug-in system enables users to customize the software"
 " according to their needs and preferences. Users can choose to install "
@@ -778,7 +961,7 @@ msgid ""
 "unnecessary functional redundancy and improving work efficiency."
 msgstr "定制化：插件系统使用户能够根据自己的需求和喜好来定制软件。用户可以选择只安装和使用他们感兴趣的插件，从而避免不必要的功能冗余并提高工作效率。"
 
-#: ../../source/user_guide/function.md:247 88c9ab57a90942859fcb51a75c6af3f8
+#: ../../source/user_guide/function.md:312 e0f14f818fc2465d83fca030308ebcaf
 msgid ""
 "Third-party development: The plug-in system encourages and supports "
 "third-party developers to create and publish plug-ins. In this way, the "
@@ -786,7 +969,7 @@ msgid ""
 "choose from more plug-ins, and obtain innovative and unique functions."
 msgstr "第三方开发：插件系统鼓励和支持第三方开发者创建和发布插件。这样，软件的生态系统变得更加丰富和多样化，用户可以从更多的插件中选择，并获得创新和独特的功能。"
 
-#: ../../source/user_guide/function.md:249 9b64f04448d84e91b6cf1ebfdb7268d4
+#: ../../source/user_guide/function.md:314 8fee9ac2ac5541b8be6284a79c86ba7c
 msgid ""
 "Flexibility and easy update: The plug-in system makes the software "
 "function modular, and the plug-ins are relatively independent. In this "
@@ -795,7 +978,7 @@ msgid ""
 "flexibility and simplifies the update process."
 msgstr "灵活性和易于更新：插件系统使得软件的功能模块化，插件之间相对独立。这样，在更新软件时，可以仅更新特定的插件，而无需影响整个软件的运行。这提供了灵活性和简化了更新流程。"
 
-#: ../../source/user_guide/function.md:251 05791485021445809c8d1785dbdd3cda
+#: ../../source/user_guide/function.md:316 3d649a09eb9c40b7aa2b6c0437e1e0a5
 msgid ""
 "Community Engagement: The plugin system encourages communication, sharing"
 " and collaboration between users and developers. Users can find and "
@@ -804,167 +987,167 @@ msgid ""
 "suggestions from users, so as to continuously improve and perfect them."
 msgstr "社区参与：插件系统鼓励用户和开发者之间的交流、分享和合作。用户可以在插件社区中寻找和讨论插件，获取支持和建议。同时，开发者可以共享他们的插件，并接收用户的反馈和建议，从而不断改进和完善。"
 
-#: ../../source/user_guide/function.md:253 7fe5bb0179f54179b581ec812f7bf44f
+#: ../../source/user_guide/function.md:318 418eaebdf87342fca5906744b64ac7e8
 msgid "![图片](../_static/images/function_plugin.png)"
 msgstr "![图片](../_static/images/zh_CN/function_plugin.png)"
 
-#: ../../source/user_guide/function.md:255 7ae503c0a88248bcbc84f0996449f845
+#: ../../source/user_guide/function.md:320 3de14cfdc764484d9372c115a8ec9b92
 msgid "SnapShot"
 msgstr "截图"
 
-#: ../../source/user_guide/function.md:257 a65cfe7f7c764514a43153ae3430419a
+#: ../../source/user_guide/function.md:322 b68d21f8341044e2bce809bbbcb5fdf5
 msgid ""
 "Take a screenshot of the specified window, save the file in the specified"
 " path and format, and support setting DPI."
 msgstr "对指定窗口进行截图，文件保存指定路径和格式，支持设置DPI。"
 
-#: ../../source/user_guide/function.md:259 ef75f10ee9e84f34843b52f2bed0bae7
+#: ../../source/user_guide/function.md:324 c4aaea02c4814b198c1c392865c4437f
 msgid "![图片](../_static/images/function_snapshot.png)"
 msgstr "![图片](../_static/images/zh_CN/function_snapshot.png)"
 
-#: ../../source/user_guide/function.md:262 8034ef408ab247688276b94ff023a80f
+#: ../../source/user_guide/function.md:327 f57065922ea144c3b5c69144ceec9e0f
 msgid "Record"
 msgstr "录屏"
 
-#: ../../source/user_guide/function.md:264 35f3d1068c1149d2a7251bc073b003a6
+#: ../../source/user_guide/function.md:329 e8077767f5f04d6f95d9f76d8516c5bc
 msgid "Record the screen of the selected window and output the avi format file."
 msgstr "对选中窗口进行录屏，输出avi格式文件。"
 
-#: ../../source/user_guide/function.md:266 ea8a8a93a3d84470851834048c6384e4
+#: ../../source/user_guide/function.md:331 02e72f4c105e43db94dddbfe54685278
 msgid "Fullscreen"
 msgstr "全屏"
 
-#: ../../source/user_guide/function.md:268 a815771e192e496b87051c7402fe26f5
+#: ../../source/user_guide/function.md:333 5e9051d8490c4ed89dd3b9a13c8c2244
 msgid "Display the selected window and selected screen in full screen."
 msgstr "对选中窗口和选中屏幕进行全屏显示。"
 
-#: ../../source/user_guide/function.md:270 04a430269c8e4bee85aa416a42246c8b
+#: ../../source/user_guide/function.md:335 ae4a70fe72fd4078bd62946c50979a60
 msgid "Press Esc to exit"
 msgstr "按键Esc进行退出。"
 
-#: ../../source/user_guide/function.md:272 1a000fdce24046e4a41837c07825296b
+#: ../../source/user_guide/function.md:337 3ea850ba44df4c47b0965d73f2106706
 msgid "![图片](../_static/images/function_full.png)"
 msgstr "![图片](../_static/images/function_full.png)"
 
-#: ../../source/user_guide/function.md:275 5d2cfd3ed588491d840c961960fb4424
+#: ../../source/user_guide/function.md:340 c2b61a81720b4c98bd98c480582f9e9f
 msgid "CameraLink"
 msgstr "相机连接(CameraLink)"
 
-#: ../../source/user_guide/function.md:277 16d3dcc54501467f9a63282956d4ec4d
+#: ../../source/user_guide/function.md:342 324c6f3d2fcf4c5e96b3e2a06dcbfe30
 msgid ""
 "A function of synchronously controlling the viewing angle control of one "
 "or more view windows."
 msgstr "将一个或多个视图窗口的视角控制进行同步控制的一种功能。"
 
-#: ../../source/user_guide/function.md:279 102ec06b884440a5bbd4c14f5a99fc80
+#: ../../source/user_guide/function.md:344 a49e8bb6b1174e329b197e897cebbf66
 msgid "![图片](../_static/images/function_link.png)"
 msgstr "![图片](../_static/images/function_link.png)"
 
-#: ../../source/user_guide/function.md:283 d7ebbd93ff084ccca1063b3ac298195d
+#: ../../source/user_guide/function.md:348 ad6eda53a9af4f25859a2d9d9ae0e76f
 msgid "View Control"
 msgstr "视角控制"
 
-#: ../../source/user_guide/function.md:285 851f81accc7a4e6ea2273b9d274174f2
+#: ../../source/user_guide/function.md:350 d49d64dcc9254b2eb6148844e282b24c
 msgid "In the toolbar, you can set different viewing angles."
 msgstr "在工具栏中，可以设置不同视角方向。"
 
-#: ../../source/user_guide/function.md:287 768fb80c95c94cdd8789b97bba94234f
+#: ../../source/user_guide/function.md:352 0087abf2df7045a6bd2a67afe29f6e07
 msgid "Direction Axis"
 msgstr "方向导航"
 
-#: ../../source/user_guide/function.md:289 645437145a474353979cd24821d91155
+#: ../../source/user_guide/function.md:354 b0376eec84c54c5a80e71d0d8996f7fe
 msgid "In the toolbar, provide a navigation gizmo that shows the XYZ direction."
 msgstr "在工具栏中，提供一种显示XYZ方向的导航小控件。"
 
-#: ../../source/user_guide/function.md:291 adf1df26ee86417ca3e7863ce59f1806
+#: ../../source/user_guide/function.md:356 5c2546ad9620437d988b112d81ddfdfd
 msgid "![图片](../_static/images/function_axes.png)"
 msgstr "![图片](../_static/images/function_axes.png)"
 
-#: ../../source/user_guide/function.md:294 c461863423124606bed47c5f3272d677
+#: ../../source/user_guide/function.md:359 f061d290b17940f5b6aa6e29445e6570
 msgid "View Layout"
 msgstr "视图布局"
 
-#: ../../source/user_guide/function.md:296 baea5c96f05d47a18c3f64a1c098dc47
+#: ../../source/user_guide/function.md:361 cabac89fe2dd4b6ea650a5642b24e7bf
 msgid "Set it in the toolbar or menu"
 msgstr "在工具栏或菜单中进行设置。"
 
-#: ../../source/user_guide/function.md:298 bcea86a769c5405c9193de92c77c98d3
+#: ../../source/user_guide/function.md:363 5be1810bc11940f49e321d671856e513
 msgid "Single view"
 msgstr "单个视图"
 
-#: ../../source/user_guide/function.md:299 feab7d95d30e4e3cb0dc0d5ba7eaf835
+#: ../../source/user_guide/function.md:364 4740b579a21c4f668edeb38f05143ef6
 msgid "Two vertical views"
 msgstr "两个垂直视图"
 
-#: ../../source/user_guide/function.md:300 b634e6653e674a0b8e911eed5598c8e0
+#: ../../source/user_guide/function.md:365 6e4afa1250174c7094de8793f9a3db8d
 msgid "Two horizontal views"
 msgstr "两个水平视图"
 
-#: ../../source/user_guide/function.md:301 fd1360ec1dba46d188adac85595c39ad
+#: ../../source/user_guide/function.md:366 77e3d20bcdf7445b90612e080584afb8
 msgid "Four views"
 msgstr "四个视图"
 
-#: ../../source/user_guide/function.md:303 485351c408634765b5afd50bdab88997
+#: ../../source/user_guide/function.md:368 7b34b56792f94765bc204a7e20347560
 msgid "Language Switch"
 msgstr "语言切换"
 
-#: ../../source/user_guide/function.md:305 63cd1f5b77564134b53028395195164c
+#: ../../source/user_guide/function.md:370 b7d2a034ec394576bc10c4af7bf9c6c4
 msgid ""
 "Supports switching between two languages, which will take effect after "
 "restarting the program."
 msgstr "支持两种语言切换，需要重启程序后生效。"
 
-#: ../../source/user_guide/function.md:307 a00cfc738f1b4a5884aa8ace95f184fc
+#: ../../source/user_guide/function.md:372 97856f4e3b164875a81a0337945523b9
 msgid "Chinese"
 msgstr "中文"
 
-#: ../../source/user_guide/function.md:308 9fba61bf088646d2bb41b1a97d0d9f09
+#: ../../source/user_guide/function.md:373 41d52d60c2154fd195ed5a63a52459e5
 msgid "English"
 msgstr "英文"
 
-#: ../../source/user_guide/function.md:310 6c043f778bcb48a4b88653d40190ff6c
+#: ../../source/user_guide/function.md:375 c1fe5222b012407892ce917054b25f35
 msgid "Background Setting"
 msgstr "背景设置"
 
-#: ../../source/user_guide/function.md:312 2d5240ebb7264acba7f3ab4ebebc4b09
+#: ../../source/user_guide/function.md:377 1576034a5c7c4f429bbda52ee74c1db5
 msgid "Single color background"
 msgstr "单一颜色背景"
 
-#: ../../source/user_guide/function.md:313 2fdf51fdeb6d47f393cda1caa45598ae
+#: ../../source/user_guide/function.md:378 7175899bdffb450da46533cbaa90b4e3
 msgid "Gradient color background"
 msgstr "渐变颜色背景"
 
-#: ../../source/user_guide/function.md:315 eb52572f589b4d30b0ff9f98bd9d9808
+#: ../../source/user_guide/function.md:380 c6e8cc208e4042f8b876862f3c081c05
 msgid "![图片](../_static/images/function_background.png)"
 msgstr "![图片](../_static/images/zh_CN/function_background.png)"
 
-#: ../../source/user_guide/function.md:318 fa5fbd4068dd409da0ccb3ae71277c91
+#: ../../source/user_guide/function.md:383 4543e4bf6e0249d3a657971e08d17e1a
 msgid "User Manual"
 msgstr "用户手册"
 
-#: ../../source/user_guide/function.md:320 398e38774aee4db597d24c238307ed63
+#: ../../source/user_guide/function.md:385 1edc531daa6347ff828d1708d5ebb5f2
 msgid "Menu Help, User Manual"
 msgstr "菜单帮助下，用户手册。"
 
-#: ../../source/user_guide/function.md:322 819a78de45c948e49e5ac247aeeddca6
+#: ../../source/user_guide/function.md:387 96d9b0f9e22a4b74808d6712cedb23c8
 msgid "Upgrade"
 msgstr "升级"
 
-#: ../../source/user_guide/function.md:324 7188f684254f43cf884360cf808282b7
+#: ../../source/user_guide/function.md:389 9c2f97174d4c453b8ee12fdbf3fc4aaf
 msgid "![图片](../_static/images/function_upgrade.png)"
 msgstr "![图片](../_static/images/zh_CN/function_upgrade.png)"
 
-#: ../../source/user_guide/function.md:326 575efa1bb9a54ce79e3bad63dd4e9e8e
+#: ../../source/user_guide/function.md:391 0d10a6a2f5b14096ac78013c2e1fc503
 msgid "About"
 msgstr "关于"
 
-#: ../../source/user_guide/function.md:328 93ce465baa4a44d998b6c172d0b6c682
+#: ../../source/user_guide/function.md:393 e88358f0880c49f18af4961453930970
 msgid ""
 "Application release notes, build information, and third-party open source"
 " library license notices"
 msgstr "应用程序发布说明、构建信息和第三方开源库许可证通知。"
 
-#: ../../source/user_guide/function.md:330 76ff9946d1da4951a5d8de89d974c42d
+#: ../../source/user_guide/function.md:395 d8e72536ee15425285182ae7dd2dcb49
 msgid "![图片](../_static/images/function_about.png)"
 msgstr "![图片](../_static/images/zh_CN/function_about.png)"
 
@@ -983,4 +1166,162 @@ msgstr "![图片](../_static/images/zh_CN/function_about.png)"
 
 #~ msgid "Extension"
 #~ msgstr "扩展"
+
+#~ msgid ""
+#~ "Simultaneously display four different "
+#~ "perspectives or images. It provides a"
+#~ " more comprehensive and convenient ability"
+#~ " to observe and compare data in "
+#~ "multiple views."
+#~ msgstr "同时显示四个不同的视角或图像。它提供了更全面、更方便的多视图观察和比较数据的能力。"
+
+#~ msgid ""
+#~ "Multi-angle observation: The four-view"
+#~ " function divides the screen into "
+#~ "four independent windows, and each "
+#~ "window can display different viewing "
+#~ "angles. Users can observe different "
+#~ "aspects or different parts of the "
+#~ "data by selecting different views to "
+#~ "obtain more comprehensive information."
+#~ msgstr "多角度观察：四视图功能将屏幕分割成四个独立的窗口，每个窗口可以显示不同的视角。用户可以通过选择不同的视图来观察数据的不同方面或不同部分，以获得更全面的信息。"
+
+#~ msgid ""
+#~ "Data comparison: In the four views, "
+#~ "users can simultaneously display multiple "
+#~ "related images or data sets for "
+#~ "intuitive comparison and analysis. This "
+#~ "is useful for comparing different "
+#~ "processing results, time series data, or"
+#~ " the effects of different parameter "
+#~ "settings."
+#~ msgstr "数据对比：在四视图中，用户可以同时显示多个相关的图像或数据集，以进行直观的对比和分析。这对于比较不同的处理结果、时间序列数据或不同参数设置下的影响非常有用。"
+
+#~ msgid ""
+#~ "Synchronous operation: The four-view "
+#~ "function usually supports synchronous "
+#~ "operation, that is, the operation in "
+#~ "one window will be automatically "
+#~ "reflected in other windows. For example,"
+#~ " zooming in, rotating, or labeling an"
+#~ " image in one window will "
+#~ "simultaneously affect images in other "
+#~ "windows, thereby maintaining data consistency."
+#~ msgstr "同步操作：四视图功能通常支持同步操作，即在一个窗口中的操作会自动反映到其他窗口中。例如，放大、旋转或标记一个窗口中的图像将同时影响其他窗口中的图像，从而保持数据的一致性。"
+
+#~ msgid ""
+#~ "Interactivity: The four-view function "
+#~ "allows users to interact between "
+#~ "different windows, such as linkage "
+#~ "zooming, translation and rotation operations."
+#~ " This gives users the flexibility to"
+#~ " view different angles or layers of"
+#~ " data for deeper insights."
+#~ msgstr "交互性：四视图功能允许用户在不同的窗口之间进行交互，如联动缩放、平移和旋转操作。这使得用户可以灵活地查看不同角度或不同层次的数据，以获得更深入的了解。"
+
+#~ msgid "OSPRayVolume"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "OSPRay is a high-performance, scalable"
+#~ " ray-traced rendering engine for "
+#~ "scientific visualization and computer "
+#~ "graphics. It was developed by Intel "
+#~ "to provide high-quality rendering and"
+#~ " great performance."
+#~ msgstr "OSPRay是一种高性能、可扩展的光线追踪渲染引擎，用于科学可视化和计算机图形学。它由Intel开发，旨在提供高质量的渲染效果和出色的性能。"
+
+#~ msgid "![](../_static/images/function_ospray.png)"
+#~ msgstr "![](../_static/images/zh_CN/function_ospray.png)"
+
+#~ msgid ""
+#~ "Isosurface extraction: This function can "
+#~ "extract the surface equal to the "
+#~ "specified value or attribute from the"
+#~ " three-dimensional data according to "
+#~ "the threshold value or value range "
+#~ "set by the user. This allows the"
+#~ " user to focus on regions of "
+#~ "interest or structures corresponding to "
+#~ "specific values."
+#~ msgstr "等值面提取：该功能可以根据用户设定的阈值或数值范围，从三维数据中提取出与指定数值或属性相等的表面。这使得用户可以专注于感兴趣的区域或特定数值所对应的结构。"
+
+#~ msgid ""
+#~ "Surface visualization: The extracted "
+#~ "isosurfaces can be visualized in various"
+#~ " ways, such as coloring, transparency "
+#~ "and texture to distinguish different "
+#~ "surface regions. This helps to better"
+#~ " observe and analyze the surface "
+#~ "shape and features of the data."
+#~ msgstr "表面可视化：提取的等值面可以以各种方式进行可视化呈现，例如通过着色、透明度和纹理等来区分不同的表面区域。这有助于更好地观察和分析数据的表面形状和特征。"
+
+#~ msgid ""
+#~ "Interactive operation: The isosurface "
+#~ "extraction visualization function usually "
+#~ "supports interactive operations, such as "
+#~ "adjusting the threshold, smoothing the "
+#~ "surface, selecting a specific area, etc."
+#~ " This enables the user to dynamically"
+#~ " adjust the extracted isosurfaces as "
+#~ "needed, with real-time feedback and "
+#~ "comparison."
+#~ msgstr "交互性操作：等值面提取可视化功能通常支持交互操作，如调整阈值、平滑表面、选择特定区域等。这使用户能够根据需要动态调整提取的等值面，并进行实时反馈和比较。"
+
+#~ msgid ""
+#~ "Multiple isosurfaces: In addition to "
+#~ "extracting a single isosurface, this "
+#~ "function can also extract multiple "
+#~ "isosurfaces at the same time, so "
+#~ "that users can observe and analyze "
+#~ "surfaces corresponding to multiple values "
+#~ "or attributes. This is useful for "
+#~ "comparing structural changes across different"
+#~ " value ranges or for multilevel data"
+#~ " analysis."
+#~ msgstr "多重等值面：除了提取单个等值面外，该功能还可以同时提取多个等值面，以便用户可以观察和分析多个数值或属性所对应的表面。这有助于比较不同数值范围下的结构变化或进行多层次的数据分析。"
+
+#~ msgid ""
+#~ "3D interaction: The isosurface extraction "
+#~ "visualization function usually has 3D "
+#~ "interactivity, allowing users to perform "
+#~ "rotation, zoom and translation operations "
+#~ "on the extracted surface to obtain "
+#~ "a more comprehensive observation angle "
+#~ "and in-depth analysis."
+#~ msgstr "三维交互：等值面提取可视化功能通常具有三维交互性，允许用户在提取的表面上进行旋转、缩放和平移操作，以获得更全面的观察角度和深入的分析。"
+
+#~ msgid ""
+#~ "Provides an intuitive and flexible way"
+#~ " to observe and analyze the surface"
+#~ " structure corresponding to a specific "
+#~ "value or attribute, thereby helping to"
+#~ " reveal important information and features"
+#~ " in the data."
+#~ msgstr "提供了一种直观且灵活的方式来观察和分析特定数值或属性所对应的表面结构，从而帮助揭示数据中的重要信息和特征。"
+
+#~ msgid "Vessel"
+#~ msgstr "MRA脑血管分析与诊断(Vessel)"
+
+#~ msgid ""
+#~ "MRA cerebrovascular analysis and diagnosis "
+#~ "is used to evaluate the health "
+#~ "status of the cerebrovascular system and"
+#~ " help diagnose and treat diseases "
+#~ "related to cerebrovascular. These diseases "
+#~ "include stroke, aneurysm, cerebrovascular "
+#~ "stenosis, etc."
+#~ msgstr "MRA脑血管分析与诊断，用于评估脑血管系统的健康状况，并帮助诊断和治疗与脑血管有关的疾病。这些疾病包括中风、动脉瘤、脑血管狭窄等。"
+
+#~ msgid ""
+#~ "By segmenting and straightening important "
+#~ "blood vessels in the image, it "
+#~ "analyzes and calculates the stenosis "
+#~ "rate of each blood vessel, providing "
+#~ "auxiliary reference for disease prevention "
+#~ "and diagnosis."
+#~ msgstr "通过对图像中重要的血管进行分割，拉直，分析计算出每根血管的狭窄率，为疾病预防与诊断提供辅助参考。"
+
+#~ msgid "![图片](../_static/images/vessel.jpg)"
+#~ msgstr "![图片](../_static/images/vessel.jpg)"
 

@@ -4,7 +4,7 @@
 
 The abbreviation of Biological Imaging Viewer is BI-Viewer.
 
-* A software application for visualization and analysis of large-volume biological/medical image data sets. All commonly used data sets are supported, such as images, segmentations, surfaces, annotations, transformations, etc., in 2D, 3D, and 4D. Visualization is available on desktop and in virtual reality.
+* A software application for visualization and analysis of large-volume biological image data sets. All commonly used data sets are supported, such as images, segmentations, surfaces, annotations, transformations, etc., in 2D, 3D, and 4D. Visualization is available on desktop and in virtual reality.
 <br>
 <br>
 * A highly modular software platform, all functions and interfaces are modularized to form different plugins, and users can choose the plugins they need. All features are available and extensible in Python and C++. A full Python environment is provided where any Python packages can be installed and combined with built-in features.
@@ -56,7 +56,6 @@ Provides simple to complex visualization, processing & analysis functions.
 ## Customized functions
 
 * Microscopic image registration algorithm
-* MRA cerebrovascular analysis and diagnosis
 
 ## License
 

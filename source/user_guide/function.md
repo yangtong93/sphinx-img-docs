@@ -1,6 +1,6 @@
 # Features
 
-## Data
+## Supported file formats
 
 ### Input file format
 
@@ -13,6 +13,10 @@
 | DICOM | DICOM (Digital Imaging and Communications in Medicine) is a file format and communication protocol commonly used in the field of medical imaging. |.dcm,.dicom|[✓]|
 | VTK Image Data | is a common file format for storing 3D image data | .vti |[✓] |
 
+### Import image files
+* Under the file menu, click to open data.
+* In the project view, right-click on the blank area menu and click to open data.
+* Drag and drop files to the project view area.
 
 ### Output file format
 
@@ -25,70 +29,116 @@
 | DICOM | DICOM (Digital Imaging and Communications in Medicine) is a file format and communication protocol commonly used in the field of medical imaging. |.dcm,.dicom|[✓]|
 | VTK Image Data | is a common file format for storing 3D image data | .vti |[✓] |
 
+### Export image files
+* Select the data nodes that need to be exported. Under the file menu, click to data save.
+
 ## Display
 
 ### OrthoSlice
 
-Displays 2D slices of multiple orthogonal directions in a 3D dataset.
-
 ![](../_static/images/function_orthoslice.png)
+
+Introduction: Displays 2D slices of multiple orthogonal directions in a 3D dataset.
+
+Operation steps:
+1. Right click on the node to pop up a menu
+2. Select OrthoSlice
+
+Function Description:
+* Slice direction: Region 1 in the figure, change the direction of the slice.
+* Slice number: Region 2 in the figure, change the position of the slice.
+* Color map: Region 3 in the figure. Left slider, increase background to the left and decrease background to the right.Right slider, increase brightness to the left and decrease brightness to the right. Dropdown menu allows you to choose colors with different styles.
+* Frame: Region 4 in the figure. Show and hide borders, adjust color and width.
+* Properties: Region 5 in the figure. Adjustable interpolation method, opacity, ambient light, scattered light.
+* Transform: Region 6 in the figure. Perform spatial transformations on objects, such as translation, scaling, and rotation.
 
 ### Slice
 
-Arbitrary angle slice display, slice display in 3D data at the angle and direction specified by the user, not limited to the orthogonal direction.
-
-Thickness adjustment function, adjust the thickness of slices to control the range of data contained in each slice.
-
 ![](../_static/images/function_slice.png)
+
+Introduction: Arbitrary angle slice display, slice display in 3D data at the angle and direction specified by the user, not limited to the orthogonal direction.
+
+Operation steps:
+1. Right click on the node to pop up a menu
+2. Select Slice
+
+Function Description:
+* Slice direction: Region 1 in the figure, change the direction of the slice.
+* Slice number: Region 2 in the figure, change the position of the slice.
+* Thickness: Region 3 in the figure. Thickness adjustment function, adjust the thickness of slices to control the range of data contained in each slice.
+* Color map: Region 4 in the figure. Left slider, increase background to the left and decrease background to the right.Right slider, increase brightness to the left and decrease brightness to the right. Dropdown menu allows you to choose colors with different styles.
+* Plane: Region 5 in the figure. The origin and normal position of the axis.
+* Transform: Region 6 in the figure. Perform spatial transformations on objects, such as translation, scaling, and rotation
 
 
 ### Volume
 
-Through volume rendering rendering technology, the three-dimensional data is converted into a visualized three-dimensional image to display the internal structure and surface shape.
-
 ![](../_static/images/function_volume.png)
+
+Introduction: Through volume rendering rendering technology, the three-dimensional data is converted into a visualized three-dimensional image to display the internal structure and surface shape.
+
+
+Operation steps:
+1. Right click on the node to pop up a menu
+2. Select Volume
+
+Function Description:
+* Blend mode: Region 1 in the figure. Choosing different blending modes will result in different rendering effects. Composite blending mode is a method of blending foreground and background images, which determines the final color presentation based on the alpha value (transparency) of each pixel.Maximum intensity mode is a hybrid method that takes the maximum value of each channel in the foreground and background pixel values. Minimum intensity mode is a hybrid method that takes the minimum value of each channel in the foreground and background pixel values. Average intensity mode is a hybrid method that averages the color values of foreground and background pixels.Additive intensity mode is a mixing method that adds foreground and background pixel values. Isosurface extraction drawing is a method of connecting voxels with the same numerical values in a three-dimensional dataset to display these surface structures.
+* Color map: Region 2 in the figure.Left slider, increase background to the left and decrease background to the right.Right slider, increase brightness to the left and decrease brightness to the right. Dropdown menu allows you to choose colors with different styles.
+* Down sample: Region 3 in the figure. Downsampling according to proportion reduces clarity while improving rendering speed.
+* Properties: Region 4 in the figure. Adjustable interpolation method, ambient, diffuse, specular, specular power.
+* Transform: Region 5 in the figure. Perform spatial transformations on objects, such as translation, scaling, and rotation
+
 
 
 ### SliceViews
 
-Simultaneously display four different perspectives or images. It provides a more comprehensive and convenient ability to observe and compare data in multiple views.
-
-* Multi-angle observation: The four-view function divides the screen into four independent windows, and each window can display different viewing angles. Users can observe different aspects or different parts of the data by selecting different views to obtain more comprehensive information.
-
-* Data comparison: In the four views, users can simultaneously display multiple related images or data sets for intuitive comparison and analysis. This is useful for comparing different processing results, time series data, or the effects of different parameter settings.
-
-* Synchronous operation: The four-view function usually supports synchronous operation, that is, the operation in one window will be automatically reflected in other windows. For example, zooming in, rotating, or labeling an image in one window will simultaneously affect images in other windows, thereby maintaining data consistency.
-
-* Interactivity: The four-view function allows users to interact between different windows, such as linkage zooming, translation and rotation operations. This gives users the flexibility to view different angles or layers of data for deeper insights.
-
 ![](../_static/images/function_orthoviews.png)
 
+Introduction: Display slices in three directions with different windows.
+
+
+Operation steps:
+1. Right click on the node to pop up a menu
+2. Select OrthoViews
+
+Function Description:
+* Slice number: Region 1 in the figure, change the position of the slice. 
+* Color map: Region 2 in the figure.Left slider, increase background to the left and decrease background to the right.Right slider, increase brightness to the left and decrease brightness to the right. Dropdown menu allows you to choose colors with different styles.
+* Transform: Region 3 in the figure. Perform spatial transformations on objects, such as translation, scaling, and rotation
+
+
+
+
+
 ### Isosurface
-The isosurface extraction visualization function is a common function in image software, which is used to extract the surface corresponding to a specific value or attribute in a 3D data set and visualize it.
-
-* Isosurface extraction: This function can extract the surface equal to the specified value or attribute from the three-dimensional data according to the threshold value or value range set by the user. This allows the user to focus on regions of interest or structures corresponding to specific values.
-
-* Surface visualization: The extracted isosurfaces can be visualized in various ways, such as coloring, transparency and texture to distinguish different surface regions. This helps to better observe and analyze the surface shape and features of the data.
-
-* Interactive operation: The isosurface extraction visualization function usually supports interactive operations, such as adjusting the threshold, smoothing the surface, selecting a specific area, etc. This enables the user to dynamically adjust the extracted isosurfaces as needed, with real-time feedback and comparison.
-
-* Multiple isosurfaces: In addition to extracting a single isosurface, this function can also extract multiple isosurfaces at the same time, so that users can observe and analyze surfaces corresponding to multiple values or attributes. This is useful for comparing structural changes across different value ranges or for multilevel data analysis.
-
-* 3D interaction: The isosurface extraction visualization function usually has 3D interactivity, allowing users to perform rotation, zoom and translation operations on the extracted surface to obtain a more comprehensive observation angle and in-depth analysis.
-
-Provides an intuitive and flexible way to observe and analyze the surface structure corresponding to a specific value or attribute, thereby helping to reveal important information and features in the data.
 
 ![](../_static/images/function_isosurface.png)
 
-### OSPRayVolume
 
-OSPRay is a high-performance, scalable ray-traced rendering engine for scientific visualization and computer graphics. It was developed by Intel to provide high-quality rendering and great performance.
+Introduction: The isosurface extraction visualization function is a common function in image software, which is used to extract the surface corresponding to a specific value or attribute in a 3D data set and visualize it.
 
-![](../_static/images/function_ospray.png)
+
+Operation steps:
+1. Right click on the node to pop up a menu
+2. Select Isosurface
+
+Function Description:
+* Threshold: Region 1 in the figure, enter the threshold for contour extraction.
+* Color map: Region 2 in the figure.Left slider, increase background to the left and decrease background to the right.Right slider, increase brightness to the left and decrease brightness to the right. Dropdown menu allows you to choose colors with different styles.
+* Down sample: Region 3 in the figure. Downsampling according to proportion reduces clarity while improving rendering speed.
+* Transform: Region 4 in the figure. Perform spatial transformations on objects, such as translation, scaling, and rotation
+
+
+
+
+
 
 ### Colormap
 
-Colormap is a technique for mapping data values to colors, often used in visualization. It represents the change and distribution of data by assigning different colors to different values.
+![](../_static/images/function_colormap.png)
+
+Introduction: Colormap is a technique for mapping data values to colors, often used in visualization. It represents the change and distribution of data by assigning different colors to different values.
 
 Here are some features and uses of the Colormap function:
 
@@ -103,8 +153,12 @@ Here are some features and uses of the Colormap function:
 * Color Interpretation: With Colormap, users can convert data values into easy-to-understand color codes. In this way, whether it is a chart or an image, it can more intuitively convey the meaning of the data and help users make correct inferences and decisions.
 
 
-![](../_static/images/function_colormap.png)
-
+Function Description:
+* Scalar range: Region 1 in the figure. Control the numerical range of color mapping.
+* Color map: Region 2 in the figure. Preset color mapping style.
+* Histogram: Region 3 in the figure. Displaying or hiding histogram.
+* Opacity: Region 4 in the figure. Opacity adjustment area. Adjust opacity by dividing into different areas through multiple points.
+* Color: Region 5 in the figure. Color adjustment area. Adjust the color by dividing it into different areas through multiple points.
 
 ## Annotate
 
@@ -169,6 +223,8 @@ The resampling function can increase or decrease the resolution of an image. Res
 ![](../_static/images/function_resample.png)
 ### Stitcher
 
+![图片](../_static/images/stitch.jpg)
+
 Stitcher is made for precise alignment and fusing of multiple microscopy image tiles into one 2D, 3D or 4D volume.
 
 Stitching tiles into one large image requires large image handling as well as alignment precision for a high quality result. 
@@ -198,15 +254,24 @@ Stitcher's algorithm addresses the imperfections in microscope stage positioning
 
 * By applying multi-scale processing technology, images are decomposed and denoised in different frequency ranges, thereby better suppressing noise in low signal-to-noise ratio images.
 
+#### Operation steps
+1. Right click on the blank area to bring up a menu
+2. Click to create a new object and a pop-up menu will appear
+3. Select Stitcher
 
-![图片](../_static/images/stitch.jpg)
-### Vessel
+#### Function Description
+* Directory: Region 1 in the figure. Select the data directory exported by Harmony.
+* Channel: Region 2 in the figure. Select the channels that need to be spliced.
+* Down sample: Region 3 in the figure. Downsampling according to proportion reduces clarity while improving rendering speed.
+* Time Point: Region 4 in the figure. Selecting data at different time points
+* Plate: Region 5 in the figure. All wells in a plate.
+* Well: Region 6 in the figure. All fields in a well.
+* Z stack: Region 7 in the figure. Select Z-stack range
+* Expectation: Region 8 in the figure. Expected image resolution and memory usage.
+* Apply: Region 9 in the figure. Button for executing.
 
-MRA cerebrovascular analysis and diagnosis is used to evaluate the health status of the cerebrovascular system and help diagnose and treat diseases related to cerebrovascular. These diseases include stroke, aneurysm, cerebrovascular stenosis, etc.
 
-By segmenting and straightening important blood vessels in the image, it analyzes and calculates the stenosis rate of each blood vessel, providing auxiliary reference for disease prevention and diagnosis.
 
-![图片](../_static/images/vessel.jpg)
 ## Platform Function
 
 ### Project

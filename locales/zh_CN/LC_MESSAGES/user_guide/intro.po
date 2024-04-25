@@ -9,39 +9,39 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Biological Imaging Viewer \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-27 09:30+0800\n"
+"POT-Creation-Date: 2024-04-23 10:10+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.3\n"
+"Generated-By: Babel 2.12.1\n"
 
-#: ../../source/user_guide/intro.md:1 fbb6642f55e84507ac8cb98c1e22c76e
+#: ../../source/user_guide/intro.md:1 fcd962ddeb1f4beea60837b655b8f5d6
 msgid "Introduction"
 msgstr "介绍"
 
-#: ../../source/user_guide/intro.md:3 4d1455a2bd0142dd8b474b3382abb3d9
+#: ../../source/user_guide/intro.md:3 0739141f14cc4362b144c228d1cf2e0c
 msgid "What is Biological Imaging Viewer"
 msgstr "什么是生物图像处理软件"
 
-#: ../../source/user_guide/intro.md:5 59c66e668b3d40d0ae44da337c21fa9d
+#: ../../source/user_guide/intro.md:5 762ef0413d8d40bbade6547e664d3fb8
 msgid "The abbreviation of Biological Imaging Viewer is BI-Viewer."
 msgstr "生物图像处理软件的英文简称是BI-Viewer。"
 
-#: ../../source/user_guide/intro.md:7 f49d2ff9117a4a97bcb3ea72d96d8eaf
+#: ../../source/user_guide/intro.md:7 4c166ed1e9254e9caa021b71e10781de
 msgid ""
 "A software application for visualization and analysis of large-volume "
-"biological/medical image data sets. All commonly used data sets are "
-"supported, such as images, segmentations, surfaces, annotations, "
-"transformations, etc., in 2D, 3D, and 4D. Visualization is available on "
-"desktop and in virtual reality. <br> <br>"
+"biological image data sets. All commonly used data sets are supported, "
+"such as images, segmentations, surfaces, annotations, transformations, "
+"etc., in 2D, 3D, and 4D. Visualization is available on desktop and in "
+"virtual reality. <br> <br>"
 msgstr ""
-"用于**大容量生物/医疗图像**数据进行**可视化**和**分析**的**软件**应用程序，支持所有常用的数据集，例如 2D、3D 和 4D "
+"**大容量生物图像数据**进行**可视化**和**分析**的**软件**应用程序，支持所有常用的数据集，例如 2D、3D 和 4D "
 "的图像、分割、表面、注释、转换等。可视化可在桌面和虚拟现实中使用。<br> <br>"
 
-#: ../../source/user_guide/intro.md:10 2c30bba06ce94d22b1b8bef9aa41a3ca
+#: ../../source/user_guide/intro.md:10 6eb18768a1354ecd803d8b4f3b5bd705
 msgid ""
 "A highly modular software platform, all functions and interfaces are "
 "modularized to form different plugins, and users can choose the plugins "
@@ -49,10 +49,10 @@ msgid ""
 " full Python environment is provided where any Python packages can be "
 "installed and combined with built-in features. <br> <br>"
 msgstr ""
-"高度**模块化**的软件平台，所有功能和界面通过模块化形成不同的**插件**，用户可以选择他们需要的插件进行使用。所有功能都可以在Python和C++中使用和扩展。提供了完整的Python环境，任何Python包都可以安装并与内置功能相结合。<br>"
+"高度**模块化**的软件平台，所有功能通过模块化形成不同的**插件包**，用户可以选择他们需要的插件包进行使用。所有功能都可以在Python和C++中使用和扩展。提供了完整的Python环境，任何Python包都可以安装并与内置功能相结合。<br>"
 " <br>"
 
-#: ../../source/user_guide/intro.md:13 d2cc6f9d7bda4c2a98fc3af4efebfa97
+#: ../../source/user_guide/intro.md:13 e281bdfb4b7a40529401d3511f2bedf2
 msgid ""
 "An open software platform that provides an interface for plug-in "
 "development, allowing developers to develop plug-ins. Developers can "
@@ -63,139 +63,135 @@ msgstr ""
 "一个**开放**软件平台，对外提供插件开发接口，允许开发人员开发插件。开发人员可以专注于开发新方法，不需要花时间重新开发基础数据导入/导出、可视化、交互功能。<br>"
 " <br>"
 
-#: ../../source/user_guide/intro.md:18 9aa743f149e94ddb9879b03b257db5bb
+#: ../../source/user_guide/intro.md:18 bd910ec6198340439ca194be039e4ea2
 msgid "Main interface"
-msgstr "主要界面"
+msgstr "主界面"
 
-#: ../../source/user_guide/intro.md:19 2182341dd9bc4456af25d6bfa1c38dce
+#: ../../source/user_guide/intro.md:19 7f7459d262e44447b76d15f65d4ae7ba
 msgid "![](../_static/images/main.png)"
 msgstr "![](../_static/images/zh_CN/main.png)"
 
-#: ../../source/user_guide/intro.md:21 c3e5b495d7d14060a36b46b1aa81dd87
+#: ../../source/user_guide/intro.md:21 eb1d45df8e03496fb068244d4f70c044
 msgid "Main functions"
 msgstr "主要功能"
 
-#: ../../source/user_guide/intro.md:23 283657326c374a82b3985539dec5424b
+#: ../../source/user_guide/intro.md:23 4774e238c3b445a9aef46223146cf6d4
 msgid "Provides simple to complex visualization, processing & analysis functions."
 msgstr "提供从简单到复杂的图像可视化以及图像处理&分析功能。"
 
-#: ../../source/user_guide/intro.md:25 a2928c9b1fe045a58a022238c069466c
+#: ../../source/user_guide/intro.md:25 ff8bbf19ffc64a839c5f9c46e5b9b509
 msgid "![](../_static/images/all.png)"
 msgstr "![](../_static/images/all.png)"
 
-#: ../../source/user_guide/intro.md:27 4beb284bf32b446da2d20d073e7f13ea
+#: ../../source/user_guide/intro.md:27 62fa0fb42b2a4a7c917aa6ea5057362a
 msgid "Visualization"
 msgstr "可视化"
 
-#: ../../source/user_guide/intro.md:29 0a78a77667ec404396e9a871bfd0f1d9
+#: ../../source/user_guide/intro.md:29 7f9d9cd4fa5549b18af4d43c0096b490
 msgid "Orthogonal slice"
 msgstr "正交切片显示"
 
-#: ../../source/user_guide/intro.md:30 1b6cb525c1c547e194e1a59790d1e4ed
+#: ../../source/user_guide/intro.md:30 4715904627a34bf19926c4b48e998b1a
 msgid "Any angle slice"
 msgstr "任意角度切片显示"
 
-#: ../../source/user_guide/intro.md:31 3b567bc4f23f4e5089602fc3107f85fb
+#: ../../source/user_guide/intro.md:31 9bc2528df8ec41348fe49fa7b97cb935
 msgid "3D volume rendering"
 msgstr "三维成像"
 
-#: ../../source/user_guide/intro.md:32 a87ae15a302449e8955e0b6b36b00c71
+#: ../../source/user_guide/intro.md:32 f79c31e902e947ba95c3ff7be0cad004
 msgid "Color mapping"
 msgstr "颜色映射"
 
-#: ../../source/user_guide/intro.md:33 f1dd40e1cb394520965cfa6b429c1696
+#: ../../source/user_guide/intro.md:33 2445e720ce68458f85e3017567c3e7e1
 msgid "GB level large-capacity image visualization"
 msgstr "GB级别大容量图像可视化"
 
-#: ../../source/user_guide/intro.md:34 5da927d541b94ff2ad86e4c3caf82c40
+#: ../../source/user_guide/intro.md:34 8258a4cdd61644549cc04b2137050c83
 msgid "Measurement and labeling"
 msgstr "测量与标注"
 
-#: ../../source/user_guide/intro.md:35 f05ac502f6144e01b4f8b4f6ab3065cf
+#: ../../source/user_guide/intro.md:35 97a8736b3ad34578a26d8f65f5a85aba
 msgid "Image Processing"
 msgstr "图像处理"
 
-#: ../../source/user_guide/intro.md:36 771f3c7724da43a5b969c4998815c1ed
+#: ../../source/user_guide/intro.md:36 82265a3c67824bc0932f647c900b8dd8
 msgid "Cropping"
 msgstr "裁剪"
 
-#: ../../source/user_guide/intro.md:37 44d35bb828a54140aaac7f1414b17e0e
+#: ../../source/user_guide/intro.md:37 c860e646b3334af18f00040f2767fd99
 msgid "Resample"
 msgstr "重采样"
 
-#: ../../source/user_guide/intro.md:38 c9fe9d4ac2e94ae6b82336cd87fb5661
+#: ../../source/user_guide/intro.md:38 bba357a753ec474680d43267ff41ee02
 msgid "Threshold segmentation"
 msgstr "阈值分割"
 
-#: ../../source/user_guide/intro.md:39 588fe3bdd4dc4be8916f9cfead18d577
+#: ../../source/user_guide/intro.md:39 5828d43ac5f14803aa96793b0fff60ee
 msgid "Platform function"
 msgstr "平台功能"
 
-#: ../../source/user_guide/intro.md:41 7e418666e96a48ecb81d2c032fe11b9c
+#: ../../source/user_guide/intro.md:41 245aa24708b6413eaa50e5c007ee2e15
 msgid "Animation"
 msgstr "视频制作"
 
-#: ../../source/user_guide/intro.md:42 c440b12b88fb42129b98126c7da81e8c
+#: ../../source/user_guide/intro.md:42 d49353703c9f445caa235369bb50b056
 msgid "Python support"
 msgstr "Python支持"
 
-#: ../../source/user_guide/intro.md:43 1de89216875841789cef06ff9901790a
+#: ../../source/user_guide/intro.md:43 60149a3604984197b72981c3bbf16228
 msgid "Plugin system"
 msgstr "插件系统"
 
-#: ../../source/user_guide/intro.md:44 0243cfdf58d74eb1b78cf947bb5fc1fc
+#: ../../source/user_guide/intro.md:44 1f56aee859eb4834a56288907c796602
 msgid "Workflow of node operation"
 msgstr "节点式操作的工作流"
 
-#: ../../source/user_guide/intro.md:45 4067b9fe62d84cbaa76fa7e1be76ce0f
+#: ../../source/user_guide/intro.md:45 be96596f3a664366ba09d0e483c21c83
 msgid "Project preservation and restoration"
 msgstr "项目工程保存与恢复"
 
-#: ../../source/user_guide/intro.md:47 c4ba5202fb2f44c6a07386a7e09ed87b
+#: ../../source/user_guide/intro.md:47 6b67dc398e0f4d4096e50ffd4f0513ab
 msgid "Supported image formats"
 msgstr "支持的图像格式"
 
-#: ../../source/user_guide/intro.md:49 923ae35af260461ba34551673f6d4c11
+#: ../../source/user_guide/intro.md:49 f742c00ba63b415caf69536fb887734d
 msgid "PNG"
 msgstr ""
 
-#: ../../source/user_guide/intro.md:50 441aa9ec181d432a80ab8e18bb522570
+#: ../../source/user_guide/intro.md:50 4804ba2fa9b74f088ada1e9b82b812ac
 msgid "JPG, JPEG"
 msgstr ""
 
-#: ../../source/user_guide/intro.md:51 0c7ba8e832c0456095ac61cf0dfd5017
+#: ../../source/user_guide/intro.md:51 487db81e9c95426ab9dfb31bac3d79c9
 msgid "TIFF"
 msgstr ""
 
-#: ../../source/user_guide/intro.md:52 cd3c0de9177244aaa53fe8e33d1298bd
+#: ../../source/user_guide/intro.md:52 0b7cbedd206841339d0a8060686842b4
 msgid "DICOM"
 msgstr ""
 
-#: ../../source/user_guide/intro.md:53 d4985de2f2b34dd2b43ad05214813711
+#: ../../source/user_guide/intro.md:53 909261a8f2e94483985d09bce29fec2e
 msgid "BMP"
 msgstr ""
 
-#: ../../source/user_guide/intro.md:54 fdd054a236034c7ca5ad66e692cb4087
+#: ../../source/user_guide/intro.md:54 738740f5ff2744e28daab692698f2b2e
 msgid "VTI"
 msgstr ""
 
-#: ../../source/user_guide/intro.md:56 c1368cc0b86c4a62851c9975ced68176
+#: ../../source/user_guide/intro.md:56 060363599b9c4d308e380e725a5a0e05
 msgid "Customized functions"
 msgstr "定制化功能"
 
-#: ../../source/user_guide/intro.md:58 1e3ef44884494af9a62fdd8595a1f7c8
+#: ../../source/user_guide/intro.md:58 b17fd7375b7340b7b81914f9d3d054c0
 msgid "Microscopic image registration algorithm"
 msgstr "显微图像配准算法"
 
-#: ../../source/user_guide/intro.md:59 f97accfaa32740c2b5d67611e4bf65c3
-msgid "MRA cerebrovascular analysis and diagnosis"
-msgstr "MRA脑血管分析与诊断"
-
-#: ../../source/user_guide/intro.md:61 89096e84487e4e66933630ff265e18d0
+#: ../../source/user_guide/intro.md:61 746a067bb19c43a88fe517e9e98b882e
 msgid "License"
 msgstr "许可证"
 
-#: ../../source/user_guide/intro.md:63 02d6d6103bcf47b59653da3f0b18bcf5
+#: ../../source/user_guide/intro.md:63 39d02fde8b5c4982a643eaddb39683eb
 msgid "BI-Viewer is a commercial software system that can provide a free trial."
 msgstr "BI-Viewer是一款商业化软件系统，可提供免费试用。"
 
