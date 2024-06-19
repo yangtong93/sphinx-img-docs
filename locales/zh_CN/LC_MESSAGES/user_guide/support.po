@@ -9,47 +9,46 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Biological Imaging Viewer \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-25 16:52+0800\n"
+"POT-Creation-Date: 2024-06-19 09:22+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.12.1\n"
+"Generated-By: Babel 2.15.0\n"
 
-#: ../../source/user_guide/support.md:1 78ad45b73e1049528d2658338eb33e18
+#: ../../source/user_guide/support.md:1 5f1ee8ab344244c48c4a465a567fb713
 msgid "Technical Support"
 msgstr "技术支持"
 
-#: ../../source/user_guide/support.md:2 82c4ab3165de4053b439e82ba98c72c9
+#: ../../source/user_guide/support.md:2 22aeea87bd69475786a8a878b0539627
 msgid "Contact us"
 msgstr "联系我们"
 
-#: ../../source/user_guide/support.md:4 56860ae542744cb5aa74f51ddb9fce6c
-msgid "**Wuhan Chipcloud Data Technology Co.,Ltd**"
-msgstr "**武汉芯云道数据科技有限公司**"
+#: ../../source/user_guide/support.md:4 f89fe44332b94d529b7b0a258bbe5670
+msgid "**Wuhan Life Sciences Image Intelligence Technology Co.,Ltd**"
+msgstr "**武汉生科图智技术有限公司**"
 
-#: ../../source/user_guide/support.md:6 5ee82f8adb5f4ac5ae9e5e7f989419a5
+#: ../../source/user_guide/support.md:6 f1e99d94a842428e91769e2d913663a9
 msgid ""
-"Address : 7th Floor, Building B4, Wuhan Future Science and Technology "
-"City, No. 999 Gaoxin Avenue, East Lake New Technology Development Zone, "
-"Wuhan City"
-msgstr "地址：武汉市东湖新技术开发区高新大道999号武汉未来科技城B4栋7楼"
+"Address : 2nd floor, podium building, Building C2, Future Science and "
+"Technology City, Donghu High tech Zone, Wuhan City"
+msgstr "地址：武汉市东湖高新区未来科技城C2栋裙楼2楼"
 
-#: ../../source/user_guide/support.md:8 bb104608905847d5ac2ac9b1973084c9
-msgid "E-mail : service@chipcloudtech.com"
-msgstr "邮箱：service@chipcloudtech.com"
+#: ../../source/user_guide/support.md:8 a5ad32fb0e314076917f6fa2ce6a5336
+msgid "E-mail : service@bioimaginglab.cn"
+msgstr "邮箱：service@bioimaginglab.cn"
 
-#: ../../source/user_guide/support.md:10 db657230719b45c885e42405eadbeec7
-msgid "Tel : 027-86635918"
-msgstr "电话：027-86635918"
+#: ../../source/user_guide/support.md:10 a5a2967fcdcc4e61a71b90c364bcfd06
+msgid "Tel : +8615623839281"
+msgstr "电话：+8618140576260"
 
-#: ../../source/user_guide/support.md:12 4952813e6baf4887a94acb3d24d98531
+#: ../../source/user_guide/support.md:12 88e2c68a74a34e4089d10ced99c10000
 msgid ""
 "Official website address : "
-"[www.chipcloudtech.com](http://www.chipcloudtech.com)"
-msgstr "官网地址：[www.chipcloudtech.com](http://www.chipcloudtech.com)"
+"[www.bioimaginglab.cn](https://www.bioimaginglab.cn/)"
+msgstr "官网地址：[www.bioimaginglab.cn](http://www.bioimaginglab.cn)"
 
 #~ msgid "Efficient service"
 #~ msgstr "高效服务"
